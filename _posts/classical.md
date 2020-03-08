@@ -1,5 +1,5 @@
 ---
-title: 'Blog Post number 1'
+title: 'Blog Post number 1000'
 date: 2020-03-6
 permalink: /posts/classical
 tags:
@@ -7,7 +7,6 @@ tags:
   - category1
   - category2
 ---
-
 **经典散射理论**
 
 提到散射理论， 通常会指向三种不同形式的散射，即经典散射，半经典散射以及量子散射理论。这里我们先从经典散射理论说起。
