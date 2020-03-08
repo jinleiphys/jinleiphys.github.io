@@ -1,14 +1,10 @@
 ---
-title: 'Blog Post number 1000'
+title: '经典散射理论'
 date: 2020-03-06
 permalink: /posts/2020/03/classical/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - 物理笔记
 ---
-**经典散射理论**
-
 提到散射理论， 通常会指向三种不同形式的散射，即经典散射，半经典散射以及量子散射理论。这里我们先从经典散射理论说起。
 
 我们考虑一个简单的二维平面内的散射问题。
