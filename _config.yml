@@ -181,7 +181,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  Supervision:
+  supervision:
     output: true
     permalink: /:collection/:path/
   talks:
