@@ -49,3 +49,21 @@ Journal Articles
 * **Jin Lei**, J. S.Wang, S. Mukherjee, Q.Wang and R.Wada, ‘Phenomenological formula of total reaction cross sections for low-energy systems’, Phys. Rev. C 86, 057603 (2012). <a href="/publications/PhysRevC.86.057603.pdf">
 
 * **Jin Lei**, J. S.Wang, S. Mukherjee, Q.Wang, R.Wada, Y. Y. Yang, J. B. Chen, J. L. Hang, M. R. Huang, Z. Bai, P. Ma, S. L. Jin, J. B. Ma, Y. Li and M. H. Zhao, ‘Quarter-point angle for light, weakly bound projectiles’, Phys. Rev. C 86, 057602 (2012). <a href="/publications/PhysRevC.86.057602.pdf">
+
+Conference Proceedings
+======
+* L. Hlophe, **Jin Lei**, Ch. Elster, A. Nogga and F. M. Nunes, ‘Three-body approach to deuteron-alpha scattering using realistic forces in a separable or non-separable representation’, Recent Progress in Few-Body Physics, edited by N. A. Orr, M. Ploszajczak, F. M. Marqués and J. Carbonell, 267–271 (2020).
+
+* F.M. Nunes, P.C. Capel, Ch. Elster, L. Hlophe, **Jin Lei**, Weichuan Li, A.E. Lovell, G. Potel, J. Rotureau and T. Poxon-Pearson, ‘New developments in reaction theory: preparing for the frib era’, EPJWeb Conf. 178, 03001 (2018). <a href="/publications/201817803001.pdf">
+
+* **Jin Lei** and Antonio M. Moro, ‘Evaluation of inclusive breakup cross sections in reactions induced by weakly-bound nuclei within a three-body model’, EPJWeb of Conferences 117, 06016 (2016). <a href="/publications/201611706016.pdf">
+
+* **Jin Lei** and Antonio M. Moro, ‘Evaluation of Inclusive Breakup in Reactions Induced by Deuteron within a Three-Body Model’, Basic Concepts in Nuclear Physics: Theory, Experiments and Applications, edited by José-Enrique García-Ramos, Clara E. Alonso, María Victoria Andrés and Francisco Pérez-Bernal, 207–208 (2016).
+
+* P. Marini, Q. Ducasse, B. Jurado, M. Aiche, L. Mathieu, G. Barreau, S. Czajkowski, I. Tsekhanovich, A. Moro, **Jin Lei**, F. Giacoppo, A. Gorgen, Tornyi, L. Audouin, L. Tassan-Got, J. N.Wilson, F. Gunsing, M. Guttormsen, A. C. Larsen, M. Lebois, T. Renstrom, S. Rose, S. Siem, G. M. Tveten, M.Wiedeking, O. Serot, G. Boutoux, V. Méot, B. Morillon, D. Denis-Petit, O. Roig, S. Oberstedt and A. Oberstedt,, ‘First simultaneous measurement of fission and gamma probabilities of 237u and 239np via surrogate reactions’, EPJWeb of Conferences 122, 12004 (2016). <a href="/publications/201612212004.pdf">
+
+* A. M. Moro, **Jin Lei**, M. Gómez-Ramos, J. M. Arias, R. de Diego, J. Gómez-Camacho and J. A. Lay, ‘Recent Developments for the Calculation of Elastic and Non-elastic Breakup of Weakly-bound Nuclei’, Acta Phys. Polon. B47, 821 (2016). <a href="/publications/v47p0821.pdf">
+
+* Antonio M. Moro and **Jin Lei**, ‘Recent Advances in Nuclear Reaction Theories forWeakly Bound Nuclei: Reexamining the Problem of Inclusive Breakup’, Few-Body Systems 57, 319–330 (2016). <a href="/publications/s00601-016-1085-1.pdf">
+
+* J. S.Wang, Y. Y. Yang, Q.Wang, Jin Lei, J. B. Ma, M. R. Huang, J. L. Han, P. Ma, S. L. Jin, Z. Bai, Q. Hu, J. B. Chen, R.Wada, Z. Y. Sun, R. F. Chen, X. Y. Zhang, Z. G. Hu, X. H. Yuan, X. G. Cao, Z. G. Xu, S. W. Xu, C. Zhen, Z. Q. Chen, Z. Chen, S. Z. Chen, C. M. Du, L. M. Duan, F. Fu, B. X. Gou, J. Hu, J. J. He, X. G. Lei, S. L. Li, Y. Li, Q. Y. Lin, L. X. Liu, F. D. Shi, S. W. Tang, G. Xu, L. Y. Zhang, X. H. Zhang, W. Zhang, M. H. Zhao, Y. H. Zhang, H. S. Xu, G. Q. Xiao, S. Mukhejee, N. Keeley, K. Rusek and D. Y. Pang, ‘7Be, 8B+ 208Pb Elastic Scattering at Above-Barrier Energies’, Journal of Physics: Conference Series 420, 012075 (2013). <a href="/publications/012075.pdf">
