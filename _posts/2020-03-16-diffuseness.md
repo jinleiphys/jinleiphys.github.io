@@ -12,7 +12,11 @@ tags:
 
 在这篇文章中， 她假设晕核核反应的光学势虚部由两部分组成，即体项（Volume）和表面项（surface）。这个附加的表面项体现了晕核束缚态波函数在坐标空间下长程的性质。通过她的模型分析，最终得到的结论是表面项的弥散度与晕核的束缚能直接相关,即
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=a_s=\frac{\hbar}{2\sqrt{-2\mu&space;\varepsilon&space;_i}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?a_s=\frac{\hbar}{2\sqrt{2\mu&space;\varepsilon&space;_i}}" title="a_s=\frac{\hbar}{2\sqrt{-2\mu \varepsilon _i}}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=a_s=\frac{\hbar}{2\sqrt{-2\mu&space;\varepsilon&space;_i}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?a_s=\frac{\hbar}{2\sqrt{-2\mu&space;\varepsilon&space;_i}}" title="a_s=\frac{\hbar}{2\sqrt{-2\mu \varepsilon _i}}" /></a>
 
 
 把上述公式代入晕核11Be参与的核反应中，我们得到
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=a_s=\frac{197.3269718}{2\sqrt{2.*0.5*10*931.4932/11.}}\approx&space;3.39~\textrm{fm}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?a_s=\frac{197.3269718}{2\sqrt{2.*0.5*10*931.4932/11.}}\approx&space;3.39~\textrm{fm}" title="a_s=\frac{197.3269718}{2\sqrt{2.*0.5*10*931.4932/11.}}\approx 3.39~\textrm{fm}" /></a>
+
+这个数值在误差范围内完全与后面PRL文章中的结果一致。
