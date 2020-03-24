@@ -9,7 +9,7 @@ Highlighted Publications
 ======
 * **Jin Lei** and Antonio M. Moro, ‘Unraveling the Reaction Mechanisms Leading to Partial Fusion of Weakly Bound Nuclei’, Phys. Rev. Lett. 123, 232501 (2019).<a href="/publications/PhysRevLett.123.232501.pdf"> Download here</a>
 
-* **Jin Lei** and Antonio M. Moro, ‘Puzzle of Complete Fusion Suppression inWeakly Bound Nuclei: A Trojan Horse Effect?’, Phys. Rev. Lett. 122, 042503 (2019). <a href="/publications/PhysRevLett.122.042503.pdf"> Download here</a>
+* **Jin Lei** and Antonio M. Moro, ‘Puzzle of Complete Fusion Suppression in Weakly Bound Nuclei: A Trojan Horse Effect?’, Phys. Rev. Lett. 122, 042503 (2019). <a href="/publications/PhysRevLett.122.042503.pdf"> Download here</a>
 
 * **Jin Lei** and Antonio M. Moro, ‘Numerical assessment of post-prior equivalence for inclusive breakup reactions’, Phys. Rev. C 92, 061602(R) (2015).<a href="/publications/PhysRevC.92.061602.pdf"> Download here</a> **Editors' Suggestion**
 
