@@ -11,6 +11,9 @@ main:
 
   - title: "Supervision"
     url: /supervision/
+    
+  - title: "Service"
+    url: /service/
 
   - title: "Blog Posts"
     url: /year-archive/
@@ -18,5 +21,3 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Service"
-    url: /service/
