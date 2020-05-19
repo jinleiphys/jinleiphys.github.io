@@ -1,7 +1,7 @@
 ---
 title: '晕核散射的弥散度'
 date: 2020-03-09
-permalink: /posts/2020/03/partial/
+permalink: /posts/2020/03/diffuseness/
 tags:
   - 物理笔记
   - 半经典方法
