@@ -9,6 +9,7 @@ author_profile: true
 Seminars
 ========
 
+* Inclusive breakup of 209Bi(6Li, αX) and related topics, Reaction Seminar, more details see [here!](https://reactionseminar.github.io/schedule/#session-22) 
 * Nuclear reactions from a three body perspective, Beihang University, Beijing, China, Sep. 20, 2019
 * Nuclear reactions from a three body perspective, Tsinghua University, Beijing, China, Sep. 17, 2019
 * Nuclear reactions from a three body perspective, Peking University, Beijing, China, Sep. 11, 2019
@@ -27,7 +28,7 @@ Invited Talks at Workshops and Conferences
 Contributed talks at Workshops and Conferences
 ========
 * Momentum Space Faddeev Calculation of d + alpha Scattering, APS April, Columbus, USA, 2018
-* 6Li and d + alpha scattering in a three-body momentum space Faddeev model (I), DNP 2017, Pittsburgh, USA, 2017
+* 6Li and d + alpha scattering in a three-body momentum space Faddeev model (I), DNP 2017, Pittsburgh, USA, 2017
 * Evaluation of inclusive breakup in reactions induced by weakly-bound nuclei within a three-body model, NN2015, Catania, Italy, 2015
 * Quarter-point angle for light weakly bound projectiles, The 8th China-Japan Joint Physics Symposium, Beijing, China, 2012
 
