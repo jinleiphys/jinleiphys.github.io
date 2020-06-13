@@ -1,6 +1,6 @@
 ---
 title: 'nonlocal potential的解法'
-date: 2020-06-013
+date: 2020-06-13
 permalink: /posts/2020/06/nonlocalpot/
 tags:
   - 物理笔记
