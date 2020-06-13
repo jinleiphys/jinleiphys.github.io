@@ -47,6 +47,11 @@ tags:
 
 ![](https://jinleiphys.github.io/files/nonlocal_wf.jpg)
 
+如上图所示，黑色的线是动量空间下求解的波函数，红色的线是用pierre文章中给出的公式，蓝色的虚线是改正后的nonlocal项。可以看见改正后的项与动量空间下的求解完全一致。
 
 
-如下图所示，
+那么现在我们看一下F. PEREY and B. BUCK文章(Nuclear Physics 32 (1962) 353--380)中对nonlocal项的定于与求解为何呢？在其文章中
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=g_{l}\left(r,&space;r^{\prime}\right)=2&space;\pi&space;r&space;r^{\prime}&space;U\left[\frac{1}{2}\left(r&plus;r^{\prime}\right)\right]&space;\int_{-1}^{&plus;1}&space;\frac{\exp&space;\left[-\left(\frac{\mathbf{r}-\mathbf{r}^{\prime}}{\beta}\right)^{2}\right]}{\pi^{\frac{3}{2}}&space;\beta^{3}}&space;P_{l}(\cos&space;\chi)&space;\mathrm{d}(\cos&space;\chi)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?g_{l}\left(r,&space;r^{\prime}\right)=2&space;\pi&space;r&space;r^{\prime}&space;U\left[\frac{1}{2}\left(r&plus;r^{\prime}\right)\right]&space;\int_{-1}^{&plus;1}&space;\frac{\exp&space;\left[-\left(\frac{\mathbf{r}-\mathbf{r}^{\prime}}{\beta}\right)^{2}\right]}{\pi^{\frac{3}{2}}&space;\beta^{3}}&space;P_{l}(\cos&space;\chi)&space;\mathrm{d}(\cos&space;\chi)" title="g_{l}\left(r, r^{\prime}\right)=2 \pi r r^{\prime} U\left[\frac{1}{2}\left(r+r^{\prime}\right)\right] \int_{-1}^{+1} \frac{\exp \left[-\left(\frac{\mathbf{r}-\mathbf{r}^{\prime}}{\beta}\right)^{2}\right]}{\pi^{\frac{3}{2}} \beta^{3}} P_{l}(\cos \chi) \mathrm{d}(\cos \chi)" /></a>
+
+与Computer Physics Communications 254, 107340(2020)中的定义是一致的，也与改正后的Lagrange-Rmatrix一致
