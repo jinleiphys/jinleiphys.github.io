@@ -19,9 +19,11 @@ Highlighted Publications
 
 Journal Articles
 ======
+* **Jin Lei** and Pierre Descouvemont, 'Lagrange-mesh R-matrix method for inhomogeneous equations', Phys. Rev. C 102, 014608 (2020).  <a href="/publications/PhysRevC.102.014608.pdf"> Download here</a>
+
 * J. P. Fernández-García, A. Di Pietro, P. Figuera, J. Gómez-Camacho, M. Lattuada, **Jin Lei**, A. M. Moro, M. Rodríguez-Gallardo and V. Scuderi, ‘Breakup mechanisms in the 6He+64Zn reaction at near-barrier energies’, Phys. Rev. C 99, 054605 (2019).<a href="/publications/PhysRevC.99.054605.pdf"> Download here</a>
 
-* L. Hlophe, **Jin Lei**, Ch. Elster, A. Nogga, F. M. Nunes, D. Jur ciukonis and A. Deltuva, ‘Deuteron-alpha scattering: Separable versus nonseparable Faddeev approach’, Phys. Rev. C 100,
+* L. Hlophe, **Jin Lei**, Ch. Elster, A. Nogga, F. M. Nunes, D. Jur ciukonis and A. Deltuva, ‘Deuteron-alpha scattering: Separable versus nonseparable Faddeev approach’, Phys. Rev. C 100,
 034609 (2019).<a href="/publications/PhysRevC.100.034609.pdf"> Download here</a>
 
 * **Jin Lei**, ‘Inclusive breakup calculations in angular momentum basis: Application to 7Li +58 Ni’, Phys. Rev. C 97, 034628 (2018). <a href="/publications/PhysRevC.97.034628.pdf"> Download here</a>
