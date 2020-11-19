@@ -19,8 +19,9 @@ Highlighted Publications
 
 Journal Articles
 ======
-F.F. Duan  Y.Y. Yang  K. Wang  A.M. Moro  V. Guimarães  D.Y. Pang  J.S. Wang  Z.Y. Sun  **Jin Lei**  A. Di Pietro  X. Liu  G. Yang  J.B. Ma  P. Ma  S.W. Xu  Z. Bai  X.X. Sun  Q. Hu  J.L. Lou  X.X. Xu  H.X. Li  S.Y. Jin  H.J. Ong  Q. Liu  J.S. Yao  H.K. Qi  C.J. Lin  H.M. Jia  N.R. Ma  L.J. Sun  D.X. Wang  Y.H. Zhang  X.H. Zhou  Z.G. Hu and H.S. Xu, 'Scattering of the halo nucleus 11Be from a lead target at 3.5 times the Coulomb barrier energy', Physics Letters B 811, 135942 (2020) <a href="/publications/PhysLettb.811.135942.pdf"> Download here</a>
+* F.F. Duan, Y.Y. Yang, K. Wang, A.M. Moro, V. Guimarães, D.Y. Pang, J.S. Wang, Z.Y. Sun, **Jin Lei**, A. Di Pietro, X. Liu, G. Yang, J.B. Ma, P. Ma, S.W. Xu, Z. Bai, X.X. Sun, Q. Hu, J.L. Lou, X.X. Xu, H.X. Li, S.Y. Jin, H.J. Ong, Q. Liu, J.S. Yao, H.K. Qi, C.J. Lin, H.M. Jia, N.R. Ma, L.J. Sun, D.X. Wang, Y.H. Zhang, X.H. Zhou, Z.G. Hu and H.S. Xu, 'Scattering of the halo nucleus 11Be from a lead target at 3.5 times the Coulomb barrier energy', Physics Letters B 811, 135942 (2020) <a href="/publications/PhysLettb.811.135942.pdf"> Download here</a>
 
+* Calvin W Johnson, Kristina D Launey, Naftali Auerbach, Sonia Bacca, Bruce R Barrett, Carl R Brune, Mark A Caprio, Pierre Descouvemont, W H Dickhoff, Charlotte Elster, Patrick J Fasano, Kevin Fossez, Heiko Hergert, Morten Hjorth-Jensen, Linda Hlophe, Baishan Hu, Rodolfo M Id Betan, Andrea Idini, Sebastian König, Konstantinos Kravvaris, Dean Lee, **Jin Lei** , Alexis Mercenne, Rodrigo Navarro Perez, Witold Nazarewicz, Filomena M Nunes, Marek Ploszajczak, Jimmy Rotureau, Gautam Rupak,,rey M Shirokov, Ian Thompson, James P Vary, Alexander Volya, Furong Xu, Remco G T. Zegers, Vladimir Zelevinsky and Xilin Zhang, 'White paper: from bound states to the continuum', Journal of Physics G: Nuclear and Particle Physics 47, 123001 (2020) <a href="/publications/J._Phys._G_47_123001.pdf"> Download here</a>.
 
 * **Jin Lei** and Pierre Descouvemont, 'Lagrange-mesh R-matrix method for inhomogeneous equations', Phys. Rev. C 102, 014608 (2020).  <a href="/publications/PhysRevC.102.014608.pdf"> Download here</a>
 
