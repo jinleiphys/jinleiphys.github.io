@@ -19,6 +19,9 @@ Highlighted Publications
 
 Journal Articles
 ======
+F.F. Duan  Y.Y. Yang  K. Wang  A.M. Moro  V. Guimarães  D.Y. Pang  J.S. Wang  Z.Y. Sun  **Jin Lei**  A. Di Pietro  X. Liu  G. Yang  J.B. Ma  P. Ma  S.W. Xu  Z. Bai  X.X. Sun  Q. Hu  J.L. Lou  X.X. Xu  H.X. Li  S.Y. Jin  H.J. Ong  Q. Liu  J.S. Yao  H.K. Qi  C.J. Lin  H.M. Jia  N.R. Ma  L.J. Sun  D.X. Wang  Y.H. Zhang  X.H. Zhou  Z.G. Hu and H.S. Xu, 'Scattering of the halo nucleus 11Be from a lead target at 3.5 times the Coulomb barrier energy', Physics Letters B 811, 135942 (2020) <a href="/publications/PhysLettb.811.135942.pdf"> Download here</a>
+
+
 * **Jin Lei** and Pierre Descouvemont, 'Lagrange-mesh R-matrix method for inhomogeneous equations', Phys. Rev. C 102, 014608 (2020).  <a href="/publications/PhysRevC.102.014608.pdf"> Download here</a>
 
 * J. P. Fernández-García, A. Di Pietro, P. Figuera, J. Gómez-Camacho, M. Lattuada, **Jin Lei**, A. M. Moro, M. Rodríguez-Gallardo and V. Scuderi, ‘Breakup mechanisms in the 6He+64Zn reaction at near-barrier energies’, Phys. Rev. C 99, 054605 (2019).<a href="/publications/PhysRevC.99.054605.pdf"> Download here</a>
