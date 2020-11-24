@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Born and raised in Shenyang, China, I earned my Bachelor's degree at the Northeastern University (China), my Master's degree at University of Chinese Academy of Sciences, and my Ph. D. degree in physics from Universidad de Sevilla (2016). My post-doctoral studies was conducted at Ohio University, Athens, USA (2016-2019) and right now I am a postdoc at Istituto Nazionale di Fisica Nucleare, Sezione di Pisa, Pisa, Italy (2019-present).
+Born and raised in Shenyang, China, I earned my Bachelor's degree at the Northeastern University (China), my Master's degree at University of Chinese Academy of Sciences, and my Ph. D. degree in physics from Universidad de Sevilla (2016). My post-doctoral studies was conducted at Ohio University, Athens, USA (2016-2019) and at Istituto Nazionale di Fisica Nucleare, Sezione di Pisa, Pisa, Italy (2019-2020). Now I am a research fellow at Tongji University, Shanghai, China
 
 My research focus on the topics of nuclear reaction. Beginning with the systematically studies of the behavior of nuclear reaction observables, my research has covered many phenomena that occur in nuclear reaction. My work includes the study of quantum three body problems and applied the Faddeev equations to nuclear reactions. Investigations of errors in optical potentials led me to better understanding the uncertainties in theoretical calculations. I applied the inclusive breakup model into nuclear reactions systems and made use of this model to gain better knowledge of fusion and incomplete fusion of weakly bound projectile induced reactions.
 
