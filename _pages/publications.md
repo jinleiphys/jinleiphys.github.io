@@ -19,7 +19,10 @@ Highlighted Publications
 
 Journal Articles
 ======
-* K. Wang, Y. Y. Yang, A. M. Moro, V. Guimarães, **Jin Lei**, D. Y. Pang, F. F. Duan, J. L. Lou, J. C. Zamora, J. S. Wang, Z. Y. Sun, H. J. Ong, X. Liu, S. W. Xu, J. B. Ma, P. Ma, Z. Bai, Q. Hu, X. X. Xu, Z. H. Gao, G. Yang, S. Y. Jin, Y. H. Zhang, X. H. Zhou, Z. G. Hu, and H. S. Xu, Elastic scattering and breakup reactions of the proton drip-line nucleus 8B on 208Pb at 238 MeV, Phys. Rev. C 103, 024606. <a href="/publications/PhysRevC.103.024606.pdf"> Download here</a>
+* M. Gómez-Ramos, J. Gómez-Camacho, **Jin Lei** & A. M. Moro, 'The Hussein–McVoy formula for inclusive breakup revisited'， Eur. Phys. J. A 57，57 (2021). <a href="/publications/EPJA57.pdf"> Download here</a>
+
+
+* K. Wang, Y. Y. Yang, A. M. Moro, V. Guimarães, **Jin Lei**, D. Y. Pang, F. F. Duan, J. L. Lou, J. C. Zamora, J. S. Wang, Z. Y. Sun, H. J. Ong, X. Liu, S. W. Xu, J. B. Ma, P. Ma, Z. Bai, Q. Hu, X. X. Xu, Z. H. Gao, G. Yang, S. Y. Jin, Y. H. Zhang, X. H. Zhou, Z. G. Hu, and H. S. Xu, 'Elastic scattering and breakup reactions of the proton drip-line nucleus 8B on 208Pb at 238 MeV', Phys. Rev. C 103, 024606 (2021). <a href="/publications/PhysRevC.103.024606.pdf"> Download here</a>
 
 
 * **Jin Lei** and Angela Bonaccorso, 'Comparison of semiclassical transfer to continuum model with Ichimura-Austern-Vincent model in medium energy knockout reactions',Physics Letters B 813, 136032 (2021) <a href="/publications/PhysLettb.813.136032.pdf"> Download here</a>
