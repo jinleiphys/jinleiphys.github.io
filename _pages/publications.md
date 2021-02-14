@@ -19,7 +19,10 @@ Highlighted Publications
 
 Journal Articles
 ======
-* **Jin Lei** and Angela Bonaccorso, Physics Letters B 813, 136032 (2021) <a href="/publications/PhysLettb.813.136032.pdf"> Download here</a>
+* K. Wang, Y. Y. Yang, A. M. Moro, V. Guimarães, **Jin Lei**, D. Y. Pang, F. F. Duan, J. L. Lou, J. C. Zamora, J. S. Wang, Z. Y. Sun, H. J. Ong, X. Liu, S. W. Xu, J. B. Ma, P. Ma, Z. Bai, Q. Hu, X. X. Xu, Z. H. Gao, G. Yang, S. Y. Jin, Y. H. Zhang, X. H. Zhou, Z. G. Hu, and H. S. Xu, Elastic scattering and breakup reactions of the proton drip-line nucleus 8B on 208Pb at 238 MeV, Phys. Rev. C 103, 024606. <a href="/publications/PhysRevC.103.024606.pdf"> Download here</a>
+
+
+* **Jin Lei** and Angela Bonaccorso, 'Comparison of semiclassical transfer to continuum model with Ichimura-Austern-Vincent model in medium energy knockout reactions',Physics Letters B 813, 136032 (2021) <a href="/publications/PhysLettb.813.136032.pdf"> Download here</a>
 
 * L. Yang, C.J. Lin, H. Yamaguchi, **Jin Lei** , P.W. Wen, M. Mazzocco, N.R. Ma, L.J. Sun,D.X. Wang, G.X. Zhang, K. Abe, S.M. Cha, K.Y. Chae, A. Diaz-Torres, J.L. Ferreira,S. Hayakawa, H.M. Jia, D. Kahl, A. Kim, M.S. Kwag, M. La Commara, R. Navarro Pérez,C. Parascandolo, D. Pierroutsakou, J. Rangel, Y. Sakaguchi, C. Signorini, E. Strano, X.X. Xu,F. Yang, Y.Y. Yang, G.L. Zhang, F.P. Zhong and J. Lubian, ‘Insight into the reaction dynamics
  of proton drip-line nuclear system 17f+58ni at near-barrier energies’, Physics Letters B813,136045 (2021) <a href="/publications/j.physletb.2020.136045.pdf"> Download here</a>
