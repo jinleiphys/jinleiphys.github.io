@@ -15,6 +15,6 @@ My research focus on the topics of nuclear reaction. Beginning with the systemat
 
 I love teaching. There is an old Chinese saying "Teaching and Learning Promote Each Other''.  Students make me learn more and more with their questions, answers, and doubts. It is a two-way street.
 
-When not involved in science, my obsessions include cat (I have two lovely cats), video game live streaming, reading, hiking, cooking and films.
+When not involved in science, my obsessions include cat (I have three lovely cats), video game live streaming, reading, hiking, cooking and films.
 
-My favorite quote outside of science: "Happy Wife, Happy Life''.
+<!-- My favorite quote outside of science: "Happy Wife, Happy Life''. -->
