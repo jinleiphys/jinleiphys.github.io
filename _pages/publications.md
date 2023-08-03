@@ -19,6 +19,8 @@ Highlighted Publications
 
 Journal Articles
 ======
+* Hao Liu, Shinsuke Nakayama, **Jin Lei**, and Zhongzhou Ren, 'Comparison of Ichimura-Austern-Vincent and Glauber models for the deuteron-induced inclusive breakup reaction in light and medium-mass nuclei', Phys. Rev. C 108, 014617 (2023).  <a href="/publications/PhysRevC.108.014617.pdf"> Download here</a>
+
 
 * F. F. Duan, Y. Y. Yang, **Jin Lei**, K. Wang, Z. Y. Sun, D. Y. Pang, J. S. Wang, X. Liu, S. W. Xu, J. B. Ma, P. Ma, Z. Bai, Q. Hu, Z. H. Gao, X. X. Xu, C. J. Lin, H. M. Jia, N. R. Ma, L. J. Sun, D. X. Wang, G. Yang, S. Y. Jin, Z. Z. Ren, Y. H. Zhang, X. H. Zhou, Z. G. Hu and H. S. Xu, Phys. Rev. C 105, 034602 (2022). <a href="/publications/PhysRevC.105.034602.pdf"> Download here</a>
 
