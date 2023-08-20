@@ -19,6 +19,9 @@ Highlighted Publications
 
 Journal Articles
 ======
+
+* Junzhe Liu, **Jin Lei**, and Zhongzhou Ren, 'Testing the validity of the surface approximation for reactions induced by weakly bound nuclei with a fully quantum-mechanical model', Phys. Rev. C 108, 024606 (2023).  <a href="/publications/PhysRevC.108.024606.pdf"> Download here</a>
+
 * Hao Liu, Shinsuke Nakayama, **Jin Lei**, and Zhongzhou Ren, 'Comparison of Ichimura-Austern-Vincent and Glauber models for the deuteron-induced inclusive breakup reaction in light and medium-mass nuclei', Phys. Rev. C 108, 014617 (2023).  <a href="/publications/PhysRevC.108.014617.pdf"> Download here</a>
 
 
