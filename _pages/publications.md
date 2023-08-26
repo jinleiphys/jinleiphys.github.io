@@ -20,7 +20,11 @@ Highlighted Publications
 Journal Articles
 ======
 
+* Yazhou Lu, Jin Lei, and Zhongzhou Ren, Systematic single-folding optical potential for 6Li and 7Li based on KD02 potentials, Phys. Rev. C 108, 024612 (2023).  <a href="/publications/PhysRevC.108.024612.pdf"> Download here</a>
+
+
 * Junzhe Liu, **Jin Lei**, and Zhongzhou Ren, 'Testing the validity of the surface approximation for reactions induced by weakly bound nuclei with a fully quantum-mechanical model', Phys. Rev. C 108, 024606 (2023).  <a href="/publications/PhysRevC.108.024606.pdf"> Download here</a>
+
 
 * Hao Liu, Shinsuke Nakayama, **Jin Lei**, and Zhongzhou Ren, 'Comparison of Ichimura-Austern-Vincent and Glauber models for the deuteron-induced inclusive breakup reaction in light and medium-mass nuclei', Phys. Rev. C 108, 014617 (2023).  <a href="/publications/PhysRevC.108.014617.pdf"> Download here</a>
 
@@ -52,7 +56,7 @@ Journal Articles
 
 * **Jin Lei**, ‘Inclusive breakup calculations in angular momentum basis: Application to 7Li +58 Ni’, Phys. Rev. C 97, 034628 (2018). <a href="/publications/PhysRevC.97.034628.pdf"> Download here</a>
 
-* **Jin Lei**, L. Hlophe, Ch. Elster, A. Nogga, F. M. Nunes and D. R. Phillips, ‘Few-body universality in the deuteron-alpha system’, Phys. Rev. C 98, 051001(R) (2018).<a href="/publications/PhysRevC.98.051001.pdf"> Download here</a>
+* **Jin Lei**, L. Hlophe, Ch. Elster, A. Nogga, F. M. Nunes and D. R. Phillips, ‘Few-body universality in the deuteron-alpha system’, Phys. Rev. C 98, 051001(R) (2018).<a href="/publications/PhysRevC.98.051001.pdf"> Download here</a>
 
 * **Jin Lei** and Antonio M. Moro, ‘Post-prior equivalence for transfer reactions with complex potentials’, Phys. Rev. C 97, 011601(R) (2018). <a href="/publications/PhysRevC.97.011601.pdf"> Download here</a>
 
