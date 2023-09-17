@@ -19,8 +19,10 @@ Highlighted Publications
 
 Journal Articles
 ======
+* **Jin Lei** and Antonio M. Moro, Advancing the Ichimura-Austern-Vincent model with continuum-discretized coupled-channels wave functions for realistic descriptions of two-body projectile breakup, Phys. Rev. C 108, 034612, <a href="/publications/PhysRevC.108.034612.pdf"> Download here</a>
 
-* Yazhou Lu, Jin Lei, and Zhongzhou Ren, Systematic single-folding optical potential for 6Li and 7Li based on KD02 potentials, Phys. Rev. C 108, 024612 (2023).  <a href="/publications/PhysRevC.108.024612.pdf"> Download here</a>
+
+* Yazhou Lu, **Jin Lei**, and Zhongzhou Ren, Systematic single-folding optical potential for 6Li and 7Li based on KD02 potentials, Phys. Rev. C 108, 024612 (2023).  <a href="/publications/PhysRevC.108.024612.pdf"> Download here</a>
 
 
 * Junzhe Liu, **Jin Lei**, and Zhongzhou Ren, 'Testing the validity of the surface approximation for reactions induced by weakly bound nuclei with a fully quantum-mechanical model', Phys. Rev. C 108, 024606 (2023).  <a href="/publications/PhysRevC.108.024606.pdf"> Download here</a>
