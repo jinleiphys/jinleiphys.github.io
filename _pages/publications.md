@@ -19,6 +19,10 @@ Highlighted Publications
 
 Journal Articles
 ======
+* K. Wang, Y. Y. Yang, **Jin Lei**, A. M. Moro, V. Guimarães, J. G. Li, F. F. Duan, Z. Y. Sun, G. Yang, D. Y. Pang, S. W. Xu, J. B. Ma, P. Ma, Z. Bai, Q. Liu, J. L. Lou, H. J. Ong, B. F. Lv,
+S. Guo, M. Kumar Raju, X. H. Wang, R. H. Li, X. X. Xu, Z. Z. Ren, Y. H. Zhang, X. H. Zhou, Z. G. Hu and H. S. Xu, Elastic scattering and breakup reactions of the mirror nuclei 12B and 12N on 208Pb using ab initio structure input, Phys. Rev. C 109, 014624 (2024), <a href="/publications/PhysRevC.109.014624.pdf"> Download here</a>
+
+
 * **Jin Lei** and Antonio M. Moro, Advancing the Ichimura-Austern-Vincent model with continuum-discretized coupled-channels wave functions for realistic descriptions of two-body projectile breakup, Phys. Rev. C 108, 034612, <a href="/publications/PhysRevC.108.034612.pdf"> Download here</a>
 
 
