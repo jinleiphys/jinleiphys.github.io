@@ -8,12 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-I was born and raised in Shenyang, China. I completed my undergraduate studies at Northeastern University in China, my graduate studies at the University of Chinese Academy of Sciences, and earned my PhD in physics from Universidad de Sevilla (2016). I pursued postdoctoral work in nuclear physics at Ohio University in Athens, Ohio (2016-2019) and the Istituto Nazionale di Fisica Nucleare, Sezione di Pisa in Pisa, Italy (2019-2020). I am currently a professor at Tongji University in Shanghai, China.
+Welcome to my personal space on the web!
 
-My studies have focused on nuclear reactions, and I have explored a range of phenomena associated with these reactions, including systematic examinations of nuclear reaction observables. I have also used Faddeev equations and studied quantum three-body problems. By investigating the causes of optical potential errors, I gained a deeper understanding of the margins of error inherent in theoretical calculations. In order to better understand fusion and incomplete fusion of weakly bound projectile-induced reactions, I incorporated the inclusive breakup model into nuclear reaction systems.
+My journey began in the historic city of Shenyang, China, where the seeds of my curiosity in the physical world were planted. I took my first academic steps at Northeastern University in China, which laid the groundwork for my passion for physics. My quest for knowledge deepened during my graduate studies at the University of Chinese Academy of Sciences, culminating in a PhD in physics from the prestigious Universidad de Sevilla in 2016.
 
-In addition to my research, I greatly enjoy teaching. In traditional Chinese, it is said that "Teaching and Learning Encourage Each Other." The curiosity, questions, and doubts of my students spur me to expand my knowledge, and communication is key.
+The pursuit of postdoctoral research took me across the globe, from the serene campus of Ohio University in Athens, Ohio, to the historic halls of the Istituto Nazionale di Fisica Nucleare in Pisa, Italy. My research during these formative years centered on the intricacies of nuclear reactions, delving into the systematic examination of nuclear reaction observables and the complex dance of particles in quantum three-body problems.
 
-On a personal note, I have four beautiful cats, and enjoy live-streaming video games, reading, hiking, cooking, and watching movies.
+Today, I stand before my students at Tongji University in Shanghai, China, as a professor, eager to unravel the mysteries of nuclear physics. My work explores the nuances of nuclear reactions, particularly focusing on the optical potential errors and the phenomena of fusion and incomplete fusion in weakly bound projectile-induced reactions, through the lens of the inclusive breakup model.
 
-My favorite saying outside of academia is "Happy Wife, Happy Life."
+Teaching is not just a profession for me; it is a two-way street of growth and discovery. Inspired by the traditional Chinese adage, "Teaching and Learning Encourage Each Other," I find the inquisitiveness of my students to be a driving force, pushing me to broaden my horizons and embrace the power of communication.
+
+Beyond the walls of academia, my life is filled with simple joys. I am a proud parent to four beautiful cats, each with their own unique personality. My leisure time is a tapestry of diverse interests - from the thrill of live-streaming video games to the tranquility of hiking, the creativity of cooking, and the immersive experience of films.
+
+And while my professional life is governed by the laws of physics, my personal mantra, "Happy Wife, Happy Life," reminds me of the balance and harmony essential to a fulfilling life.
+
+Thank you for visiting, and I invite you to join me on this extraordinary journey through the cosmos of physics and beyond.
