@@ -19,6 +19,8 @@ Highlighted Publications
 
 Journal Articles
 ======
+* G. Villanueva, A.M. Moro, J. Casal, **Jin Lei**, Neutron-transfer induced breakup of the Borromean nucleus 9Be, Phys. Lett. B 855 (2024) 138766, <a href="/publications/plb855138766.pdf"> Download here</a>
+
 * K. Wang, Y. Y. Yang, **Jin Lei**, A. M. Moro, V. Guimarães, J. G. Li, F. F. Duan, Z. Y. Sun, G. Yang, D. Y. Pang, S. W. Xu, J. B. Ma, P. Ma, Z. Bai, Q. Liu, J. L. Lou, H. J. Ong, B. F. Lv,
 S. Guo, M. Kumar Raju, X. H. Wang, R. H. Li, X. X. Xu, Z. Z. Ren, Y. H. Zhang, X. H. Zhou, Z. G. Hu and H. S. Xu, Elastic scattering and breakup reactions of the mirror nuclei 12B and 12N on 208Pb using ab initio structure input, Phys. Rev. C 109, 014624 (2024), <a href="/publications/PhysRevC.109.014624.pdf"> Download here</a>
 
