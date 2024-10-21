@@ -19,6 +19,9 @@ Highlighted Publications
 
 Journal Articles
 ======
+
+* Junzhe Liu, **Jin Lei**, Zhongzhou Ren, A complex scaling method for efficient and accurate scattering emulation in nuclear reactions, Phys. Lett. B 858 (2024) 139070, <a href="/publications/Phys.Lett.B858.139070.pdf"> Download here</a>
+
 * G. Villanueva, A.M. Moro, J. Casal, **Jin Lei**, Neutron-transfer induced breakup of the Borromean nucleus 9Be, Phys. Lett. B 855 (2024) 138766, <a href="/publications/plb855138766.pdf"> Download here</a>
 
 * K. Wang, Y. Y. Yang, **Jin Lei**, A. M. Moro, V. Guimarães, J. G. Li, F. F. Duan, Z. Y. Sun, G. Yang, D. Y. Pang, S. W. Xu, J. B. Ma, P. Ma, Z. Bai, Q. Liu, J. L. Lou, H. J. Ong, B. F. Lv,
