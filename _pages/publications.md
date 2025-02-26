@@ -19,6 +19,7 @@ Highlighted Publications
 
 Journal Articles
 ======
+* Hao Liu, **Jin Lei**, and Zhongzhou Ren, Kolmogorov-Arnold networks in nuclear binding energy prediction, Phys. Rev. C 111, 024316 (2025), <a href="/publications/PhysRevC.111.024316.pdf"> Download here</a>
 
 * Junzhe Liu, **Jin Lei**, Zhongzhou Ren, A complex scaling method for efficient and accurate scattering emulation in nuclear reactions, Phys. Lett. B 858 (2024) 139070, <a href="/publications/Phys.Lett.B858.139070.pdf"> Download here</a>
 
