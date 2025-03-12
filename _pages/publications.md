@@ -19,6 +19,8 @@ Highlighted Publications
 
 Journal Articles
 ======
+* **Jin Lei**, Continuum effects and the Trojan horse mechanism in halo nuclei-induced reactions: Implications for heavy isotope synthesis, Phys. Rev. C 111, 034610 (2025), <a href="/publications/PhysRevC.111.034610.pdf"> Download here</a>
+
 * Junzhe Liu, **Jin Lei**, Zhongzhou Ren, COLOSS: Complex-scaled Optical and couLOmb Scattering Solver, Computer Physics Communications 311 (2025) 109568, <a href="/publications/cpc_311_109568.pdf"> Download here</a>
 
 * Hao Liu, **Jin Lei**, and Zhongzhou Ren, Kolmogorov-Arnold networks in nuclear binding energy prediction, Phys. Rev. C 111, 024316 (2025), <a href="/publications/PhysRevC.111.024316.pdf"> Download here</a>
