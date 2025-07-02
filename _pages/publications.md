@@ -13,6 +13,8 @@ Highlighted Publications
 
 * **Jin Lei** and Antonio M. Moro, ‘Numerical assessment of post-prior equivalence for inclusive breakup reactions’, Phys. Rev. C 92, 061602(R) (2015).<a href="/publications/PhysRevC.92.061602.pdf"> Download here</a> **Editors' Suggestion**
 
+* **Jin Lei**, ‘Numerical assessment of convergence in the post-form Ichimura-Austern-Vincent model’, Phys. Rev. C 112, 014609 (2025). <a href="/publications/l53j-32cp.pdf"> Download here</a>
+
 * Rodrigo Navarro Pérez and **Jin Lei**, ‘Is the unusual near-threshold potential behavior in elastic scattering of weakly-bound nuclei a precision error?’, Physics Letters B 795, 200–205 (2019).<a href="/publications/j.physletb.2019.06.005.pdf"> Download here</a>
 
 * A. Di Pietro, A.M. Moro, **Jin Lei** and R. de Diego, ‘Insights into the dynamics of breakup of the halo nucleus 11Be on a 64Zn target’, Physics Letters B 798, 134954 (2019).<a href="/publications/j.physletb.2019.134954.pdf"> Download here</a>
