@@ -9,6 +9,7 @@ author_profile: true
 Seminars
 ========
 
+* Seminar talk at Beihang University, Jul. 9, 2025, Beijing, China, [link](https://jinlei.fewbody.com/BUAA_talk_2025/)
 * Inclusive breakup of 209Bi(6Li, αX) and related topics, Reaction Seminar, Jun. 2, 2020,  more details see [here](https://reactionseminar.github.io/schedule/#session-22) 
 * Nuclear reactions from a three body perspective, Beihang University, Beijing, China, Sep. 20, 2019
 * Nuclear reactions from a three body perspective, Tsinghua University, Beijing, China, Sep. 17, 2019
