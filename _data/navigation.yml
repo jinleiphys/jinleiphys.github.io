@@ -12,6 +12,9 @@ main:
   - title: "Service"
     url: /service/
 
+  - title: "Graduate Guidance"
+    url: /graduate-guidance/
+
 #  - title: "Blog Posts"
 #    url: /year-archive/
 
