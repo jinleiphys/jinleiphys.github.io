@@ -120,7 +120,7 @@ author_profile: true
 
 <div class="intro-section">
   <h1>🚀 Your Journey in Nuclear Physics Graduate School</h1>
-  <p style="font-size: 1.2rem; margin-top: 1rem;">Welcome to the Quantum Few-Body Dynamics Research Group! This comprehensive guide will help you navigate your graduate journey and thrive as a nuclear physics researcher.</p>
+  <p style="font-size: 1.2rem; margin-top: 1rem;">Welcome to the <a href="https://fewbody.com" target="_blank" style="color: #FFD700; text-decoration: underline;">Quantum Few-Body Dynamics Research Group</a>! This comprehensive guide will help you navigate your graduate journey and thrive as a nuclear physics researcher.</p>
 </div>
 
 <div class="section-card">
@@ -146,7 +146,7 @@ author_profile: true
   
   <div class="timeline-item">
     <h3>Week 1-2: Onboarding Process</h3>
-    <p>Upon joining the Quantum Few-Body Dynamics Research Group under Professor Jin Lei, you'll receive a detailed warm-up research project tied to ongoing work in atomic nuclear reaction theory, nuclear astrophysics reactions, or quantum few-body methods.</p>
+    <p>Upon joining the <a href="https://fewbody.com" target="_blank">Quantum Few-Body Dynamics Research Group</a> under Professor Jin Lei, you'll receive a detailed warm-up research project tied to ongoing work in atomic nuclear reaction theory, nuclear astrophysics reactions, or quantum few-body methods.</p>
   </div>
 
   <div class="timeline-item">
