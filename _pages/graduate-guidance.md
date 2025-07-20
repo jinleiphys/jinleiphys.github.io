@@ -123,6 +123,8 @@ author_profile: true
   <p style="font-size: 1.2rem; margin-top: 1rem;">Welcome to the <a href="https://fewbody.com" target="_blank" style="color: #FFD700; text-decoration: underline;">Quantum Few-Body Dynamics Research Group</a>! This comprehensive guide will help you navigate your graduate journey and thrive as a nuclear physics researcher.</p>
 </div>
 
+<!-- PHASE 1: FOUNDATION & UNDERSTANDING -->
+
 <div class="section-card">
   <h2 class="section-title">🌟 Understanding Graduate School</h2>
   
@@ -172,7 +174,122 @@ author_profile: true
 </div>
 
 <div class="section-card">
-  <h2 class="section-title">🛠️ Essential Skills Development</h2>
+  <h2 class="section-title">🧠 Mental Health & Wellness</h2>
+  
+  <div class="resource-list">
+    <h3>⚖️ Work-Life Balance Strategies</h3>
+    <ul>
+      <li><strong>Set Boundaries:</strong> Define work hours and stick to them</li>
+      <li><strong>Regular Exercise:</strong> Physical activity reduces stress and improves focus</li>
+      <li><strong>Social Connections:</strong> Maintain relationships outside academia</li>
+      <li><strong>Hobbies:</strong> Pursue non-academic interests for mental refreshment</li>
+      <li><strong>Sleep Hygiene:</strong> Prioritize 7-8 hours of quality sleep</li>
+    </ul>
+  </div>
+
+  <div class="skills-grid">
+    <div class="skill-item">
+      <h3>🎯 Stress Management</h3>
+      <ul>
+        <li>Practice mindfulness or meditation</li>
+        <li>Break large tasks into smaller steps</li>
+        <li>Celebrate small victories regularly</li>
+        <li>Seek professional help when needed</li>
+      </ul>
+    </div>
+
+    <div class="skill-item">
+      <h3>💬 Communication & Support</h3>
+      <ul>
+        <li>Regular check-ins with advisor</li>
+        <li>Peer support groups</li>
+        <li>University counseling services</li>
+        <li>Professional development workshops</li>
+      </ul>
+    </div>
+
+    <div class="skill-item">
+      <h3>📈 Progress Tracking</h3>
+      <ul>
+        <li>Keep a research journal</li>
+        <li>Set realistic weekly goals</li>
+        <li>Regular self-assessment</li>
+        <li>Acknowledge growth over time</li>
+      </ul>
+    </div>
+
+    <div class="skill-item">
+      <h3>🛡️ Dealing with Setbacks</h3>
+      <ul>
+        <li>View failures as learning opportunities</li>
+        <li>Maintain perspective on long-term goals</li>
+        <li>Build resilience through diverse experiences</li>
+        <li>Practice self-compassion</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cta-box">
+    <h3>🚨 When to Seek Help</h3>
+    <p>Don't hesitate to reach out if you experience persistent anxiety, depression, impostor syndrome, or burnout. These are common in graduate school and seeking help is a sign of strength, not weakness. Your university likely offers free counseling services.</p>
+  </div>
+</div>
+
+<!-- PHASE 2: CORE SKILLS & METHODOLOGIES -->
+
+<div class="section-card">
+  <h2 class="section-title">📚 Research Methodology & Literature Mastery</h2>
+  
+  <div class="skills-grid">
+    <div class="skill-item">
+      <h3>🔍 Effective Literature Review</h3>
+      <ul>
+        <li>Use Boolean search operators on arXiv and Google Scholar</li>
+        <li>Set up email alerts for key authors and topics</li>
+        <li>Track citation networks using Connected Papers</li>
+        <li>Maintain a reference management system (Zotero/Mendeley)</li>
+      </ul>
+    </div>
+
+    <div class="skill-item">
+      <h3>📖 Critical Reading Strategy</h3>
+      <ul>
+        <li>Read abstracts and conclusions first for relevance</li>
+        <li>Focus on methodology and theoretical frameworks</li>
+        <li>Question assumptions and identify limitations</li>
+        <li>Synthesize findings across multiple papers</li>
+      </ul>
+    </div>
+
+    <div class="skill-item">
+      <h3>🎯 Research Question Development</h3>
+      <ul>
+        <li>Identify gaps in current knowledge</li>
+        <li>Formulate testable hypotheses</li>
+        <li>Consider experimental feasibility</li>
+        <li>Align with group expertise and resources</li>
+      </ul>
+    </div>
+
+    <div class="skill-item">
+      <h3>📊 Data Analysis Excellence</h3>
+      <ul>
+        <li>Understand statistical significance vs. physical meaning</li>
+        <li>Implement error propagation correctly</li>
+        <li>Use appropriate fitting methods</li>
+        <li>Validate results through multiple approaches</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="highlight-box">
+    <h3>💡 Research Workflow Tip</h3>
+    <p>Develop a systematic approach: read broadly → identify specific problems → formulate hypotheses → design computational experiments → validate results → communicate findings. Keep detailed lab notebooks (digital or physical) documenting your thought process and results.</p>
+  </div>
+</div>
+
+<div class="section-card">
+  <h2 class="section-title">🛠️ Essential Skills & Modern Tools</h2>
   
   <div class="skills-grid">
     <div class="skill-item">
@@ -197,23 +314,23 @@ author_profile: true
     </div>
 
     <div class="skill-item">
+      <h3>☁️ Modern Technologies</h3>
+      <ul>
+        <li>Google Colab for collaborative coding</li>
+        <li>AWS/Azure for large-scale computations</li>
+        <li>Docker containers for reproducibility</li>
+        <li>Machine learning for nuclear data analysis</li>
+      </ul>
+    </div>
+
+    <div class="skill-item">
       <h3>🔧 Professional Tools</h3>
       <ul>
         <li>Version control with GitHub</li>
         <li>Linux environment</li>
         <li>Reaction calculation codes</li>
-        <li>Scattering theory implementations</li>
-        <li>Data analysis workflows</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>🌐 Transferable Skills</h3>
-      <ul>
-        <li>Software engineering</li>
-        <li>Data science</li>
-        <li>Machine learning applications</li>
-        <li>Finance and analytics</li>
+        <li>Overleaf for collaborative LaTeX writing</li>
+        <li>Data visualization with Python</li>
       </ul>
     </div>
   </div>
@@ -223,6 +340,8 @@ author_profile: true
     <p>Master the fundamentals: quantum scattering theory provides the mathematical framework for understanding all nuclear reactions, while nuclear reaction theory bridges quantum mechanics to experimental observables. These theoretical foundations are essential before applying computational tools.</p>
   </div>
 </div>
+
+<!-- PHASE 3: RELATIONSHIPS & DAILY PRACTICE -->
 
 <div class="section-card">
   <h2 class="section-title">🤝 Building Strong Mentor Relationships</h2>
@@ -327,51 +446,7 @@ author_profile: true
   </div>
 </div>
 
-<div class="section-card">
-  <h2 class="section-title">🏆 Metrics of Success</h2>
-  
-  <div class="skills-grid">
-    <div class="skill-item">
-      <h3>📝 Academic Achievements</h3>
-      <ul>
-        <li>Complete thesis on time</li>
-        <li>2-3 co-authored publications</li>
-        <li>Conference presentations</li>
-        <li>Strong recommendation letters</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>📊 Publication Targets</h3>
-      <ul>
-        <li>Physical Review C articles</li>
-        <li>Reaction theory contributions</li>
-        <li>Astrophysics research</li>
-        <li>Building h-index</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>🎯 Professional Growth</h3>
-      <ul>
-        <li>Research independence</li>
-        <li>Collaboration skills</li>
-        <li>Communication abilities</li>
-        <li>Career preparation</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>🚀 Long-term Goals</h3>
-      <ul>
-        <li>Postdoc positions</li>
-        <li>Industry opportunities</li>
-        <li>Academic career paths</li>
-        <li>Field advancement</li>
-      </ul>
-    </div>
-  </div>
-</div>
+<!-- PHASE 4: RESEARCH INDEPENDENCE & GROWTH -->
 
 <div class="section-card">
   <h2 class="section-title">🎓 Developing Research Independence</h2>
@@ -397,175 +472,7 @@ author_profile: true
   </div>
 </div>
 
-<div class="section-card">
-  <h2 class="section-title">🚀 Advanced Skill Building</h2>
-  
-  <div class="skills-grid">
-    <div class="skill-item">
-      <h3>🤖 Cutting-Edge Techniques</h3>
-      <ul>
-        <li>Machine learning for nuclear data</li>
-        <li>High-performance computing</li>
-        <li>Quantum computing applications</li>
-        <li>Advanced numerical methods</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>🌍 Interdisciplinary Links</h3>
-      <ul>
-        <li>Stellar nucleosynthesis</li>
-        <li>Fusion energy applications</li>
-        <li>Medical physics connections</li>
-        <li>Security applications</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>💰 Professional Skills</h3>
-      <ul>
-        <li>Grant writing early</li>
-        <li>Proposal development</li>
-        <li>Funding acquisition</li>
-        <li>Project management</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>📚 Staying Current</h3>
-      <ul>
-        <li>Regular arXiv monitoring</li>
-        <li>Trend adaptation</li>
-        <li>Ethical practices</li>
-        <li>Reproducible research</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div class="section-card">
-  <h2 class="section-title">🌟 Professional Career Mindset</h2>
-  
-  <div class="resource-list">
-    <h3>🤝 Ethical Collaboration</h3>
-    <ul>
-      <li><strong>Reproducibility:</strong> Ensure your simulations and results can be reproduced</li>
-      <li><strong>Proper Citations:</strong> Give credit where credit is due</li>
-      <li><strong>Inclusivity:</strong> Advocate for diversity in your field</li>
-      <li><strong>Mentorship:</strong> Pay it forward by helping junior students</li>
-    </ul>
-  </div>
-
-  <div class="highlight-box">
-    <h3>🎯 Success Indicators</h3>
-    <ul class="icon-list">
-      <li>Securing postdoc positions</li>
-      <li>Achieving tenure-track roles</li>
-      <li>Building a fulfilling legacy in nuclear physics</li>
-      <li>Contributing to scientific advancement</li>
-    </ul>
-  </div>
-
-  <div class="cta-box">
-    <h3>🌱 Personal Growth</h3>
-    <p>Stay adaptable by pivoting to relevant areas, celebrate small wins to sustain enthusiasm, and ensure work-life balance with hobbies. Remember Jin Lei's approach to balancing professional excellence with personal fulfillment.</p>
-  </div>
-</div>
-
-<div class="section-card">
-  <h2 class="section-title">🎉 Your Journey Continues</h2>
-  
-  <p>Fostering personal growth and balance completes the graduate journey, transforming challenges into strengths. Cultivate resilience amid nonlinear research by celebrating victories like successful codes or breakthrough insights.</p>
-
-  <div class="skills-grid">
-    <div class="skill-item">
-      <h3>🎨 Creative Balance</h3>
-      <ul>
-        <li>Integrate hobbies for creativity</li>
-        <li>Maintain physical and mental health</li>
-        <li>Build social connections</li>
-        <li>Practice mindfulness</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>🌍 Community Engagement</h3>
-      <ul>
-        <li>Teaching and public outreach</li>
-        <li>Inspiring future scientists</li>
-        <li>Science communication</li>
-        <li>Professional networking</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="resource-list">
-    <h3>🔗 Useful Resources</h3>
-    <ul>
-      <li><strong>Jin Lei's GitHub:</strong> <a href="https://jinleiphys.github.io">jinleiphys.github.io</a></li>
-      <li><strong>Group Website:</strong> <a href="https://fewbody.com">fewbody.com</a></li>
-      <li><strong>arXiv:</strong> Stay current with latest research</li>
-      <li><strong>Nuclear Data:</strong> NNDC, ENSDF for reaction databases</li>
-    </ul>
-  </div>
-
-  <div class="intro-section">
-    <h3>🎯 Your Success Formula</h3>
-    <p>By communicating effectively, persisting through challenges, and contributing meaningfully to the field, you'll emerge as an accomplished researcher ready for impactful contributions to nuclear physics and beyond.</p>
-    <p><strong>Remember:</strong> Your journey in graduate school is not just about earning a degree—it's about becoming a professional researcher who can make lasting contributions to science and society.</p>
-  </div>
-</div>
-
-<div class="section-card">
-  <h2 class="section-title">📚 Research Methodology & Literature Mastery</h2>
-  
-  <div class="skills-grid">
-    <div class="skill-item">
-      <h3>🔍 Effective Literature Review</h3>
-      <ul>
-        <li>Use Boolean search operators on arXiv and Google Scholar</li>
-        <li>Set up email alerts for key authors and topics</li>
-        <li>Track citation networks using Connected Papers</li>
-        <li>Maintain a reference management system (Zotero/Mendeley)</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>📖 Critical Reading Strategy</h3>
-      <ul>
-        <li>Read abstracts and conclusions first for relevance</li>
-        <li>Focus on methodology and theoretical frameworks</li>
-        <li>Question assumptions and identify limitations</li>
-        <li>Synthesize findings across multiple papers</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>🎯 Research Question Development</h3>
-      <ul>
-        <li>Identify gaps in current knowledge</li>
-        <li>Formulate testable hypotheses</li>
-        <li>Consider experimental feasibility</li>
-        <li>Align with group expertise and resources</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>📊 Data Analysis Excellence</h3>
-      <ul>
-        <li>Understand statistical significance vs. physical meaning</li>
-        <li>Implement error propagation correctly</li>
-        <li>Use appropriate fitting methods</li>
-        <li>Validate results through multiple approaches</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="highlight-box">
-    <h3>💡 Research Workflow Tip</h3>
-    <p>Develop a systematic approach: read broadly → identify specific problems → formulate hypotheses → design computational experiments → validate results → communicate findings. Keep detailed lab notebooks (digital or physical) documenting your thought process and results.</p>
-  </div>
-</div>
+<!-- PHASE 5: PROFESSIONAL DEVELOPMENT & NETWORKING -->
 
 <div class="section-card">
   <h2 class="section-title">🌐 Conferences & Professional Networking</h2>
@@ -616,47 +523,6 @@ author_profile: true
         <li>ECT* Nuclear Theory Workshops</li>
       </ul>
     </div>
-  </div>
-</div>
-
-<div class="section-card">
-  <h2 class="section-title">💰 Funding & Fellowship Opportunities</h2>
-  
-  <div class="skills-grid">
-    <div class="skill-item">
-      <h3>✈️ Travel & Research Grants</h3>
-      <ul>
-        <li>Conference travel awards from professional societies</li>
-        <li>Graduate student research grants</li>
-        <li>International exchange programs</li>
-        <li>Summer school funding opportunities</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>📝 Grant Writing Skills</h3>
-      <ul>
-        <li>Start with small, local funding opportunities</li>
-        <li>Learn budget preparation and justification</li>
-        <li>Develop clear project timelines</li>
-        <li>Practice writing for non-specialist reviewers</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>💡 Funding Strategy</h3>
-      <ul>
-        <li>Apply early and often to build experience</li>
-        <li>Seek feedback on unsuccessful applications</li>
-        <li>Diversify funding sources</li>
-        <li>Consider industry partnerships</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="cta-box">
-    <h3>🎯 Funding Application Strategy</h3>
-    <p>Start preparing funding applications 6-12 months in advance. Research deadlines for travel grants and research funding opportunities. Build relationships with potential mentors and collaborators early to strengthen applications.</p>
   </div>
 </div>
 
@@ -713,64 +579,137 @@ author_profile: true
 </div>
 
 <div class="section-card">
-  <h2 class="section-title">🧠 Mental Health & Wellness</h2>
+  <h2 class="section-title">💰 Funding & Fellowship Opportunities</h2>
   
-  <div class="resource-list">
-    <h3>⚖️ Work-Life Balance Strategies</h3>
-    <ul>
-      <li><strong>Set Boundaries:</strong> Define work hours and stick to them</li>
-      <li><strong>Regular Exercise:</strong> Physical activity reduces stress and improves focus</li>
-      <li><strong>Social Connections:</strong> Maintain relationships outside academia</li>
-      <li><strong>Hobbies:</strong> Pursue non-academic interests for mental refreshment</li>
-      <li><strong>Sleep Hygiene:</strong> Prioritize 7-8 hours of quality sleep</li>
-    </ul>
-  </div>
-
   <div class="skills-grid">
     <div class="skill-item">
-      <h3>🎯 Stress Management</h3>
+      <h3>✈️ Travel & Research Grants</h3>
       <ul>
-        <li>Practice mindfulness or meditation</li>
-        <li>Break large tasks into smaller steps</li>
-        <li>Celebrate small victories regularly</li>
-        <li>Seek professional help when needed</li>
+        <li>Conference travel awards from professional societies</li>
+        <li>Graduate student research grants</li>
+        <li>International exchange programs</li>
+        <li>Summer school funding opportunities</li>
       </ul>
     </div>
 
     <div class="skill-item">
-      <h3>💬 Communication & Support</h3>
+      <h3>📝 Grant Writing Skills</h3>
       <ul>
-        <li>Regular check-ins with advisor</li>
-        <li>Peer support groups</li>
-        <li>University counseling services</li>
-        <li>Professional development workshops</li>
+        <li>Start with small, local funding opportunities</li>
+        <li>Learn budget preparation and justification</li>
+        <li>Develop clear project timelines</li>
+        <li>Practice writing for non-specialist reviewers</li>
       </ul>
     </div>
 
     <div class="skill-item">
-      <h3>📈 Progress Tracking</h3>
+      <h3>💡 Funding Strategy</h3>
       <ul>
-        <li>Keep a research journal</li>
-        <li>Set realistic weekly goals</li>
-        <li>Regular self-assessment</li>
-        <li>Acknowledge growth over time</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>🛡️ Dealing with Setbacks</h3>
-      <ul>
-        <li>View failures as learning opportunities</li>
-        <li>Maintain perspective on long-term goals</li>
-        <li>Build resilience through diverse experiences</li>
-        <li>Practice self-compassion</li>
+        <li>Apply early and often to build experience</li>
+        <li>Seek feedback on unsuccessful applications</li>
+        <li>Diversify funding sources</li>
+        <li>Consider industry partnerships</li>
       </ul>
     </div>
   </div>
 
   <div class="cta-box">
-    <h3>🚨 When to Seek Help</h3>
-    <p>Don't hesitate to reach out if you experience persistent anxiety, depression, impostor syndrome, or burnout. These are common in graduate school and seeking help is a sign of strength, not weakness. Your university likely offers free counseling services.</p>
+    <h3>🎯 Funding Application Strategy</h3>
+    <p>Start preparing funding applications 6-12 months in advance. Research deadlines for travel grants and research funding opportunities. Build relationships with potential mentors and collaborators early to strengthen applications.</p>
+  </div>
+</div>
+
+<!-- PHASE 6: ADVANCED SKILLS & CAREER PLANNING -->
+
+<div class="section-card">
+  <h2 class="section-title">🚀 Advanced Skill Building</h2>
+  
+  <div class="skills-grid">
+    <div class="skill-item">
+      <h3>🤖 Cutting-Edge Techniques</h3>
+      <ul>
+        <li>Machine learning for nuclear data</li>
+        <li>High-performance computing</li>
+        <li>Quantum computing applications</li>
+        <li>Advanced numerical methods</li>
+      </ul>
+    </div>
+
+    <div class="skill-item">
+      <h3>🌍 Interdisciplinary Links</h3>
+      <ul>
+        <li>Stellar nucleosynthesis</li>
+        <li>Fusion energy applications</li>
+        <li>Medical physics connections</li>
+        <li>Security applications</li>
+      </ul>
+    </div>
+
+    <div class="skill-item">
+      <h3>💰 Professional Skills</h3>
+      <ul>
+        <li>Grant writing early</li>
+        <li>Proposal development</li>
+        <li>Funding acquisition</li>
+        <li>Project management</li>
+      </ul>
+    </div>
+
+    <div class="skill-item">
+      <h3>📚 Staying Current</h3>
+      <ul>
+        <li>Regular arXiv monitoring</li>
+        <li>Trend adaptation</li>
+        <li>Ethical practices</li>
+        <li>Reproducible research</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section-card">
+  <h2 class="section-title">🏆 Metrics of Success</h2>
+  
+  <div class="skills-grid">
+    <div class="skill-item">
+      <h3>📝 Academic Achievements</h3>
+      <ul>
+        <li>Complete thesis on time</li>
+        <li>2-3 co-authored publications</li>
+        <li>Conference presentations</li>
+        <li>Strong recommendation letters</li>
+      </ul>
+    </div>
+
+    <div class="skill-item">
+      <h3>📊 Publication Targets</h3>
+      <ul>
+        <li>Physical Review C articles</li>
+        <li>Reaction theory contributions</li>
+        <li>Astrophysics research</li>
+        <li>Building h-index</li>
+      </ul>
+    </div>
+
+    <div class="skill-item">
+      <h3>🎯 Professional Growth</h3>
+      <ul>
+        <li>Research independence</li>
+        <li>Collaboration skills</li>
+        <li>Communication abilities</li>
+        <li>Career preparation</li>
+      </ul>
+    </div>
+
+    <div class="skill-item">
+      <h3>🚀 Long-term Goals</h3>
+      <ul>
+        <li>Postdoc positions</li>
+        <li>Industry opportunities</li>
+        <li>Academic career paths</li>
+        <li>Field advancement</li>
+      </ul>
+    </div>
   </div>
 </div>
 
@@ -826,52 +765,76 @@ author_profile: true
 </div>
 
 <div class="section-card">
-  <h2 class="section-title">📱 Modern Research Tools & Technologies</h2>
+  <h2 class="section-title">🌟 Professional Career Mindset</h2>
   
+  <div class="resource-list">
+    <h3>🤝 Ethical Collaboration</h3>
+    <ul>
+      <li><strong>Reproducibility:</strong> Ensure your simulations and results can be reproduced</li>
+      <li><strong>Proper Citations:</strong> Give credit where credit is due</li>
+      <li><strong>Inclusivity:</strong> Advocate for diversity in your field</li>
+      <li><strong>Mentorship:</strong> Pay it forward by helping junior students</li>
+    </ul>
+  </div>
+
+  <div class="highlight-box">
+    <h3>🎯 Success Indicators</h3>
+    <ul class="icon-list">
+      <li>Securing postdoc positions</li>
+      <li>Achieving tenure-track roles</li>
+      <li>Building a fulfilling legacy in nuclear physics</li>
+      <li>Contributing to scientific advancement</li>
+    </ul>
+  </div>
+
+  <div class="cta-box">
+    <h3>🌱 Personal Growth</h3>
+    <p>Stay adaptable by pivoting to relevant areas, celebrate small wins to sustain enthusiasm, and ensure work-life balance with hobbies. Remember Jin Lei's approach to balancing professional excellence with personal fulfillment.</p>
+  </div>
+</div>
+
+<!-- CONCLUSION -->
+
+<div class="section-card">
+  <h2 class="section-title">🎉 Your Journey Continues</h2>
+  
+  <p>Fostering personal growth and balance completes the graduate journey, transforming challenges into strengths. Cultivate resilience amid nonlinear research by celebrating victories like successful codes or breakthrough insights.</p>
+
   <div class="skills-grid">
     <div class="skill-item">
-      <h3>☁️ Cloud Computing</h3>
+      <h3>🎨 Creative Balance</h3>
       <ul>
-        <li>Google Colab for collaborative coding</li>
-        <li>AWS/Azure for large-scale computations</li>
-        <li>Docker containers for reproducibility</li>
-        <li>Jupyter notebooks for data analysis</li>
+        <li>Integrate hobbies for creativity</li>
+        <li>Maintain physical and mental health</li>
+        <li>Build social connections</li>
+        <li>Practice mindfulness</li>
       </ul>
     </div>
 
     <div class="skill-item">
-      <h3>🤖 AI/ML Integration</h3>
+      <h3>🌍 Community Engagement</h3>
       <ul>
-        <li>Machine learning for nuclear data analysis</li>
-        <li>Neural networks for potential modeling</li>
-        <li>Pattern recognition in experimental data</li>
-        <li>Automated literature analysis tools</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>📊 Visualization & Communication</h3>
-      <ul>
-        <li>Advanced plotting with Python (Matplotlib, Plotly)</li>
-        <li>Interactive dashboards with Dash/Streamlit</li>
-        <li>3D visualization for nuclear structures</li>
-        <li>Animation for reaction dynamics</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>🔗 Collaboration Platforms</h3>
-      <ul>
-        <li>Slack/Discord for team communication</li>
-        <li>Overleaf for collaborative LaTeX writing</li>
-        <li>GitHub for code collaboration</li>
-        <li>Notion/Obsidian for knowledge management</li>
+        <li>Teaching and public outreach</li>
+        <li>Inspiring future scientists</li>
+        <li>Science communication</li>
+        <li>Professional networking</li>
       </ul>
     </div>
   </div>
 
-  <div class="cta-box">
-    <h3>🎯 Technology Integration</h3>
-    <p>Stay current with emerging tools but don't get distracted by every new technology. Focus on tools that enhance your productivity and research quality. Consider the learning curve vs. potential benefits for each new tool.</p>
+  <div class="resource-list">
+    <h3>🔗 Useful Resources</h3>
+    <ul>
+      <li><strong>Jin Lei's GitHub:</strong> <a href="https://jinleiphys.github.io">jinleiphys.github.io</a></li>
+      <li><strong>Group Website:</strong> <a href="https://fewbody.com">fewbody.com</a></li>
+      <li><strong>arXiv:</strong> Stay current with latest research</li>
+      <li><strong>Nuclear Data:</strong> NNDC, ENSDF for reaction databases</li>
+    </ul>
+  </div>
+
+  <div class="intro-section">
+    <h3>🎯 Your Success Formula</h3>
+    <p>By communicating effectively, persisting through challenges, and contributing meaningfully to the field, you'll emerge as an accomplished researcher ready for impactful contributions to nuclear physics and beyond.</p>
+    <p><strong>Remember:</strong> Your journey in graduate school is not just about earning a degree—it's about becoming a professional researcher who can make lasting contributions to science and society.</p>
   </div>
 </div>
