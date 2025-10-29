@@ -190,6 +190,9 @@
   }
 
   button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     height: 100%;
     right: 0;
@@ -199,14 +202,64 @@
     background-color: $primary-color;
     color: #fff;
     cursor: pointer;
+
+    &.hidden {
+      display: none;
+    }
+
+    .navicon {
+      position: relative;
+      width: 1.5rem;
+      height: 0.25rem;
+      background: #fff;
+      transition: 0.3s;
+
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 1.5rem;
+        height: 0.25rem;
+        background: #fff;
+        transition: 0.3s;
+      }
+
+      &:before {
+        top: -0.5rem;
+      }
+
+      &:after {
+        top: 0.5rem;
+      }
+    }
+
+    &.close {
+      .navicon {
+        background: transparent;
+
+        &:before {
+          transform: rotate(-45deg);
+          top: 0;
+        }
+
+        &:after {
+          transform: rotate(45deg);
+          top: 0;
+        }
+      }
+    }
   }
 
   .visible-links {
     display: table;
+    width: 100%;
+    table-layout: auto;
 
     li {
       display: table-cell;
       vertical-align: middle;
+      white-space: nowrap;
 
       &:first-child {
         font-weight: bold;
@@ -220,6 +273,13 @@
         a {
           margin-right: 0;
         }
+      }
+    }
+
+    @media (max-width: 768px) {
+      a {
+        margin: 0 0.5rem;
+        font-size: 0.9em;
       }
     }
 
@@ -259,6 +319,8 @@
     border-radius: $border-radius;
     background: #fff;
     box-shadow: 0 0 10px rgba(#000, 0.25);
+    z-index: 100;
+    min-width: 200px;
 
     a {
       margin: 0;
@@ -304,6 +366,10 @@
       &:last-child {
         border-bottom: none;
       }
+    }
+
+    &.hidden {
+      display: none;
     }
   }
 }
