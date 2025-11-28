@@ -14,6 +14,8 @@ My journey began in the historic city of Shenyang, China, where the seeds of my 
 
 The pursuit of postdoctoral research took me across the globe, from the serene campus of Ohio University in Athens, Ohio, to the historic halls of the Istituto Nazionale di Fisica Nucleare in Pisa, Italy. My research during these formative years centered on the intricacies of nuclear reactions, delving into the systematic examination of nuclear reaction observables and the complex dance of particles in quantum three-body problems.
 
+![My Career Map](/images/Jin_career_map.png)
+
 Today, I stand before my students at Tongji University in Shanghai, China, as a professor, eager to unravel the mysteries of nuclear physics. My work explores the nuances of nuclear reactions, particularly focusing on the optical potential errors and the phenomena of fusion and incomplete fusion in weakly bound projectile-induced reactions, through the lens of the inclusive breakup model.
 
 Teaching is not just a profession for me; it is a two-way street of growth and discovery. Inspired by the traditional Chinese adage, "Teaching and Learning Encourage Each Other," I find the inquisitiveness of my students to be a driving force, pushing me to broaden my horizons and embrace the power of communication.
