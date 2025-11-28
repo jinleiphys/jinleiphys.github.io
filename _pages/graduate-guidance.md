@@ -6,835 +6,1329 @@ author_profile: true
 ---
 
 <style>
-.section-card {
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  border-radius: 12px;
-  padding: 2rem;
-  margin: 2rem 0;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+:root {
+  --primary: #6366f1;
+  --primary-dark: #4f46e5;
+  --secondary: #ec4899;
+  --accent: #14b8a6;
+  --bg-light: #f8fafc;
+  --bg-card: #ffffff;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --border: #e2e8f0;
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
 }
 
-.section-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+.dark-mode {
+  --bg-light: #0f172a;
+  --bg-card: #1e293b;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --border: #334155;
 }
 
-.section-title {
-  color: #2c3e50;
-  border-bottom: 3px solid #3498db;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1.5rem;
-  font-size: 1.8rem;
-  font-weight: 600;
-}
-
-.highlight-box {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  border-radius: 24px;
+  padding: 3rem 2rem;
+  text-align: center;
   color: white;
-  padding: 1.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+  animation: pulse 4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 0.5; }
+  50% { transform: scale(1.1); opacity: 0.3; }
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.95;
+  position: relative;
+  z-index: 1;
+}
+
+.hero a {
+  color: #fcd34d;
+  text-decoration: underline;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  z-index: 1000;
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Progress Sidebar */
+.progress-sidebar {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  display: none;
+}
+
+@media (min-width: 1400px) {
+  .progress-sidebar {
+    display: block;
+  }
+}
+
+.progress-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--border);
+  margin: 12px 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.progress-dot.active {
+  background: var(--primary);
+  transform: scale(1.3);
+}
+
+.progress-dot:hover::after {
+  content: attr(data-label);
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  padding: 0.5rem 1rem;
   border-radius: 8px;
-  margin: 1rem 0;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  font-size: 0.85rem;
+  white-space: nowrap;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
 }
 
-.resource-list {
-  background: #f8f9fa;
-  border-left: 4px solid #28a745;
-  padding: 1rem 1.5rem;
-  margin: 1rem 0;
-  border-radius: 0 8px 8px 0;
+/* Navigation Tabs */
+.nav-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  background: var(--bg-card);
+  padding: 1rem;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
 }
 
-.skills-grid {
+.nav-tab {
+  padding: 0.75rem 1.25rem;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-tab:hover {
+  background: var(--bg-light);
+  color: var(--text-primary);
+}
+
+.nav-tab.active {
+  background: var(--primary);
+  color: white;
+}
+
+/* Section Cards */
+.section {
+  display: none;
+  animation: fadeIn 0.5s ease;
+}
+
+.section.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.card {
+  background: var(--bg-card);
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.card h2 {
+  color: var(--text-primary);
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.card h3 {
+  color: var(--text-primary);
+  font-size: 1.15rem;
+  margin: 1.5rem 0 1rem;
+}
+
+.card p, .card li {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* Accordion */
+.accordion {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.accordion-item {
+  border-bottom: 1px solid var(--border);
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 1.25rem 1.5rem;
+  background: var(--bg-light);
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+}
+
+.accordion-header:hover {
+  background: var(--border);
+}
+
+.accordion-header .icon {
+  transition: transform 0.3s ease;
+  font-size: 1.25rem;
+}
+
+.accordion-item.open .accordion-header .icon {
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  background: var(--bg-card);
+}
+
+.accordion-item.open .accordion-content {
+  max-height: 2000px;
+}
+
+.accordion-body {
+  padding: 1.5rem;
+}
+
+/* Grid Layout */
+.grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
   margin: 1.5rem 0;
 }
 
-.skill-item {
-  background: white;
+.grid-item {
+  background: var(--bg-light);
   padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border-top: 4px solid #e74c3c;
+  border-radius: 12px;
+  border-left: 4px solid var(--primary);
+  transition: all 0.3s ease;
+}
+
+.grid-item:nth-child(2) { border-left-color: var(--secondary); }
+.grid-item:nth-child(3) { border-left-color: var(--accent); }
+.grid-item:nth-child(4) { border-left-color: #f59e0b; }
+
+.grid-item:hover {
+  transform: translateX(5px);
+}
+
+.grid-item h4 {
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+  font-size: 1.05rem;
+}
+
+.grid-item ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.grid-item li {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+}
+
+/* Timeline */
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+  margin: 1.5rem 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(to bottom, var(--primary), var(--secondary));
+  border-radius: 3px;
 }
 
 .timeline-item {
   position: relative;
-  padding-left: 2rem;
-  margin: 1.5rem 0;
-  border-left: 3px solid #3498db;
+  padding: 1rem 0 1rem 1.5rem;
 }
 
 .timeline-item::before {
   content: '';
   position: absolute;
-  left: -8px;
-  top: 0;
-  width: 16px;
-  height: 16px;
+  left: -1.5rem;
+  top: 1.25rem;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
-  background: #3498db;
+  background: var(--primary);
+  border: 3px solid var(--bg-card);
+  box-shadow: var(--shadow);
 }
 
-.intro-section {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+.timeline-item h4 {
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.timeline-item p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* Highlight Boxes */
+.highlight {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
   color: white;
-  padding: 3rem 2rem;
-  border-radius: 15px;
-  text-align: center;
-  margin-bottom: 3rem;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin: 1.5rem 0;
 }
 
-.cta-box {
-  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+.highlight h3 {
+  color: white;
+  margin-top: 0;
+}
+
+.highlight p, .highlight li {
+  color: rgba(255,255,255,0.95);
+}
+
+.highlight.secondary {
+  background: linear-gradient(135deg, var(--secondary) 0%, #db2777 100%);
+}
+
+.highlight.accent {
+  background: linear-gradient(135deg, var(--accent) 0%, #0d9488 100%);
+}
+
+/* Resource List */
+.resource-box {
+  background: var(--bg-light);
+  border-left: 4px solid var(--accent);
+  padding: 1.5rem;
+  border-radius: 0 12px 12px 0;
+  margin: 1.5rem 0;
+}
+
+.resource-box h3 {
+  margin-top: 0;
+  color: var(--text-primary);
+}
+
+/* CTA Box */
+.cta {
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
   color: white;
   padding: 2rem;
-  border-radius: 12px;
+  border-radius: 16px;
   text-align: center;
   margin: 2rem 0;
-  box-shadow: 0 8px 25px rgba(255, 107, 107, 0.3);
 }
 
-.icon-list {
+.cta h3 {
+  color: white;
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+.cta p {
+  color: rgba(255,255,255,0.95);
+  margin-bottom: 0;
+}
+
+/* Search Box */
+.search-box {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 1rem 1rem 1rem 3rem;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  font-size: 1rem;
+  background: var(--bg-card);
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1);
+}
+
+.search-box::before {
+  content: '🔍';
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.1rem;
+}
+
+/* Checklist */
+.checklist {
   list-style: none;
   padding: 0;
+  margin: 1rem 0;
 }
 
-.icon-list li {
-  padding: 0.5rem 0;
-  position: relative;
-  padding-left: 2rem;
+.checklist li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border);
 }
 
-.icon-list li::before {
-  content: '🎯';
-  position: absolute;
-  left: 0;
-  top: 0.5rem;
+.checklist li:last-child {
+  border-bottom: none;
+}
+
+.checklist input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--primary);
+  margin-top: 2px;
+}
+
+.checklist label {
+  color: var(--text-secondary);
+  cursor: pointer;
+  flex: 1;
+}
+
+.checklist input:checked + label {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Stats Counter */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 1.5rem;
+  background: var(--bg-light);
+  border-radius: 12px;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary);
+  display: block;
+}
+
+.stat-label {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero { padding: 2rem 1.5rem; }
+  .hero h1 { font-size: 1.8rem; }
+  .card { padding: 1.5rem; }
+  .nav-tabs { flex-direction: column; }
+  .nav-tab { justify-content: center; }
+  .theme-toggle { top: auto; bottom: 20px; right: 20px; }
 }
 </style>
 
-<div class="intro-section">
-  <h1>🚀 Your Journey in Nuclear Physics Graduate School</h1>
-  <p style="font-size: 1.2rem; margin-top: 1rem;">Welcome to the <a href="https://fewbody.com" target="_blank" style="color: #FFD700; text-decoration: underline;">Quantum Few-Body Dynamics Research Group</a>! This comprehensive guide will help you navigate your graduate journey and thrive as a nuclear physics researcher.</p>
+<button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">🌙</button>
+
+<div class="progress-sidebar" id="progressSidebar">
+  <div class="progress-dot" data-label="Getting Started" data-section="0"></div>
+  <div class="progress-dot" data-label="Core Skills" data-section="1"></div>
+  <div class="progress-dot" data-label="Mentor & Habits" data-section="2"></div>
+  <div class="progress-dot" data-label="Research Growth" data-section="3"></div>
+  <div class="progress-dot" data-label="Networking" data-section="4"></div>
+  <div class="progress-dot" data-label="Career" data-section="5"></div>
 </div>
 
-<!-- PHASE 1: FOUNDATION & UNDERSTANDING -->
+<div class="hero">
+  <h1>Your Journey in Nuclear Physics Graduate School</h1>
+  <p>Welcome to the <a href="https://fewbody.com" target="_blank">Quantum Few-Body Dynamics Research Group</a>! This interactive guide will help you navigate your graduate journey and thrive as a nuclear physics researcher.</p>
+</div>
 
-<div class="section-card">
-  <h2 class="section-title">🌟 Understanding Graduate School</h2>
-  
-  <p>Graduate school represents a significant transition from undergraduate studies, marking the beginning of a journey into specialized research and independent scholarship. As a graduate student in nuclear physics, you are essentially training to become a professional researcher, contributing original knowledge to the field while honing skills that extend beyond academia.</p>
+<div class="search-box">
+  <input type="text" id="searchInput" placeholder="Search topics... (e.g., 'conferences', 'mental health', 'coding')" onkeyup="searchContent()">
+</div>
 
-  <div class="highlight-box">
-    <h3>Key Differences from Undergraduate Study</h3>
-    <ul class="icon-list">
-      <li>Focus shifts from broad learning to deep specialization</li>
-      <li>Emphasis on research and original contributions</li>
-      <li>Mentorship-driven learning rather than exam-based</li>
-      <li>Building professional researcher skills</li>
+<div class="nav-tabs">
+  <button class="nav-tab active" onclick="showSection(0)">🚀 Getting Started</button>
+  <button class="nav-tab" onclick="showSection(1)">🛠️ Core Skills</button>
+  <button class="nav-tab" onclick="showSection(2)">🤝 Mentor & Habits</button>
+  <button class="nav-tab" onclick="showSection(3)">🎓 Research Growth</button>
+  <button class="nav-tab" onclick="showSection(4)">🌐 Networking</button>
+  <button class="nav-tab" onclick="showSection(5)">🚀 Career</button>
+</div>
+
+<!-- Section 0: Getting Started -->
+<div class="section active" id="section-0">
+  <div class="card">
+    <h2>🌟 Understanding Graduate School</h2>
+    <p>Graduate school represents a significant transition from undergraduate studies. As a graduate student in nuclear physics, you are training to become a professional researcher, contributing original knowledge while honing skills that extend beyond academia.</p>
+
+    <div class="highlight">
+      <h3>Key Differences from Undergraduate Study</h3>
+      <ul>
+        <li>Focus shifts from broad learning to deep specialization</li>
+        <li>Emphasis on research and original contributions</li>
+        <li>Mentorship-driven learning rather than exam-based</li>
+        <li>Building professional researcher skills</li>
+      </ul>
+    </div>
+
+    <p>In nuclear physics—a mature discipline with roots in early 20th-century discoveries—you'll explore fundamental questions about the universe, including nucleosynthesis in stars, exotic nuclei like halo structures, and fusion for clean energy.</p>
+  </div>
+
+  <div class="card">
+    <h2>🎯 Your First Weeks</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <h4>Week 1-2: Onboarding</h4>
+        <p>Receive your warm-up research project focused on quantum scattering theory, nuclear reaction dynamics, or advanced few-body quantum mechanics methods.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>Week 3-4: Foundation Building</h4>
+        <p>Immerse yourself in foundational reading and computational environments. Get comfortable with Linux and programming in Fortran.</p>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-header" onclick="toggleAccordion(this)">
+          <span>📚 Essential Reading Resources</span>
+          <span class="icon">▼</span>
+        </button>
+        <div class="accordion-content">
+          <div class="accordion-body">
+            <ul>
+              <li><strong>"Quantum Collision Theory"</strong> by C.J. Joachain - fundamental scattering theory</li>
+              <li><strong>"Nuclear Reaction Theory"</strong> by Herman Feshbach - comprehensive reaction dynamics</li>
+              <li><strong>"Quantum Mechanics II"</strong> by Rubin H. Landau</li>
+              <li><strong>"Theory of Nuclear Reactions"</strong> by A.K. Kerman - advanced reaction mechanisms</li>
+              <li><strong>Numerical Methods</strong> from Hjorth-Jensen's lectures</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cta">
+      <h3>🎯 Goal for First Month</h3>
+      <p>Allocate time daily to reading and note-taking. Grasp core concepts before diving into hands-on coding.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>🧠 Mental Health & Wellness</h2>
+
+    <div class="grid">
+      <div class="grid-item">
+        <h4>⚖️ Work-Life Balance</h4>
+        <ul>
+          <li>Set boundaries and work hours</li>
+          <li>Regular exercise</li>
+          <li>Social connections outside academia</li>
+          <li>Pursue hobbies</li>
+          <li>Prioritize 7-8 hours sleep</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4>🎯 Stress Management</h4>
+        <ul>
+          <li>Practice mindfulness</li>
+          <li>Break large tasks into steps</li>
+          <li>Celebrate small victories</li>
+          <li>Seek professional help when needed</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4>💬 Support Systems</h4>
+        <ul>
+          <li>Regular advisor check-ins</li>
+          <li>Peer support groups</li>
+          <li>University counseling services</li>
+          <li>Professional workshops</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4>🛡️ Dealing with Setbacks</h4>
+        <ul>
+          <li>View failures as learning</li>
+          <li>Maintain long-term perspective</li>
+          <li>Build resilience</li>
+          <li>Practice self-compassion</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="highlight secondary">
+      <h3>🚨 When to Seek Help</h3>
+      <p>Don't hesitate if you experience persistent anxiety, depression, impostor syndrome, or burnout. These are common in graduate school—seeking help is a sign of strength.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Section 1: Core Skills -->
+<div class="section" id="section-1">
+  <div class="card">
+    <h2>📚 Research Methodology</h2>
+
+    <div class="grid">
+      <div class="grid-item">
+        <h4>🔍 Literature Review</h4>
+        <ul>
+          <li>Boolean search on arXiv/Google Scholar</li>
+          <li>Set up email alerts</li>
+          <li>Track citations with Connected Papers</li>
+          <li>Use Zotero or Mendeley</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4>📖 Critical Reading</h4>
+        <ul>
+          <li>Read abstracts first</li>
+          <li>Focus on methodology</li>
+          <li>Question assumptions</li>
+          <li>Synthesize across papers</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4>🎯 Research Questions</h4>
+        <ul>
+          <li>Identify knowledge gaps</li>
+          <li>Formulate testable hypotheses</li>
+          <li>Consider feasibility</li>
+          <li>Align with group expertise</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4>📊 Data Analysis</h4>
+        <ul>
+          <li>Statistical vs physical meaning</li>
+          <li>Error propagation</li>
+          <li>Appropriate fitting methods</li>
+          <li>Multiple validation approaches</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="highlight accent">
+      <h3>💡 Research Workflow</h3>
+      <p>Read broadly → Identify problems → Formulate hypotheses → Design experiments → Validate results → Communicate findings. Keep detailed notebooks!</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>🛠️ Essential Tools & Skills</h2>
+
+    <div class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-header" onclick="toggleAccordion(this)">
+          <span>🔬 Theoretical Foundations</span>
+          <span class="icon">▼</span>
+        </button>
+        <div class="accordion-content">
+          <div class="accordion-body">
+            <ul>
+              <li>Quantum scattering theory</li>
+              <li>Nuclear reaction theory</li>
+              <li>Few-body quantum mechanics</li>
+              <li>Channel coupling methods</li>
+              <li>R-matrix and S-matrix formalism</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header" onclick="toggleAccordion(this)">
+          <span>💻 Computational Skills</span>
+          <span class="icon">▼</span>
+        </button>
+        <div class="accordion-content">
+          <div class="accordion-body">
+            <ul>
+              <li>Python, Fortran, or C++</li>
+              <li>NumPy for numerical work</li>
+              <li>ROOT for data analysis</li>
+              <li>High-performance computing</li>
+              <li>Version control with GitHub</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header" onclick="toggleAccordion(this)">
+          <span>☁️ Modern Technologies</span>
+          <span class="icon">▼</span>
+        </button>
+        <div class="accordion-content">
+          <div class="accordion-body">
+            <ul>
+              <li>Google Colab for collaborative coding</li>
+              <li>AWS/Azure for large-scale computations</li>
+              <li>Docker containers for reproducibility</li>
+              <li>Machine learning for nuclear data</li>
+              <li>Overleaf for collaborative LaTeX</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="resource-box">
+      <h3>💡 Core Theory Focus</h3>
+      <p>Master quantum scattering theory first—it provides the mathematical framework for all nuclear reactions. These foundations are essential before applying computational tools.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Section 2: Mentor & Habits -->
+<div class="section" id="section-2">
+  <div class="card">
+    <h2>🤝 Building Strong Mentor Relationships</h2>
+
+    <p>Fostering a strong mentor relationship is key to navigating graduate school successfully.</p>
+
+    <ul class="checklist">
+      <li>
+        <input type="checkbox" id="c1">
+        <label for="c1"><strong>Regular Meetings:</strong> Schedule weekly or bi-weekly sessions</label>
+      </li>
+      <li>
+        <input type="checkbox" id="c2">
+        <label for="c2"><strong>Come Prepared:</strong> Always have an agenda with updates</label>
+      </li>
+      <li>
+        <input type="checkbox" id="c3">
+        <label for="c3"><strong>Active Participation:</strong> Engage in seminars and journal clubs</label>
+      </li>
+      <li>
+        <input type="checkbox" id="c4">
+        <label for="c4"><strong>Open Communication:</strong> Reply to emails within a day</label>
+      </li>
+      <li>
+        <input type="checkbox" id="c5">
+        <label for="c5"><strong>Embrace Feedback:</strong> View it as learning, not criticism</label>
+      </li>
     </ul>
-  </div>
 
-  <p>In the context of nuclear physics—a mature discipline with roots in early 20th-century discoveries like radioactivity and fission—you'll explore fundamental questions about the universe, including nucleosynthesis in stars, dark matter interactions, exotic nuclei like halo structures, and fusion for clean energy.</p>
-</div>
-
-<div class="section-card">
-  <h2 class="section-title">🎯 Getting Started: Your First Weeks</h2>
-  
-  <div class="timeline-item">
-    <h3>Week 1-2: Onboarding Process</h3>
-    <p>Upon joining the <a href="https://fewbody.com" target="_blank">Quantum Few-Body Dynamics Research Group</a> under Professor Jin Lei, you'll receive a detailed warm-up research project focused on quantum scattering theory, nuclear reaction dynamics, nuclear astrophysics reactions, or advanced few-body quantum mechanics methods.</p>
-  </div>
-
-  <div class="timeline-item">
-    <h3>Week 3-4: Foundation Building</h3>
-    <p>Begin immersing yourself in foundational reading and computational environments. All work is computer-based, so getting comfortable with Linux and programming in Fortran is essential.</p>
-  </div>
-
-  <div class="resource-list">
-    <h3>📚 Essential Reading Resources</h3>
-    <ul>
-      <li><strong>"Quantum Collision Theory"</strong> by C.J. Joachain - fundamental scattering theory</li>
-      <li><strong>"Nuclear Reaction Theory"</strong> by Herman Feshbach - comprehensive reaction dynamics</li>
-      <li><strong>"Quantum Mechanics II: A Second Course in Quantum Theory"</strong> by Rubin H. Landau</li>
-      <li><strong>"Theory of Nuclear Reactions"</strong> by A.K. Kerman - advanced reaction mechanisms</li>
-      <li><strong>Numerical Methods</strong> from Hjorth-Jensen's lectures</li>
-    </ul>
-  </div>
-
-  <div class="cta-box">
-    <h3>🎯 Goal for First Month</h3>
-    <p>Allocate time daily to reading and note-taking, aiming to grasp core concepts before diving into hands-on coding. Build baseline knowledge through structured learning.</p>
-  </div>
-</div>
-
-<div class="section-card">
-  <h2 class="section-title">🧠 Mental Health & Wellness</h2>
-  
-  <div class="resource-list">
-    <h3>⚖️ Work-Life Balance Strategies</h3>
-    <ul>
-      <li><strong>Set Boundaries:</strong> Define work hours and stick to them</li>
-      <li><strong>Regular Exercise:</strong> Physical activity reduces stress and improves focus</li>
-      <li><strong>Social Connections:</strong> Maintain relationships outside academia</li>
-      <li><strong>Hobbies:</strong> Pursue non-academic interests for mental refreshment</li>
-      <li><strong>Sleep Hygiene:</strong> Prioritize 7-8 hours of quality sleep</li>
-    </ul>
-  </div>
-
-  <div class="skills-grid">
-    <div class="skill-item">
-      <h3>🎯 Stress Management</h3>
-      <ul>
-        <li>Practice mindfulness or meditation</li>
-        <li>Break large tasks into smaller steps</li>
-        <li>Celebrate small victories regularly</li>
-        <li>Seek professional help when needed</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>💬 Communication & Support</h3>
-      <ul>
-        <li>Regular check-ins with advisor</li>
-        <li>Peer support groups</li>
-        <li>University counseling services</li>
-        <li>Professional development workshops</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>📈 Progress Tracking</h3>
-      <ul>
-        <li>Keep a research journal</li>
-        <li>Set realistic weekly goals</li>
-        <li>Regular self-assessment</li>
-        <li>Acknowledge growth over time</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>🛡️ Dealing with Setbacks</h3>
-      <ul>
-        <li>View failures as learning opportunities</li>
-        <li>Maintain perspective on long-term goals</li>
-        <li>Build resilience through diverse experiences</li>
-        <li>Practice self-compassion</li>
-      </ul>
+    <div class="highlight">
+      <h3>🎯 Integration Strategy</h3>
+      <p>Leverage the emphasis on connecting atomic and nuclear physics for deeper insights. This collaborative approach helps transition from guided tasks to independence.</p>
     </div>
   </div>
 
-  <div class="cta-box">
-    <h3>🚨 When to Seek Help</h3>
-    <p>Don't hesitate to reach out if you experience persistent anxiety, depression, impostor syndrome, or burnout. These are common in graduate school and seeking help is a sign of strength, not weakness. Your university likely offers free counseling services.</p>
-  </div>
-</div>
+  <div class="card">
+    <h2>📅 Daily and Weekly Habits</h2>
 
-<!-- PHASE 2: CORE SKILLS & METHODOLOGIES -->
-
-<div class="section-card">
-  <h2 class="section-title">📚 Research Methodology & Literature Mastery</h2>
-  
-  <div class="skills-grid">
-    <div class="skill-item">
-      <h3>🔍 Effective Literature Review</h3>
-      <ul>
-        <li>Use Boolean search operators on arXiv and Google Scholar</li>
-        <li>Set up email alerts for key authors and topics</li>
-        <li>Track citation networks using Connected Papers</li>
-        <li>Maintain a reference management system (Zotero/Mendeley)</li>
-      </ul>
+    <div class="stats">
+      <div class="stat-item">
+        <span class="stat-number">60%</span>
+        <span class="stat-label">Core Research</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">20%</span>
+        <span class="stat-label">Literature Review</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">20%</span>
+        <span class="stat-label">Coding & Debug</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">40+</span>
+        <span class="stat-label">Hours/Week</span>
+      </div>
     </div>
 
-    <div class="skill-item">
-      <h3>📖 Critical Reading Strategy</h3>
-      <ul>
-        <li>Read abstracts and conclusions first for relevance</li>
-        <li>Focus on methodology and theoretical frameworks</li>
-        <li>Question assumptions and identify limitations</li>
-        <li>Synthesize findings across multiple papers</li>
-      </ul>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h4>Year 1 Milestones</h4>
+        <p>Reproduce a paper's results, master computational tools</p>
+      </div>
+      <div class="timeline-item">
+        <h4>Year 2 Milestones</h4>
+        <p>Submit conference abstract, begin independent research</p>
+      </div>
     </div>
 
-    <div class="skill-item">
-      <h3>🎯 Research Question Development</h3>
-      <ul>
-        <li>Identify gaps in current knowledge</li>
-        <li>Formulate testable hypotheses</li>
-        <li>Consider experimental feasibility</li>
-        <li>Align with group expertise and resources</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>📊 Data Analysis Excellence</h3>
-      <ul>
-        <li>Understand statistical significance vs. physical meaning</li>
-        <li>Implement error propagation correctly</li>
-        <li>Use appropriate fitting methods</li>
-        <li>Validate results through multiple approaches</li>
-      </ul>
+    <div class="cta">
+      <h3>🎯 Weekly Group Meetings</h3>
+      <p>Prepare summaries of your advancements and note new tasks for follow-up.</p>
     </div>
   </div>
 
-  <div class="highlight-box">
-    <h3>💡 Research Workflow Tip</h3>
-    <p>Develop a systematic approach: read broadly → identify specific problems → formulate hypotheses → design computational experiments → validate results → communicate findings. Keep detailed lab notebooks (digital or physical) documenting your thought process and results.</p>
-  </div>
-</div>
+  <div class="card">
+    <h2>💪 Overcoming Challenges</h2>
 
-<div class="section-card">
-  <h2 class="section-title">🛠️ Essential Skills & Modern Tools</h2>
-  
-  <div class="skills-grid">
-    <div class="skill-item">
-      <h3>🔬 Theoretical Foundations</h3>
-      <ul>
-        <li>Quantum scattering theory</li>
-        <li>Nuclear reaction theory</li>
-        <li>Few-body quantum mechanics</li>
-        <li>Channel coupling methods</li>
-        <li>R-matrix and S-matrix formalism</li>
-      </ul>
+    <div class="highlight secondary">
+      <h3>🧗 Navigating the Learning Curve</h3>
+      <p>The steep learning curve might involve initial confusion with complex theories or computational hurdles. Start with guided literature surveys before advancing to independent modeling.</p>
     </div>
 
-    <div class="skill-item">
-      <h3>💻 Computational Proficiency</h3>
-      <ul>
-        <li>Python, Fortran, or C++</li>
-        <li>NumPy for numerical work</li>
-        <li>ROOT for data analysis</li>
-        <li>High-performance computing</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>☁️ Modern Technologies</h3>
-      <ul>
-        <li>Google Colab for collaborative coding</li>
-        <li>AWS/Azure for large-scale computations</li>
-        <li>Docker containers for reproducibility</li>
-        <li>Machine learning for nuclear data analysis</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>🔧 Professional Tools</h3>
-      <ul>
-        <li>Version control with GitHub</li>
-        <li>Linux environment</li>
-        <li>Reaction calculation codes</li>
-        <li>Overleaf for collaborative LaTeX writing</li>
-        <li>Data visualization with Python</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="highlight-box">
-    <h3>💡 Core Theory Focus</h3>
-    <p>Master the fundamentals: quantum scattering theory provides the mathematical framework for understanding all nuclear reactions, while nuclear reaction theory bridges quantum mechanics to experimental observables. These theoretical foundations are essential before applying computational tools.</p>
-  </div>
-</div>
-
-<!-- PHASE 3: RELATIONSHIPS & DAILY PRACTICE -->
-
-<div class="section-card">
-  <h2 class="section-title">🤝 Building Strong Mentor Relationships</h2>
-  
-  <p>Fostering a strong mentor relationship with Professor Jin Lei is key to navigating graduate school successfully, providing guidance tailored to your growth.</p>
-
-  <div class="resource-list">
-    <h3>📋 Best Practices for Mentorship</h3>
-    <ul>
-      <li><strong>Regular Meetings:</strong> Schedule weekly or bi-weekly sessions</li>
-      <li><strong>Come Prepared:</strong> Always have an agenda with updates on projects</li>
-      <li><strong>Active Participation:</strong> Engage in group seminars and journal clubs</li>
-      <li><strong>Open Communication:</strong> Reply to emails within a day, share challenges openly</li>
-      <li><strong>Embrace Feedback:</strong> View feedback as learning tools, not criticism</li>
-    </ul>
-  </div>
-
-  <div class="highlight-box">
-    <h3>🎯 Integration Strategy</h3>
-    <p>Leverage Jin Lei's emphasis on connecting atomic and nuclear physics for deeper insights. This collaborative approach helps transition from guided tasks to independence.</p>
-  </div>
-</div>
-
-<div class="section-card">
-  <h2 class="section-title">📅 Daily and Weekly Habits</h2>
-  
-  <div class="skills-grid">
-    <div class="skill-item">
-      <h3>⏰ Time Allocation</h3>
-      <ul>
-        <li><strong>60%</strong> Core research (quantum scattering, reaction theory)</li>
-        <li><strong>20%</strong> Literature reviews (arXiv updates)</li>
-        <li><strong>20%</strong> Coding and debugging</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>📊 Weekly Commitment</h3>
-      <ul>
-        <li><strong>40 hours</strong> research minimum</li>
-        <li><strong>5 hours</strong> group activities</li>
-        <li>Regular milestone tracking</li>
-        <li>Progress journaling</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <h3>Year 1 Milestones</h3>
-    <p>Reproduce a paper's results, master computational tools</p>
-  </div>
-
-  <div class="timeline-item">
-    <h3>Year 2 Milestones</h3>
-    <p>Submit conference abstract, begin independent research</p>
-  </div>
-
-  <div class="cta-box">
-    <h3>🎯 Weekly Group Meetings</h3>
-    <p>Prepare summaries of your advancements since the last session and note new tasks for follow-up. Use your assigned office desk and computer (prefer Linux after consulting team members).</p>
-  </div>
-</div>
-
-<div class="section-card">
-  <h2 class="section-title">💪 Overcoming Challenges</h2>
-  
-  <div class="highlight-box">
-    <h3>🧗 Navigating the Learning Curve</h3>
-    <p>The steep learning curve in nuclear physics might involve initial confusion with complex theories or computational hurdles. Start with guided literature surveys before advancing to independent modeling.</p>
-  </div>
-
-  <div class="resource-list">
-    <h3>🛡️ Resilience Strategies</h3>
-    <ul>
-      <li><strong>Document Everything:</strong> Learn from failures and track progress</li>
-      <li><strong>Seek Help:</strong> Don't hesitate to ask questions—research feels directionless at first</li>
-      <li><strong>Balance is Vital:</strong> Follow Jin Lei's lead by incorporating hobbies</li>
-      <li><strong>Growth Mindset:</strong> View setbacks as opportunities for development</li>
-    </ul>
-  </div>
-
-  <div class="skills-grid">
-    <div class="skill-item">
-      <h3>🔍 Problem-Solving Approach</h3>
-      <ul>
-        <li>Break complex problems into smaller parts</li>
-        <li>Foster curiosity and persistence</li>
-        <li>Build collaborative relationships</li>
-        <li>Maintain work-life balance</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>🌱 Personal Development</h3>
-      <ul>
-        <li>Cultivate resilience</li>
-        <li>Celebrate small victories</li>
-        <li>Stay adaptable to new methods</li>
-        <li>Build professional networks</li>
-      </ul>
+    <div class="grid">
+      <div class="grid-item">
+        <h4>🔍 Problem-Solving</h4>
+        <ul>
+          <li>Break complex problems down</li>
+          <li>Foster curiosity</li>
+          <li>Build collaborations</li>
+          <li>Maintain balance</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4>🌱 Personal Development</h4>
+        <ul>
+          <li>Cultivate resilience</li>
+          <li>Celebrate small wins</li>
+          <li>Stay adaptable</li>
+          <li>Build networks</li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
 
-<!-- PHASE 4: RESEARCH INDEPENDENCE & GROWTH -->
+<!-- Section 3: Research Growth -->
+<div class="section" id="section-3">
+  <div class="card">
+    <h2>🎓 Developing Research Independence</h2>
 
-<div class="section-card">
-  <h2 class="section-title">🎓 Developing Research Independence</h2>
-  
-  <div class="timeline-item">
-    <h3>Phase 1: Foundation (Year 1)</h3>
-    <p>Master foundational concepts in quantum scattering theory and nuclear reaction dynamics through reading and coding. Start proposing small modifications to reaction calculations or incorporating new quantum few-body methods from recent arXiv papers.</p>
-  </div>
-
-  <div class="timeline-item">
-    <h3>Phase 2: Growth (Year 2)</h3>
-    <p>Take ownership of sub-projects. Collaborate with group members to co-author sections of papers, contributing original insights and navigating research uncertainties.</p>
-  </div>
-
-  <div class="timeline-item">
-    <h3>Phase 3: Independence (Year 3+)</h3>
-    <p>Formulate your thesis proposal independently, drawing on interdisciplinary links between atomic and nuclear physics. Drive your scientific trajectory forward through innovation.</p>
-  </div>
-
-  <div class="highlight-box">
-    <h3>🔬 Research Excellence</h3>
-    <p>Regularly question assumptions in literature reviews, identify research gaps in areas like halo nuclei or astrophysical reactions, and discuss potential extensions with your mentor.</p>
-  </div>
-</div>
-
-<!-- PHASE 5: PROFESSIONAL DEVELOPMENT & NETWORKING -->
-
-<div class="section-card">
-  <h2 class="section-title">🌐 Conferences & Professional Networking</h2>
-  
-  <div class="timeline-item">
-    <h3>Year 1: Local & Regional Conferences</h3>
-    <p>Attend local physics meetings to observe presentation styles and network with nearby institutions. Focus on learning conference etiquette and poster presentation basics.</p>
-  </div>
-
-  <div class="timeline-item">
-    <h3>Year 2: First Presentations</h3>
-    <p>Present your preliminary results at student conferences or division meetings. Practice clear, concise presentations that communicate your work's significance.</p>
-  </div>
-
-  <div class="timeline-item">
-    <h3>Year 3+: Major Conferences</h3>
-    <p>Target prestigious venues like APS Division of Nuclear Physics, International Nuclear Physics Conference, or specialized reaction theory workshops.</p>
-  </div>
-
-  <div class="resource-list">
-    <h3>🎤 Presentation Excellence</h3>
-    <ul>
-      <li><strong>Structure:</strong> Motivation → Methods → Results → Implications</li>
-      <li><strong>Visuals:</strong> Clear plots with large fonts and error bars</li>
-      <li><strong>Timing:</strong> Practice to stay within time limits</li>
-      <li><strong>Questions:</strong> Prepare for both technical and broad audience questions</li>
-      <li><strong>Follow-up:</strong> Exchange contacts and send references discussed</li>
-    </ul>
-  </div>
-
-  <div class="skills-grid">
-    <div class="skill-item">
-      <h3>🤝 Networking Strategy</h3>
-      <ul>
-        <li>Prepare elevator pitch about your research</li>
-        <li>Attend social events and poster sessions</li>
-        <li>Follow up with meaningful connections</li>
-        <li>Offer to collaborate or share resources</li>
-      </ul>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h4>Phase 1: Foundation (Year 1)</h4>
+        <p>Master foundational concepts through reading and coding. Start proposing small modifications to calculations.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>Phase 2: Growth (Year 2)</h4>
+        <p>Take ownership of sub-projects. Collaborate to co-author papers, contributing original insights.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>Phase 3: Independence (Year 3+)</h4>
+        <p>Formulate your thesis proposal independently. Drive your scientific trajectory through innovation.</p>
+      </div>
     </div>
 
-    <div class="skill-item">
-      <h3>🌍 Key Nuclear Physics Conferences</h3>
-      <ul>
-        <li>APS DNP Annual Meeting</li>
-        <li>International Nuclear Physics Conference</li>
-        <li>INPC - Nuclear Physics in Astrophysics</li>
-        <li>ECT* Nuclear Theory Workshops</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div class="section-card">
-  <h2 class="section-title">🌍 International Collaboration & Opportunities</h2>
-  
-  <div class="skills-grid">
-    <div class="skill-item">
-      <h3>🏛️ Research Facilities</h3>
-      <ul>
-        <li>CERN (European Organization for Nuclear Research)</li>
-        <li>RIKEN (Japan) - Radioactive Isotope Beam Factory</li>
-        <li>GSI/FAIR (Germany) - Heavy-ion research</li>
-        <li>TRIUMF (Canada) - Particle accelerator centre</li>
-        <li>Upcoming HIAF (China) - Heavy-ion accelerator facility</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>🎓 International Programs</h3>
-      <ul>
-        <li>CERN Summer Student Programme</li>
-        <li>RIKEN International Program Associate</li>
-        <li>Helmholtz International Graduate School</li>
-        <li>Marie Skłodowska-Curie Actions</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>📚 Summer Schools & Workshops</h3>
-      <ul>
-        <li>Les Houches Physics School</li>
-        <li>International Nuclear Physics Summer School</li>
-        <li>ECT* Doctoral Training Programme</li>
-        <li>CTEQ Schools on QCD</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>🤝 Collaboration Benefits</h3>
-      <ul>
-        <li>Access to unique experimental data</li>
-        <li>Exposure to different theoretical approaches</li>
-        <li>Language and cultural skills development</li>
-        <li>Global professional network building</li>
-      </ul>
+    <div class="highlight accent">
+      <h3>🔬 Research Excellence</h3>
+      <p>Regularly question assumptions, identify research gaps in areas like halo nuclei or astrophysical reactions, and discuss potential extensions with your mentor.</p>
     </div>
   </div>
 
-  <div class="highlight-box">
-    <h3>🌟 Cultural Intelligence</h3>
-    <p>International collaborations require cultural sensitivity and adaptability. Learn basic phrases in collaborators' languages, understand different meeting styles, and be patient with communication barriers. These soft skills are increasingly valuable in modern physics.</p>
+  <div class="card">
+    <h2>🚀 Advanced Skill Building</h2>
+
+    <div class="grid">
+      <div class="grid-item">
+        <h4>🤖 Cutting-Edge Techniques</h4>
+        <ul>
+          <li>Machine learning for nuclear data</li>
+          <li>High-performance computing</li>
+          <li>Quantum computing applications</li>
+          <li>Advanced numerical methods</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4>🌍 Interdisciplinary Links</h4>
+        <ul>
+          <li>Stellar nucleosynthesis</li>
+          <li>Fusion energy</li>
+          <li>Medical physics</li>
+          <li>Security applications</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4>💰 Professional Skills</h4>
+        <ul>
+          <li>Grant writing</li>
+          <li>Proposal development</li>
+          <li>Funding acquisition</li>
+          <li>Project management</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4>📚 Staying Current</h4>
+        <ul>
+          <li>Regular arXiv monitoring</li>
+          <li>Trend adaptation</li>
+          <li>Ethical practices</li>
+          <li>Reproducible research</li>
+        </ul>
+      </div>
+    </div>
   </div>
-</div>
 
-<div class="section-card">
-  <h2 class="section-title">💰 Funding & Fellowship Opportunities</h2>
-  
-  <div class="skills-grid">
-    <div class="skill-item">
-      <h3>✈️ Travel & Research Grants</h3>
-      <ul>
-        <li>Conference travel awards from professional societies</li>
-        <li>Graduate student research grants</li>
-        <li>International exchange programs</li>
-        <li>Summer school funding opportunities</li>
-      </ul>
-    </div>
+  <div class="card">
+    <h2>🏆 Metrics of Success</h2>
 
-    <div class="skill-item">
-      <h3>📝 Grant Writing Skills</h3>
-      <ul>
-        <li>Start with small, local funding opportunities</li>
-        <li>Learn budget preparation and justification</li>
-        <li>Develop clear project timelines</li>
-        <li>Practice writing for non-specialist reviewers</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>💡 Funding Strategy</h3>
-      <ul>
-        <li>Apply early and often to build experience</li>
-        <li>Seek feedback on unsuccessful applications</li>
-        <li>Diversify funding sources</li>
-        <li>Consider industry partnerships</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="cta-box">
-    <h3>🎯 Funding Application Strategy</h3>
-    <p>Start preparing funding applications 6-12 months in advance. Research deadlines for travel grants and research funding opportunities. Build relationships with potential mentors and collaborators early to strengthen applications.</p>
-  </div>
-</div>
-
-<!-- PHASE 6: ADVANCED SKILLS & CAREER PLANNING -->
-
-<div class="section-card">
-  <h2 class="section-title">🚀 Advanced Skill Building</h2>
-  
-  <div class="skills-grid">
-    <div class="skill-item">
-      <h3>🤖 Cutting-Edge Techniques</h3>
-      <ul>
-        <li>Machine learning for nuclear data</li>
-        <li>High-performance computing</li>
-        <li>Quantum computing applications</li>
-        <li>Advanced numerical methods</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>🌍 Interdisciplinary Links</h3>
-      <ul>
-        <li>Stellar nucleosynthesis</li>
-        <li>Fusion energy applications</li>
-        <li>Medical physics connections</li>
-        <li>Security applications</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>💰 Professional Skills</h3>
-      <ul>
-        <li>Grant writing early</li>
-        <li>Proposal development</li>
-        <li>Funding acquisition</li>
-        <li>Project management</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>📚 Staying Current</h3>
-      <ul>
-        <li>Regular arXiv monitoring</li>
-        <li>Trend adaptation</li>
-        <li>Ethical practices</li>
-        <li>Reproducible research</li>
-      </ul>
+    <div class="grid">
+      <div class="grid-item">
+        <h4>📝 Academic Goals</h4>
+        <ul>
+          <li>Complete thesis on time</li>
+          <li>2-3 co-authored publications</li>
+          <li>Conference presentations</li>
+          <li>Strong recommendations</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4>📊 Publication Targets</h4>
+        <ul>
+          <li>Physical Review C articles</li>
+          <li>Reaction theory contributions</li>
+          <li>Astrophysics research</li>
+          <li>Building h-index</li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="section-card">
-  <h2 class="section-title">🏆 Metrics of Success</h2>
-  
-  <div class="skills-grid">
-    <div class="skill-item">
-      <h3>📝 Academic Achievements</h3>
-      <ul>
-        <li>Complete thesis on time</li>
-        <li>2-3 co-authored publications</li>
-        <li>Conference presentations</li>
-        <li>Strong recommendation letters</li>
-      </ul>
+<!-- Section 4: Networking -->
+<div class="section" id="section-4">
+  <div class="card">
+    <h2>🌐 Conferences & Networking</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <h4>Year 1: Local Conferences</h4>
+        <p>Attend local physics meetings to observe presentation styles and network with nearby institutions.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>Year 2: First Presentations</h4>
+        <p>Present preliminary results at student conferences. Practice clear, concise presentations.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>Year 3+: Major Conferences</h4>
+        <p>Target prestigious venues like APS DNP, International Nuclear Physics Conference, or specialized workshops.</p>
+      </div>
     </div>
 
-    <div class="skill-item">
-      <h3>📊 Publication Targets</h3>
-      <ul>
-        <li>Physical Review C articles</li>
-        <li>Reaction theory contributions</li>
-        <li>Astrophysics research</li>
-        <li>Building h-index</li>
-      </ul>
+    <div class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-header" onclick="toggleAccordion(this)">
+          <span>🎤 Presentation Excellence</span>
+          <span class="icon">▼</span>
+        </button>
+        <div class="accordion-content">
+          <div class="accordion-body">
+            <ul>
+              <li><strong>Structure:</strong> Motivation → Methods → Results → Implications</li>
+              <li><strong>Visuals:</strong> Clear plots with large fonts and error bars</li>
+              <li><strong>Timing:</strong> Practice to stay within limits</li>
+              <li><strong>Questions:</strong> Prepare for technical and broad questions</li>
+              <li><strong>Follow-up:</strong> Exchange contacts and send references</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header" onclick="toggleAccordion(this)">
+          <span>🤝 Networking Strategy</span>
+          <span class="icon">▼</span>
+        </button>
+        <div class="accordion-content">
+          <div class="accordion-body">
+            <ul>
+              <li>Prepare elevator pitch about your research</li>
+              <li>Attend social events and poster sessions</li>
+              <li>Follow up with meaningful connections</li>
+              <li>Offer to collaborate or share resources</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>🌍 International Opportunities</h2>
+
+    <div class="grid">
+      <div class="grid-item">
+        <h4>🏛️ Research Facilities</h4>
+        <ul>
+          <li>CERN (Europe)</li>
+          <li>RIKEN (Japan)</li>
+          <li>GSI/FAIR (Germany)</li>
+          <li>TRIUMF (Canada)</li>
+          <li>HIAF (China)</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4>🎓 International Programs</h4>
+        <ul>
+          <li>CERN Summer Programme</li>
+          <li>RIKEN IPA</li>
+          <li>Helmholtz Graduate School</li>
+          <li>Marie Curie Actions</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4>📚 Summer Schools</h4>
+        <ul>
+          <li>Les Houches School</li>
+          <li>INT Summer School</li>
+          <li>ECT* Programme</li>
+          <li>CTEQ Schools</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4>🤝 Benefits</h4>
+        <ul>
+          <li>Unique experimental data</li>
+          <li>Different approaches</li>
+          <li>Cultural skills</li>
+          <li>Global network</li>
+        </ul>
+      </div>
     </div>
 
-    <div class="skill-item">
-      <h3>🎯 Professional Growth</h3>
-      <ul>
-        <li>Research independence</li>
-        <li>Collaboration skills</li>
-        <li>Communication abilities</li>
-        <li>Career preparation</li>
-      </ul>
+    <div class="highlight">
+      <h3>🌟 Cultural Intelligence</h3>
+      <p>International collaborations require cultural sensitivity. Learn basic phrases, understand different meeting styles, and be patient with communication barriers.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>💰 Funding Opportunities</h2>
+
+    <div class="grid">
+      <div class="grid-item">
+        <h4>✈️ Travel Grants</h4>
+        <ul>
+          <li>Professional society awards</li>
+          <li>Graduate research grants</li>
+          <li>Exchange programs</li>
+          <li>Summer school funding</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4>📝 Grant Writing</h4>
+        <ul>
+          <li>Start with small opportunities</li>
+          <li>Learn budget preparation</li>
+          <li>Develop clear timelines</li>
+          <li>Write for non-specialists</li>
+        </ul>
+      </div>
     </div>
 
-    <div class="skill-item">
-      <h3>🚀 Long-term Goals</h3>
-      <ul>
-        <li>Postdoc positions</li>
-        <li>Industry opportunities</li>
-        <li>Academic career paths</li>
-        <li>Field advancement</li>
-      </ul>
+    <div class="cta">
+      <h3>🎯 Funding Strategy</h3>
+      <p>Start preparing applications 6-12 months in advance. Research deadlines and build relationships with potential mentors early.</p>
     </div>
   </div>
 </div>
 
-<div class="section-card">
-  <h2 class="section-title">🚀 Career Diversification & Future Planning</h2>
-  
-  <div class="skills-grid">
-    <div class="skill-item">
-      <h3>🎓 Academic Career Path</h3>
+<!-- Section 5: Career -->
+<div class="section" id="section-5">
+  <div class="card">
+    <h2>🚀 Career Paths</h2>
+
+    <div class="grid">
+      <div class="grid-item">
+        <h4>🎓 Academic Path</h4>
+        <ul>
+          <li>Postdoc positions</li>
+          <li>Teaching experience</li>
+          <li>Grant writing skills</li>
+          <li>Independent research program</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4>🏭 Industry</h4>
+        <ul>
+          <li>National labs (LLNL, ORNL)</li>
+          <li>Defense contractors</li>
+          <li>Medical physics</li>
+          <li>Nuclear energy sector</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4>💼 Alternative Careers</h4>
+        <ul>
+          <li>Data science/ML</li>
+          <li>Quantitative finance</li>
+          <li>Science policy</li>
+          <li>Science communication</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4>🔧 Transferable Skills</h4>
+        <ul>
+          <li>Complex problem-solving</li>
+          <li>Programming</li>
+          <li>Statistical modeling</li>
+          <li>Project management</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="highlight">
+      <h3>💡 Career Planning</h3>
+      <p>Start exploring options early. Attend career panels, conduct informational interviews, and develop diverse skills. Your training provides a strong foundation for many high-impact careers.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>🌟 Professional Mindset</h2>
+
+    <div class="resource-box">
+      <h3>🤝 Ethical Collaboration</h3>
       <ul>
-        <li>Postdoc positions at top institutions</li>
-        <li>Teaching experience and pedagogy training</li>
-        <li>Grant writing and administrative skills</li>
-        <li>Building independent research program</li>
+        <li><strong>Reproducibility:</strong> Ensure results can be reproduced</li>
+        <li><strong>Proper Citations:</strong> Give credit where due</li>
+        <li><strong>Inclusivity:</strong> Advocate for diversity</li>
+        <li><strong>Mentorship:</strong> Help junior students</li>
       </ul>
     </div>
 
-    <div class="skill-item">
-      <h3>🏭 Industry Opportunities</h3>
+    <div class="highlight secondary">
+      <h3>🎯 Success Indicators</h3>
       <ul>
-        <li>National laboratories (LLNL, ORNL, ANL)</li>
-        <li>Defense contractors and consulting</li>
-        <li>Medical physics and radiotherapy</li>
-        <li>Nuclear energy sector</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>💼 Alternative Careers</h3>
-      <ul>
-        <li>Data science and machine learning</li>
-        <li>Quantitative finance and risk analysis</li>
-        <li>Science policy and government</li>
-        <li>Science communication and journalism</li>
-      </ul>
-    </div>
-
-    <div class="skill-item">
-      <h3>🔧 Transferable Skills</h3>
-      <ul>
-        <li>Complex problem-solving abilities</li>
-        <li>Programming and computational thinking</li>
-        <li>Statistical analysis and modeling</li>
-        <li>Project management and leadership</li>
+        <li>Securing postdoc positions</li>
+        <li>Achieving tenure-track roles</li>
+        <li>Building a fulfilling legacy</li>
+        <li>Contributing to scientific advancement</li>
       </ul>
     </div>
   </div>
 
-  <div class="highlight-box">
-    <h3>💡 Career Planning Strategy</h3>
-    <p>Start exploring career options early. Attend career panels, conduct informational interviews with professionals in different sectors, and develop a diverse skill set. Your nuclear physics training provides a strong foundation for many high-impact careers.</p>
+  <div class="card">
+    <h2>🎉 Your Journey Continues</h2>
+
+    <p>Fostering personal growth and balance completes the graduate journey, transforming challenges into strengths.</p>
+
+    <div class="grid">
+      <div class="grid-item">
+        <h4>🎨 Creative Balance</h4>
+        <ul>
+          <li>Integrate hobbies</li>
+          <li>Maintain health</li>
+          <li>Build connections</li>
+          <li>Practice mindfulness</li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h4>🌍 Community</h4>
+        <ul>
+          <li>Teaching & outreach</li>
+          <li>Inspiring future scientists</li>
+          <li>Science communication</li>
+          <li>Professional networking</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="resource-box">
+      <h3>🔗 Useful Resources</h3>
+      <ul>
+        <li><strong>Personal Website:</strong> <a href="https://jinleiphys.github.io">jinleiphys.github.io</a></li>
+        <li><strong>Group Website:</strong> <a href="https://fewbody.com">fewbody.com</a></li>
+        <li><strong>arXiv:</strong> Stay current with latest research</li>
+        <li><strong>Nuclear Data:</strong> NNDC, ENSDF databases</li>
+      </ul>
+    </div>
+
+    <div class="hero" style="margin-top: 2rem;">
+      <h3>🎯 Your Success Formula</h3>
+      <p>By communicating effectively, persisting through challenges, and contributing meaningfully, you'll emerge as an accomplished researcher ready for impactful contributions to nuclear physics and beyond.</p>
+      <p style="margin-top: 1rem;"><strong>Your journey is not just about earning a degree—it's about becoming a professional who makes lasting contributions to science and society.</strong></p>
+    </div>
   </div>
 </div>
 
-<div class="section-card">
-  <h2 class="section-title">🌟 Professional Career Mindset</h2>
-  
-  <div class="resource-list">
-    <h3>🤝 Ethical Collaboration</h3>
-    <ul>
-      <li><strong>Reproducibility:</strong> Ensure your simulations and results can be reproduced</li>
-      <li><strong>Proper Citations:</strong> Give credit where credit is due</li>
-      <li><strong>Inclusivity:</strong> Advocate for diversity in your field</li>
-      <li><strong>Mentorship:</strong> Pay it forward by helping junior students</li>
-    </ul>
-  </div>
+<script>
+let currentSection = 0;
+const totalSections = 6;
 
-  <div class="highlight-box">
-    <h3>🎯 Success Indicators</h3>
-    <ul class="icon-list">
-      <li>Securing postdoc positions</li>
-      <li>Achieving tenure-track roles</li>
-      <li>Building a fulfilling legacy in nuclear physics</li>
-      <li>Contributing to scientific advancement</li>
-    </ul>
-  </div>
+function showSection(index) {
+  // Update sections
+  document.querySelectorAll('.section').forEach((s, i) => {
+    s.classList.toggle('active', i === index);
+  });
 
-  <div class="cta-box">
-    <h3>🌱 Personal Growth</h3>
-    <p>Stay adaptable by pivoting to relevant areas, celebrate small wins to sustain enthusiasm, and ensure work-life balance with hobbies. Remember Jin Lei's approach to balancing professional excellence with personal fulfillment.</p>
-  </div>
-</div>
+  // Update tabs
+  document.querySelectorAll('.nav-tab').forEach((t, i) => {
+    t.classList.toggle('active', i === index);
+  });
 
-<!-- CONCLUSION -->
+  // Update progress dots
+  document.querySelectorAll('.progress-dot').forEach((d, i) => {
+    d.classList.toggle('active', i === index);
+  });
 
-<div class="section-card">
-  <h2 class="section-title">🎉 Your Journey Continues</h2>
-  
-  <p>Fostering personal growth and balance completes the graduate journey, transforming challenges into strengths. Cultivate resilience amid nonlinear research by celebrating victories like successful codes or breakthrough insights.</p>
+  currentSection = index;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
 
-  <div class="skills-grid">
-    <div class="skill-item">
-      <h3>🎨 Creative Balance</h3>
-      <ul>
-        <li>Integrate hobbies for creativity</li>
-        <li>Maintain physical and mental health</li>
-        <li>Build social connections</li>
-        <li>Practice mindfulness</li>
-      </ul>
-    </div>
+function toggleAccordion(header) {
+  const item = header.parentElement;
+  item.classList.toggle('open');
+}
 
-    <div class="skill-item">
-      <h3>🌍 Community Engagement</h3>
-      <ul>
-        <li>Teaching and public outreach</li>
-        <li>Inspiring future scientists</li>
-        <li>Science communication</li>
-        <li>Professional networking</li>
-      </ul>
-    </div>
-  </div>
+function toggleTheme() {
+  document.body.classList.toggle('dark-mode');
+  const btn = document.querySelector('.theme-toggle');
+  btn.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+  localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+}
 
-  <div class="resource-list">
-    <h3>🔗 Useful Resources</h3>
-    <ul>
-      <li><strong>Jin Lei's GitHub:</strong> <a href="https://jinleiphys.github.io">jinleiphys.github.io</a></li>
-      <li><strong>Group Website:</strong> <a href="https://fewbody.com">fewbody.com</a></li>
-      <li><strong>arXiv:</strong> Stay current with latest research</li>
-      <li><strong>Nuclear Data:</strong> NNDC, ENSDF for reaction databases</li>
-    </ul>
-  </div>
+function searchContent() {
+  const query = document.getElementById('searchInput').value.toLowerCase();
+  if (query.length < 2) return;
 
-  <div class="intro-section">
-    <h3>🎯 Your Success Formula</h3>
-    <p>By communicating effectively, persisting through challenges, and contributing meaningfully to the field, you'll emerge as an accomplished researcher ready for impactful contributions to nuclear physics and beyond.</p>
-    <p><strong>Remember:</strong> Your journey in graduate school is not just about earning a degree—it's about becoming a professional researcher who can make lasting contributions to science and society.</p>
-  </div>
-</div>
+  const sections = document.querySelectorAll('.section');
+  sections.forEach((section, index) => {
+    if (section.textContent.toLowerCase().includes(query)) {
+      showSection(index);
+      return;
+    }
+  });
+}
+
+// Initialize
+document.addEventListener('DOMContentLoaded', () => {
+  // Load saved theme
+  if (localStorage.getItem('theme') === 'dark') {
+    document.body.classList.add('dark-mode');
+    document.querySelector('.theme-toggle').textContent = '☀️';
+  }
+
+  // Progress dot clicks
+  document.querySelectorAll('.progress-dot').forEach(dot => {
+    dot.addEventListener('click', () => {
+      showSection(parseInt(dot.dataset.section));
+    });
+  });
+
+  // Keyboard navigation
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight' && currentSection < totalSections - 1) {
+      showSection(currentSection + 1);
+    } else if (e.key === 'ArrowLeft' && currentSection > 0) {
+      showSection(currentSection - 1);
+    }
+  });
+});
+</script>
