@@ -1,7 +1,13 @@
 # main links links
 main:
+  - title: "Research"
+    url: /research/
+
   - title: "Publications"
     url: /publications/
+
+  - title: "Group"
+    url: /group/
 
   - title: "Talks"
     url: /talks/
@@ -12,12 +18,11 @@ main:
   - title: "Service"
     url: /service/
 
-  - title: "Graduate Guidance"
-    url: /graduate-guidance/
+#  - title: "Graduate Guidance"
+#    url: /graduate-guidance/
 
 #  - title: "Blog Posts"
 #    url: /year-archive/
 
   - title: "CV"
     url: /cv/
-

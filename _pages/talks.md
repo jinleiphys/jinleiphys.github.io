@@ -23,6 +23,8 @@ Seminars
 
 Invited Talks at Workshops and Conferences
 ========
+* SMOOTHIE: A Computational Tool for Nonelastic Breakup Calculations using the Ichimura-Austern-Vincent Formalism, International Symposium Commemorating the 40th Anniversary of the Halo Nuclei (HALO-40), Oct. 12-18, 2025, Beijing, China, [link](https://jinlei.fewbody.com/halo40/)
+* 第三届核结构与反应少体问题研讨会 (Third Workshop on Nuclear Structure, Reactions, and Few-Body Problems), Jan. 18-23, 2026, IMP-CAS Huizhou Research Department, Huizhou, Guangdong, China, [link](https://jinlei.fewbody.com/huizhou26/)
 * Nuclear reaction in a three body model: exploring the story in Q-space, FRIB-Theory Alliance workshop:"From bound states to the continuum: Connecting bound state calculations with scattering and reaction theory.", East Lansing, MI, USA, June 11-22, 2018
 * Study of inclusive breakup reactions induced by weakly bound nuclei, INT Workshop INT-17-1a, Seattle, USA, 2017
 

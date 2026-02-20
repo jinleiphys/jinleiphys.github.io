@@ -21,11 +21,19 @@ Highlighted Publications
 
 Journal Articles
 ======
+* **Jin Lei**, 'Direct boundary matching: A bound-state technique for nuclear scattering with Lagrange-Legendre functions', Phys. Rev. C 113, 024614 (2026). <a href="/publications/PhysRevC.113.024614.pdf"> Download here</a>
+
+* Kyle Godbey, Martin Albertsson, Jacklyn M. Gates, Kris Hagel, Jesus Lubian, Andrzej Makowski, Patrick McGlynn, Gregory Potel, Jennifer L. Pore, Jeannie Rangel Borges, Kazuyuki Sekizawa, Filomena Nunes, Kaitlin Cook, Kouichi Hagino, Michal Kowal, **Jin Lei**, Matthew R. Mumpower, Witold Nazarewicz and Sait Umar, 'Paths to Superheavy Nuclei', J. Phys. G: Nucl. Part. Phys. (2025). <a href="/publications/JPG_Godbey2025.pdf"> Download here</a>
+
+* G. Yang, K. Wang, H. Liu, W. D. Chen, Y. Y. Yang, F. F. Duan, **Jin Lei**, D. Y. Pang, Z. H. Gao, S. Y. Jin, J. S. Wang, X. Liu, S. W. Xu, J. B. Ma, P. Ma, Z. Bai, Q. Hu and Z. Y. Sun, 'Direct measurement of 8B+p and 7Be+2p cross sections for 9C+208Pb at 303 MeV', Phys. Rev. C 111, 064602 (2025).
+
 * **Jin Lei**, Continuum effects and the Trojan horse mechanism in halo nuclei-induced reactions: Implications for heavy isotope synthesis, Phys. Rev. C 111, 034610 (2025), <a href="/publications/PhysRevC.111.034610.pdf"> Download here</a>
 
-* Junzhe Liu, **Jin Lei**, Zhongzhou Ren, COLOSS: Complex-scaled Optical and couLOmb Scattering Solver, Computer Physics Communications 311 (2025) 109568, <a href="/publications/cpc_311_109568.pdf"> Download here</a>
-
 * Hao Liu, **Jin Lei**, and Zhongzhou Ren, Kolmogorov-Arnold networks in nuclear binding energy prediction, Phys. Rev. C 111, 024316 (2025), <a href="/publications/PhysRevC.111.024316.pdf"> Download here</a>
+
+* **Jin Lei**, 'Research progress on the reaction mechanism of halo nuclei based on quantum few-body theory', Acta Physica Sinica 70, 3270–3277 (2025).
+
+* Junzhe Liu, **Jin Lei**, Zhongzhou Ren, COLOSS: Complex-scaled Optical and couLOmb Scattering Solver, Computer Physics Communications 311 (2025) 109568, <a href="/publications/cpc_311_109568.pdf"> Download here</a>
 
 * Junzhe Liu, **Jin Lei**, Zhongzhou Ren, A complex scaling method for efficient and accurate scattering emulation in nuclear reactions, Phys. Lett. B 858 (2024) 139070, <a href="/publications/Phys.Lett.B858.139070.pdf"> Download here</a>
 
@@ -47,19 +55,23 @@ S. Guo, M. Kumar Raju, X. H. Wang, R. H. Li, X. X. Xu, Z. Z. Ren, Y. H. Zhang, X
 * Hao Liu, Shinsuke Nakayama, **Jin Lei**, and Zhongzhou Ren, 'Comparison of Ichimura-Austern-Vincent and Glauber models for the deuteron-induced inclusive breakup reaction in light and medium-mass nuclei', Phys. Rev. C 108, 014617 (2023).  <a href="/publications/PhysRevC.108.014617.pdf"> Download here</a>
 
 
-* F. F. Duan, Y. Y. Yang, **Jin Lei**, K. Wang, Z. Y. Sun, D. Y. Pang, J. S. Wang, X. Liu, S. W. Xu, J. B. Ma, P. Ma, Z. Bai, Q. Hu, Z. H. Gao, X. X. Xu, C. J. Lin, H. M. Jia, N. R. Ma, L. J. Sun, D. X. Wang, G. Yang, S. Y. Jin, Z. Z. Ren, Y. H. Zhang, X. H. Zhou, Z. G. Hu and H. S. Xu, Phys. Rev. C 105, 034602 (2022). <a href="/publications/PhysRevC.105.034602.pdf"> Download here</a>
+* K. Wang, Y. Y. Yang, V. Guimarães, D. Y. Pang, F. F. Duan, Z. Y. Sun, **Jin Lei**, G. Yang, S. W. Xu, J. B. Ma, Q. Liu, Z. Bai, H. J. Ong, B. F. Lv, S. Guo, X. H. Wang, R. H. Li, M. Kumar Raju, Z. G. Hu and H. S. Xu, 'Elastic scattering investigation of radioactive 13B and 13O projectiles on a 208Pb target at intermediate energies', Phys. Rev. C 105, 054616 (2022).
 
+* F. F. Duan, Y. Y. Yang, **Jin Lei**, K. Wang, Z. Y. Sun, D. Y. Pang, J. S. Wang, X. Liu, S. W. Xu, J. B. Ma, P. Ma, Z. Bai, Q. Hu, Z. H. Gao, X. X. Xu, C. J. Lin, H. M. Jia, N. R. Ma, L. J. Sun, D. X. Wang, G. Yang, S. Y. Jin, Z. Z. Ren, Y. H. Zhang, X. H. Zhou, Z. G. Hu and H. S. Xu, 'Elastic scattering and breakup reactions of neutron-rich nucleus 11Be on 208Pb at 210 MeV', Phys. Rev. C 105, 034602 (2022). <a href="/publications/PhysRevC.105.034602.pdf"> Download here</a>
 
 * M. Gómez-Ramos, J. Gómez-Camacho, **Jin Lei** & A. M. Moro, 'The Hussein–McVoy formula for inclusive breakup revisited'， Eur. Phys. J. A 57，57 (2021). <a href="/publications/EPJA57.pdf"> Download here</a>
 
+
+* O. C. B. Santos, R. Lichtenthäler, K. C. C. Pires, U. Umbelino, E. O. N. Zevallos, A. L. de Lara, A. S. Serra, V. Scarduelli, J. Alcántara-Núñez, V. Guimarães, A. Lépine-Szily, J. C. Zamora, A. M. Moro, S. Appannababu, M. Assunção, A. Barioni, R. Linares, V. A. B. Zagatto, P. N. de Faria, M. C. Morais, V. Morcelle, J. M. B. Shorto and **Jin Lei**, 'Evidence of the effect of strong stripping channels on the dynamics of the 8Li+58Ni reaction', Phys. Rev. C 103, 064601 (2021).
 
 * K. Wang, Y. Y. Yang, A. M. Moro, V. Guimarães, **Jin Lei**, D. Y. Pang, F. F. Duan, J. L. Lou, J. C. Zamora, J. S. Wang, Z. Y. Sun, H. J. Ong, X. Liu, S. W. Xu, J. B. Ma, P. Ma, Z. Bai, Q. Hu, X. X. Xu, Z. H. Gao, G. Yang, S. Y. Jin, Y. H. Zhang, X. H. Zhou, Z. G. Hu, and H. S. Xu, 'Elastic scattering and breakup reactions of the proton drip-line nucleus 8B on 208Pb at 238 MeV', Phys. Rev. C 103, 024606 (2021). <a href="/publications/PhysRevC.103.024606.pdf"> Download here</a>
 
 
 * **Jin Lei** and Angela Bonaccorso, 'Comparison of semiclassical transfer to continuum model with Ichimura-Austern-Vincent model in medium energy knockout reactions',Physics Letters B 813, 136032 (2021) <a href="/publications/PhysLettb.813.136032.pdf"> Download here</a>
 
-* L. Yang, C.J. Lin, H. Yamaguchi, **Jin Lei** , P.W. Wen, M. Mazzocco, N.R. Ma, L.J. Sun,D.X. Wang, G.X. Zhang, K. Abe, S.M. Cha, K.Y. Chae, A. Diaz-Torres, J.L. Ferreira,S. Hayakawa, H.M. Jia, D. Kahl, A. Kim, M.S. Kwag, M. La Commara, R. Navarro Pérez,C. Parascandolo, D. Pierroutsakou, J. Rangel, Y. Sakaguchi, C. Signorini, E. Strano, X.X. Xu,F. Yang, Y.Y. Yang, G.L. Zhang, F.P. Zhong and J. Lubian, ‘Insight into the reaction dynamics
- of proton drip-line nuclear system 17f+58ni at near-barrier energies’, Physics Letters B813,136045 (2021) <a href="/publications/j.physletb.2020.136045.pdf"> Download here</a>
+* R. Spartà, A. Di Pietro, P. Figuera, O. Tengblad, A.M. Moro, I. Martel, J.P. Fernández-García, **Jin Lei**, L. Acosta, M.J.G. Borge, G. Bruni, J. Cederkäll, T. Davinson, J.D. Ovejas, L.M. Fraile, D. Galaviz, J. Halkjaer Jensen, B. Jonson, M. La Cognata, A. Perea, A.M. Sánchez-Benítez, N. Soić and S. Viñals, ‘Probing proton halo effects in the 8B+64Zn collision around the Coulomb barrier’, Physics Letters B 820, 136477 (2021).
+
+* L. Yang, C.J. Lin, H. Yamaguchi, **Jin Lei**, P.W. Wen, M. Mazzocco, N.R. Ma, L.J. Sun, D.X. Wang, G.X. Zhang, K. Abe, S.M. Cha, K.Y. Chae, A. Diaz-Torres, J.L. Ferreira, S. Hayakawa, H.M. Jia, D. Kahl, A. Kim, M.S. Kwag, M. La Commara, R. Navarro Pérez, C. Parascandolo, D. Pierroutsakou, J. Rangel, Y. Sakaguchi, C. Signorini, E. Strano, X.X. Xu, F. Yang, Y.Y. Yang, G.L. Zhang, F.P. Zhong and J. Lubian, ‘Insight into the reaction dynamics of proton drip-line nuclear system 17F+58Ni at near-barrier energies’, Physics Letters B 813, 136045 (2021). <a href="/publications/j.physletb.2020.136045.pdf"> Download here</a>
 
 * F.F. Duan, Y.Y. Yang, K. Wang, A.M. Moro, V. Guimarães, D.Y. Pang, J.S. Wang, Z.Y. Sun, **Jin Lei**, A. Di Pietro, X. Liu, G. Yang, J.B. Ma, P. Ma, S.W. Xu, Z. Bai, X.X. Sun, Q. Hu, J.L. Lou, X.X. Xu, H.X. Li, S.Y. Jin, H.J. Ong, Q. Liu, J.S. Yao, H.K. Qi, C.J. Lin, H.M. Jia, N.R. Ma, L.J. Sun, D.X. Wang, Y.H. Zhang, X.H. Zhou, Z.G. Hu and H.S. Xu, 'Scattering of the halo nucleus 11Be from a lead target at 3.5 times the Coulomb barrier energy', Physics Letters B 811, 135942 (2020) <a href="/publications/PhysLettb.811.135942.pdf"> Download here</a>
 
@@ -100,6 +112,10 @@ S. Guo, M. Kumar Raju, X. H. Wang, R. H. Li, X. X. Xu, Z. Z. Ren, Y. H. Zhang, X
 
 Conference Proceedings
 ======
+* Antonio M. Moro, **Jin Lei** and Edward C. Simpson, ‘Modelling inclusive breakup: application to incomplete fusion’, Journal of Physics: Conference Series 2340, 012034 (2022).
+
+* A.M. Moro, J. Casal, **Jin Lei** and M. Gómez-Ramos, ‘Reaction theory and advanced CDCC’, Journal of Physics: Conference Series 1643, 012100 (2020).
+
 * L. Hlophe, **Jin Lei**, Ch. Elster, A. Nogga and F. M. Nunes, ‘Three-body approach to deuteron-alpha scattering using realistic forces in a separable or non-separable representation’, Recent Progress in Few-Body Physics, edited by N. A. Orr, M. Ploszajczak, F. M. Marqués and J. Carbonell, 267–271 (2020).
 
 * F.M. Nunes, P.C. Capel, Ch. Elster, L. Hlophe, **Jin Lei**, Weichuan Li, A.E. Lovell, G. Potel, J. Rotureau and T. Poxon-Pearson, ‘New developments in reaction theory: preparing for the frib era’, EPJWeb Conf. 178, 03001 (2018). <a href="/publications/201817803001.pdf"> Download here</a>
