@@ -32,57 +32,10 @@ $glass-text-muted:  #64748b;
    Background Gradient Orbs
    ========================================================================== */
 
+/* Background orbs are rendered as multi-layer radial-gradients on body in _base.scss.
+   The .glass-bg div is kept as a no-op placeholder for the layout. */
 .glass-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: -1;
-  overflow: hidden;
-
-  &::before,
-  &::after {
-    content: "";
-    position: absolute;
-    border-radius: 50%;
-  }
-
-  /* large blue orb top-right */
-  &::before {
-    width: 700px;
-    height: 700px;
-    background: radial-gradient(circle, rgba(59, 130, 246, 0.35) 0%, rgba(59, 130, 246, 0.12) 40%, transparent 70%);
-    top: -150px;
-    right: -150px;
-    filter: blur(60px);
-  }
-
-  /* purple-pink orb bottom-left */
-  &::after {
-    width: 600px;
-    height: 600px;
-    background: radial-gradient(circle, rgba(168, 85, 247, 0.30) 0%, rgba(236, 72, 153, 0.12) 40%, transparent 70%);
-    bottom: -100px;
-    left: -150px;
-    filter: blur(60px);
-  }
-}
-
-/* third orb via a pseudo on body - teal center */
-body::before {
-  content: "";
-  position: fixed;
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(20, 184, 166, 0.20) 0%, transparent 65%);
-  top: 40%;
-  left: 30%;
-  filter: blur(80px);
-  pointer-events: none;
-  z-index: -1;
+  display: none;
 }
 
 /* ==========================================================================
