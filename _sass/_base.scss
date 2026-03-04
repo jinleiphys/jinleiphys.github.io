@@ -15,6 +15,8 @@ body {
   font-family: $global-font-family;
   line-height: 1.5;
   background-color: #e5e5ea;
+  overflow-x: hidden;
+  perspective: 1000px;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
