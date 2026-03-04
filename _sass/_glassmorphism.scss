@@ -3,26 +3,28 @@
    ========================================================================== */
 
 /* Glass Variables */
-$glass-surface:     rgba(255, 255, 255, 0.65);
-$glass-surface-nav: rgba(255, 255, 255, 0.72);
-$glass-border:      rgba(255, 255, 255, 0.40);
+$glass-surface:     rgba(255, 255, 255, 0.45);
+$glass-surface-nav: rgba(255, 255, 255, 0.55);
+$glass-border:      rgba(255, 255, 255, 0.60);
 $glass-accent:      #3b82f6;
 $glass-accent-hover:#2563eb;
 $glass-text:        #1e293b;
 $glass-text-muted:  #64748b;
 
 /* Glass card mixin */
-@mixin glass-card($blur: 12px) {
+@mixin glass-card($blur: 16px) {
   background: $glass-surface;
-  backdrop-filter: blur($blur);
-  -webkit-backdrop-filter: blur($blur);
-  border: 1px solid $glass-border;
-  border-radius: 16px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur($blur) saturate(180%);
+  -webkit-backdrop-filter: blur($blur) saturate(180%);
+  border: 1.5px solid $glass-border;
+  border-radius: 20px;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-  @supports not (backdrop-filter: blur(12px)) {
-    background: rgba(255, 255, 255, 0.92);
+  @supports not (backdrop-filter: blur(16px)) {
+    background: rgba(255, 255, 255, 0.88);
   }
 }
 
@@ -45,25 +47,42 @@ $glass-text-muted:  #64748b;
     content: "";
     position: absolute;
     border-radius: 50%;
-    filter: blur(80px);
-    opacity: 0.5;
   }
 
+  /* large blue orb top-right */
   &::before {
+    width: 700px;
+    height: 700px;
+    background: radial-gradient(circle, rgba(59, 130, 246, 0.35) 0%, rgba(59, 130, 246, 0.12) 40%, transparent 70%);
+    top: -150px;
+    right: -150px;
+    filter: blur(60px);
+  }
+
+  /* purple-pink orb bottom-left */
+  &::after {
     width: 600px;
     height: 600px;
-    background: radial-gradient(circle, rgba(59, 130, 246, 0.15), transparent 70%);
-    top: -200px;
-    right: -100px;
-  }
-
-  &::after {
-    width: 500px;
-    height: 500px;
-    background: radial-gradient(circle, rgba(168, 85, 247, 0.10), transparent 70%);
+    background: radial-gradient(circle, rgba(168, 85, 247, 0.30) 0%, rgba(236, 72, 153, 0.12) 40%, transparent 70%);
     bottom: -100px;
-    left: -100px;
+    left: -150px;
+    filter: blur(60px);
   }
+}
+
+/* third orb via a pseudo on body - teal center */
+body::before {
+  content: "";
+  position: fixed;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(20, 184, 166, 0.20) 0%, transparent 65%);
+  top: 40%;
+  left: 30%;
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: -1;
 }
 
 /* ==========================================================================
@@ -101,15 +120,17 @@ $glass-text-muted:  #64748b;
 }
 
 .research-card {
-  @include glass-card(12px);
+  @include glass-card(20px);
   padding: 1.75rem;
   display: flex;
   flex-direction: column;
-  animation: fadeInUp 0.5s ease both;
+  animation: fadeInUp 0.6s ease both;
 
   &:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.10);
+    transform: translateY(-4px);
+    box-shadow:
+      0 12px 40px rgba(0, 0, 0, 0.12),
+      inset 0 1px 0 rgba(255, 255, 255, 0.8);
   }
 
   @for $i from 1 through 8 {
@@ -289,10 +310,10 @@ $glass-text-muted:  #64748b;
    ========================================================================== */
 
 .glass-hero {
-  @include glass-card(16px);
-  padding: 2rem;
+  @include glass-card(20px);
+  padding: 2.2rem 2.5rem;
   margin-bottom: 2rem;
-  animation: fadeInUp 0.5s ease both;
+  animation: fadeInUp 0.6s ease both;
   animation-delay: 0.1s;
 
   p {
@@ -301,28 +322,32 @@ $glass-text-muted:  #64748b;
   }
 
   &:hover {
-    transform: none;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    transform: translateY(-2px);
+    box-shadow:
+      0 12px 40px rgba(0, 0, 0, 0.10),
+      inset 0 1px 0 rgba(255, 255, 255, 0.7);
   }
 }
 
 .glass-card-section {
-  @include glass-card(10px);
+  @include glass-card(20px);
   padding: 1.5rem;
   margin-bottom: 2rem;
-  animation: fadeInUp 0.5s ease both;
+  animation: fadeInUp 0.6s ease both;
   animation-delay: 0.2s;
   overflow: hidden;
 
   img {
-    border-radius: 12px;
+    border-radius: 16px;
     width: 100%;
     height: auto;
   }
 
   &:hover {
-    transform: none;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    transform: translateY(-2px);
+    box-shadow:
+      0 12px 40px rgba(0, 0, 0, 0.10),
+      inset 0 1px 0 rgba(255, 255, 255, 0.7);
   }
 }
 

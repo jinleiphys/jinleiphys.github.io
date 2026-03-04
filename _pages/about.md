@@ -19,9 +19,7 @@ The pursuit of postdoctoral research took me across the globe, from the serene c
 </div>
 
 <div class="glass-card-section">
-
-![My Career Map](/images/Jin_career_map.png)
-
+<img src="/images/Jin_career_map.png" alt="My Career Map" style="border-radius:12px; width:100%; height:auto;">
 </div>
 
 <div class="glass-hero">

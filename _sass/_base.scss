@@ -14,7 +14,7 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
-  background: linear-gradient(135deg, #eef2f7, #f8f7f4, #f5f0eb);
+  background: linear-gradient(160deg, #c9d6e8 0%, #dce4f0 25%, #e8ddd4 50%, #d4c8e0 75%, #c5d5e8 100%);
   background-attachment: fixed;
 
   &.overflow--hidden {
