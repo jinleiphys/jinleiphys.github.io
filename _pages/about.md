@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<div class="glass-hero">
+<div class="glass-hero" markdown="1">
 
 Welcome to my personal space on the web!
 
@@ -19,10 +19,10 @@ The pursuit of postdoctoral research took me across the globe, from the serene c
 </div>
 
 <div class="glass-card-section">
-<img src="/images/Jin_career_map.png" alt="My Career Map" style="border-radius:12px; width:100%; height:auto;">
+<img src="/images/Jin_career_map.png" alt="My Career Map">
 </div>
 
-<div class="glass-hero">
+<div class="glass-hero" markdown="1">
 
 Today, I stand before my students at Tongji University in Shanghai, China, as a professor, eager to unravel the mysteries of nuclear physics. My work explores the nuances of nuclear reactions, particularly focusing on the optical potential errors and the phenomena of fusion and incomplete fusion in weakly bound projectile-induced reactions, through the lens of the inclusive breakup model.
 
