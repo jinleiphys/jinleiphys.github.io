@@ -7,77 +7,131 @@ author_profile: true
 
 {% include base_path %}
 
-Our research group focuses on using quantum few-body models to study the structure and reactions of atomic nuclei, with particular emphasis on weakly bound nuclei. We also actively develop machine learning approaches to accelerate and enhance nuclear physics calculations. More details can be found at our group website: [QFBD Research Group](http://www.fewbody.com/research).
+<div class="research-intro">
+Our research group focuses on using quantum few-body models to study the structure and reactions of atomic nuclei, with particular emphasis on weakly bound nuclei. We also actively develop machine learning approaches to accelerate and enhance nuclear physics calculations. More details at <a href="http://www.fewbody.com/research">QFBD Research Group</a>.
+</div>
 
----
+<div class="research-grid">
 
-## Inclusive Breakup and the IAV Model
+  <div class="research-card">
+    <span class="research-card__icon">&#9883;</span>
+    <h3 class="research-card__title">Inclusive Breakup &amp; the IAV Model</h3>
+    <div class="research-card__tags">
+      <span class="research-card__tag">Three-Body</span>
+      <span class="research-card__tag">Fusion</span>
+      <span class="research-card__tag">Weakly Bound</span>
+    </div>
+    <div class="research-card__desc">
+      We study nuclear reaction processes using a quantum three-body model, treating the projectile as a weakly bound two-body system. Using the Ichimura-Austern-Vincent (IAV) model for inclusive breakup reactions, we have studied fusion and incomplete fusion in reactions induced by deuterons and <sup>6</sup>Li.
+    </div>
+    <details class="research-card__papers">
+      <summary>Key Publications</summary>
+      <ul>
+        <li><a href="/publications/PhysRevLett.122.042503.pdf">Puzzle of Complete Fusion Suppression in Weakly Bound Nuclei: A Trojan Horse Effect?</a> PRL 122, 042503 (2019)</li>
+        <li><a href="/publications/PhysRevLett.123.232501.pdf">Unraveling the Reaction Mechanisms Leading to Partial Fusion of Weakly Bound Nuclei</a> PRL 123, 232501 (2019)</li>
+      </ul>
+    </details>
+  </div>
 
-Our group has extensively studied nuclear reaction processes using a quantum three-body model, treating the projectile as a weakly bound two-body system. We focus on inclusive breakup reactions --- where only one fragment of the projectile is detected after collision --- using the Ichimura-Austern-Vincent (IAV) model. With this framework, we have successfully studied fusion and incomplete fusion processes in reactions induced by weakly bound nuclei such as deuterons and <sup>6</sup>Li.
+  <div class="research-card">
+    <span class="research-card__icon">&#127919;</span>
+    <h3 class="research-card__title">CDCC &amp; Scattering Methods</h3>
+    <div class="research-card__tags">
+      <span class="research-card__tag">CDCC</span>
+      <span class="research-card__tag">Emulator</span>
+      <span class="research-card__tag">Bayesian</span>
+    </div>
+    <div class="research-card__desc">
+      We develop and apply the CDCC method for scattering observables of weakly-bound projectiles. Our code <strong>STARS</strong> implements the Lagrange-mesh R-matrix method with GPU acceleration. Our <strong>reduced-basis emulator</strong> achieves 260x speedup, enabling full Bayesian inference of 18-parameter optical potentials.
+    </div>
+    <details class="research-card__papers">
+      <summary>Key Publications</summary>
+      <ul>
+        <li><a href="/publications/Phys.Lett.B858.139070.pdf">A complex scaling method for efficient and accurate scattering emulation in nuclear reactions</a> PLB 858, 139070 (2024)</li>
+        <li><a href="/publications/PhysRevC.113.024614.pdf">Direct boundary matching: A bound-state technique for nuclear scattering with Lagrange-Legendre functions</a> PRC 113, 024614 (2026)</li>
+      </ul>
+    </details>
+  </div>
 
-**Key publications:**
-- *Puzzle of Complete Fusion Suppression in Weakly Bound Nuclei: A Trojan Horse Effect?* [PRL 122, 042503 (2019)](/publications/PhysRevLett.122.042503.pdf)
-- *Unraveling the Reaction Mechanisms Leading to Partial Fusion of Weakly Bound Nuclei* [PRL 123, 232501 (2019)](/publications/PhysRevLett.123.232501.pdf)
+  <div class="research-card">
+    <span class="research-card__icon">&#129504;</span>
+    <h3 class="research-card__title">Machine Learning for Nuclear Physics</h3>
+    <div class="research-card__tags">
+      <span class="research-card__tag">PINNs</span>
+      <span class="research-card__tag">BiCfC</span>
+      <span class="research-card__tag">Inverse Scattering</span>
+    </div>
+    <div class="research-card__desc">
+      We pioneer modern ML techniques for nuclear scattering: <strong>PINNs with exterior complex scaling</strong> for quantum scattering, and <strong>bidirectional liquid neural networks (BiCfC)</strong> as fast, differentiable surrogates for the radial Schr&ouml;dinger equation. The BiCfC network enables Fisher information analysis, sensitivity mapping, and gradient-based inverse scattering.
+    </div>
+    <details class="research-card__papers">
+      <summary>Key Results</summary>
+      <ul>
+        <li>Fisher analysis reveals elastic scattering constrains only ~1.7 effective parameters out of 9, explaining the Igo ambiguity</li>
+        <li>Size sensitivity mapping identifies optimal experimental conditions for constraining nuclear radii</li>
+        <li>Gradient-based inverse scattering with 4x speedup over evolutionary algorithms</li>
+      </ul>
+    </details>
+  </div>
 
----
+  <div class="research-card">
+    <span class="research-card__icon">&#129516;</span>
+    <h3 class="research-card__title">Neural Cluster Model</h3>
+    <div class="research-card__tags">
+      <span class="research-card__tag">Variational</span>
+      <span class="research-card__tag">Neural Network</span>
+      <span class="research-card__tag">Cluster</span>
+    </div>
+    <div class="research-card__desc">
+      We are developing the <strong>Neural Cluster Model (NCM)</strong>, a variational wave function framework bridging neural network quantum states and nuclear cluster models. The NCM introduces learnable cluster latent variables, allowing cluster structure to <em>emerge from the variational principle</em>. Benchmarks on <sup>4</sup>He and <sup>8</sup>Be show excellent agreement with experiment.
+    </div>
+    <details class="research-card__papers">
+      <summary>Architecture</summary>
+      <ul>
+        <li>Permutation-equivariant encoder discovers cluster configurations</li>
+        <li>Cluster-aware Gaussian orbitals enforce antisymmetry</li>
+        <li>Neural Jastrow correlator captures short-range correlations</li>
+      </ul>
+    </details>
+  </div>
 
-## Continuum-Discretized Coupled Channels (CDCC)
+  <div class="research-card">
+    <span class="research-card__icon">&#9881;</span>
+    <h3 class="research-card__title">Few-Body Dynamics</h3>
+    <div class="research-card__tags">
+      <span class="research-card__tag">Four-Body</span>
+      <span class="research-card__tag">Faddeev</span>
+      <span class="research-card__tag">DWBA</span>
+    </div>
+    <div class="research-card__desc">
+      We investigate four-body breakup processes. Given the challenges in handling three charged particles within the Faddeev framework, we perform four-body breakup calculations for systems with four charged particles using a DWBA framework, treating the projectile as having a three-body structure.
+    </div>
+  </div>
 
-We develop and apply the CDCC method for computing scattering observables of weakly-bound projectiles such as deuterons, <sup>6</sup>Li, and <sup>6</sup>He. Our in-house code **STARS** (Shanghai Tongji Advanced Reaction Solver) implements the Lagrange-mesh R-matrix method with GPU acceleration.
+  <div class="research-card">
+    <span class="research-card__icon">&#9762;</span>
+    <h3 class="research-card__title">Decay &amp; Surrogate Reactions</h3>
+    <div class="research-card__tags">
+      <span class="research-card__tag">Alpha Decay</span>
+      <span class="research-card__tag">2p Decay</span>
+      <span class="research-card__tag">Surrogate</span>
+    </div>
+    <div class="research-card__desc">
+      From two-body alpha decay to three-body two-proton decay and five-body models, we study resonance decay processes. Our inclusive breakup work with the IAV model provides a promising pathway to fully describe surrogate reactions for nuclear astrophysics and stockpile stewardship.
+    </div>
+  </div>
 
-A major recent advance is our **reduced-basis emulator** for CDCC calculations, achieving a 260x speedup while maintaining sub-percent accuracy. This emulator has enabled, for the first time, full Bayesian inference of 18-parameter optical potentials in CDCC --- a task previously computationally prohibitive. Our Bayesian analysis has revealed evidence for missing three-body force effects in standard CDCC through a systematic enhancement of surface absorption.
+  <div class="research-card research-card--full">
+    <span class="research-card__icon">&#128187;</span>
+    <h3 class="research-card__title">Computational Tools</h3>
+    <div class="research-card__desc">
+      <div class="research-tools">
+        <div class="research-tool"><strong>STARS</strong>&mdash; CDCC solver with Lagrange-mesh R-matrix, GPU acceleration &amp; reduced-basis emulation</div>
+        <div class="research-tool"><strong>SMOOTHIE</strong>&mdash; Nonelastic breakup via IAV formalism</div>
+        <div class="research-tool"><strong>COLOSS</strong>&mdash; Complex-scaled scattering solver <a href="/publications/cpc_311_109568.pdf">[CPC 311, 109568 (2025)]</a></div>
+      </div>
+      <p style="margin-top: 1rem; font-size: 0.9em;">For more details, visit <a href="http://www.fewbody.com/codes">QFBD Codes</a>.</p>
+    </div>
+  </div>
 
-We are also working toward incorporating ab-initio structure inputs into CDCC, replacing phenomenological Woods-Saxon potentials with microscopic descriptions of projectile internal structure.
-
-**Key publications:**
-- *A complex scaling method for efficient and accurate scattering emulation in nuclear reactions* [PLB 858, 139070 (2024)](/publications/Phys.Lett.B858.139070.pdf)
-- *Direct boundary matching: A bound-state technique for nuclear scattering with Lagrange-Legendre functions* [PRC 113, 024614 (2026)](/publications/PhysRevC.113.024614.pdf)
-
----
-
-## Machine Learning for Nuclear Reactions
-
-We are pioneering the application of modern machine learning techniques to nuclear scattering problems:
-
-**Physics-Informed Neural Networks (PINNs) with Exterior Complex Scaling.** By combining PINNs with exterior complex scaling (ECS), we transform the oscillatory scattering boundary conditions into exponentially decaying ones, making quantum scattering problems tractable for neural network solvers. This approach has been successfully applied to both nucleon-nucleus and heavy-ion scattering systems. (arXiv: 2602.04553)
-
-**Bidirectional Liquid Neural Networks for Nuclear Scattering.** We have developed a bidirectional closed-form continuous-time (BiCfC) neural network that serves as a fast, differentiable surrogate for the radial Schrodinger equation. Trained across 12 target nuclei, 2 projectile types, 31 partial waves, and energies from 1 to 200 MeV, the network achieves ~1% mean error on S-matrix elements. Its end-to-end differentiability enables:
-- **Fisher information analysis** revealing that elastic scattering data constrains only ~1.7 effective parameter combinations out of 9 optical potential parameters --- providing a fundamental information-theoretic explanation for the long-standing Igo ambiguity.
-- **Size sensitivity mapping** that identifies optimal experimental conditions (energy and angle) for constraining nuclear radii, guiding efficient use of beam time at rare isotope facilities.
-- **Gradient-based inverse scattering** with 4x speedup over evolutionary algorithms.
-
----
-
-## Neural Cluster Model
-
-We are developing the **Neural Cluster Model (NCM)**, a novel variational wave function framework that bridges neural network quantum states and traditional nuclear cluster models. The NCM introduces learnable cluster latent variables into a neural network architecture, allowing cluster structure to **emerge from the variational principle** rather than being imposed a priori.
-
-The architecture combines a permutation-equivariant encoder (which discovers cluster configurations), cluster-aware Gaussian orbitals (enforcing antisymmetry), a neural Jastrow correlator (capturing short-range correlations), and an inter-cluster wave function. Benchmarks on <sup>4</sup>He and <sup>8</sup>Be using the Minnesota potential show excellent agreement with experiment, and the encoder spontaneously discovers the expected alpha-cluster configurations.
-
----
-
-## Dynamics of Four-Body Systems
-
-We are investigating four-body breakup processes. Given the known challenges in handling three charged particles within the Faddeev framework, we aim to perform four-body breakup calculations for systems with four charged particles using a Distorted Wave Born Approximation (DWBA) framework, treating the projectile as having a three-body structure.
-
----
-
-## Resonance Decay Processes
-
-Starting from two-body decay scenarios such as alpha decay, we model the alpha and daughter nuclei within a two-body framework. Our research extends to more complex systems including three-body decays (such as two-proton decay) and potentially five-body decays (alpha decay in a five-body model).
-
----
-
-## Surrogate Reactions
-
-Surrogate reactions are indirect methods used to study nuclear reactions that are difficult to measure directly, particularly those involving unstable, radioactive nuclei. Our study of inclusive breakup using the IAV model has proposed a promising pathway to fully describe surrogate reactions. We continue to develop this approach for applications in nuclear astrophysics and stockpile stewardship.
-
----
-
-## Computational Tools
-
-- **STARS** (Shanghai Tongji Advanced Reaction Solver): CDCC solver with Lagrange-mesh R-matrix method, GPU acceleration, and reduced-basis emulation.
-- **SMOOTHIE**: Nonelastic breakup calculations using the Ichimura-Austern-Vincent formalism.
-- **COLOSS**: Complex-scaled Optical and Coulomb Scattering Solver. [CPC 311, 109568 (2025)](/publications/cpc_311_109568.pdf)
-
-For more details on our codes, visit our group website: [QFBD Codes](http://www.fewbody.com/codes).
+</div>
