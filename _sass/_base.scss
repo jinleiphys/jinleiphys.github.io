@@ -14,13 +14,7 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
-  background:
-    radial-gradient(ellipse 80% 60% at 85% 5%, rgba(59, 130, 246, 0.28) 0%, transparent 60%),
-    radial-gradient(ellipse 70% 60% at 10% 85%, rgba(168, 85, 247, 0.22) 0%, transparent 55%),
-    radial-gradient(ellipse 60% 50% at 50% 50%, rgba(20, 184, 166, 0.15) 0%, transparent 50%),
-    radial-gradient(ellipse 50% 40% at 30% 20%, rgba(244, 114, 182, 0.14) 0%, transparent 50%),
-    linear-gradient(160deg, #c7d2e8 0%, #ddd6e8 35%, #e8ddd4 65%, #d1c8e0 100%);
-  background-attachment: fixed;
+  background-color: #e5e5ea;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */

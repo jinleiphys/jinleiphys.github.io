@@ -20,12 +20,12 @@
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background: rgba(255, 255, 255, 0.35);
-  backdrop-filter: blur(24px) saturate(180%);
-  -webkit-backdrop-filter: blur(24px) saturate(180%);
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
 
-  @supports not (backdrop-filter: blur(24px)) {
+  @supports not (backdrop-filter: blur(30px)) {
     background: rgba(255, 255, 255, 0.90);
   }
 
