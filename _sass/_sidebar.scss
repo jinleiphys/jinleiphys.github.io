@@ -3,17 +3,6 @@
    ========================================================================== */
 
 /*
-   Sidebar column (flex child that stretches full height)
-   ========================================================================== */
-
-.sidebar-col {
-  @include breakpoint($large) {
-    width: span(2 of 12);
-    flex-shrink: 0;
-  }
-}
-
-/*
    Default
    ========================================================================== */
 
@@ -25,7 +14,7 @@
   margin-bottom: 1em;
 
   @include breakpoint($large) {
-    width: 100%;
+    @include span(2 of 12);
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;

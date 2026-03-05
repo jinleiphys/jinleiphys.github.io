@@ -3,8 +3,8 @@
    ========================================================================== */
 
 /* Glass Variables */
-$glass-surface:     rgba(255, 255, 255, 0.35);
-$glass-border:      rgba(255, 255, 255, 0.8);
+$glass-surface:     rgba(210, 225, 250, 0.35);
+$glass-border:      rgba(210, 225, 250, 0.6);
 $glass-accent:      #007aff;
 $glass-accent-hover:#005bb5;
 $glass-text:        #1d1d1f;
@@ -26,7 +26,7 @@ $glass-text-muted:  #424245;
   overflow: hidden;
 
   @supports not (backdrop-filter: blur(30px)) {
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(220, 232, 252, 0.85);
   }
 }
 
@@ -41,53 +41,12 @@ $glass-text-muted:  #424245;
   width: 100vw;
   height: 100vh;
   z-index: -1;
-  background: linear-gradient(135deg, #c9d6f0 0%, #d5dff0 25%, #dce4f0 50%, #d8e2f2 75%, #cdd9ee 100%);
+  background: #f5f7fb;
   overflow: hidden;
 }
 
 .blob {
-  position: absolute;
-  filter: blur(150px);
-  border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
-  animation: morph 14s ease-in-out infinite both alternate, float 18s ease-in-out infinite;
-  opacity: 0.5;
-
-  &:nth-child(1) {
-    width: 70vw;
-    height: 70vw;
-    background: #a1c4fd;
-    top: -20%;
-    left: -15%;
-  }
-
-  &:nth-child(2) {
-    width: 65vw;
-    height: 65vw;
-    background: #c2e9fb;
-    bottom: -20%;
-    right: -15%;
-    animation-delay: -4s;
-  }
-
-  &:nth-child(3) {
-    width: 55vw;
-    height: 55vw;
-    background: #b8d4f0;
-    top: 25%;
-    left: 25%;
-    animation-delay: -8s;
-  }
-}
-
-@keyframes morph {
-  0%   { border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%; }
-  50%  { border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%; }
-  100% { border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%; }
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50%      { transform: translateY(-30px); }
+  display: none;
 }
 
 /* ==========================================================================
