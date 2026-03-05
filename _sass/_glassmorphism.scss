@@ -12,22 +12,15 @@ $glass-text-muted:  #424245;
 
 /* Glass card mixin */
 @mixin glass-card($blur: 30px) {
-  background: $glass-surface;
-  backdrop-filter: blur($blur);
-  -webkit-backdrop-filter: blur($blur);
-  border: 1px solid $glass-border;
+  background: rgba(220, 232, 252, 0.45);
+  border: 1px solid rgba(210, 225, 250, 0.6);
   border-radius: 30px;
   box-shadow:
     0 20px 40px rgba(0, 0, 0, 0.05),
     inset 0 1px 0 rgba(255, 255, 255, 0.8);
   transition: box-shadow 0.3s ease;
-  transform-style: preserve-3d;
   position: relative;
   overflow: hidden;
-
-  @supports not (backdrop-filter: blur(30px)) {
-    background: rgba(220, 232, 252, 0.85);
-  }
 }
 
 /* ==========================================================================
