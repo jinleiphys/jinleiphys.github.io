@@ -47,36 +47,36 @@ $glass-text-muted:  #424245;
 
 .blob {
   position: absolute;
-  filter: blur(90px);
+  filter: blur(160px);
   border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
-  animation: morph 12s ease-in-out infinite both alternate, float 15s ease-in-out infinite;
-  opacity: 0.7;
-  mix-blend-mode: multiply;
+  animation: morph 18s ease-in-out infinite both alternate, float 20s ease-in-out infinite;
+  opacity: 0.4;
+  mix-blend-mode: normal;
 
   &:nth-child(1) {
-    width: 60vw;
-    height: 60vw;
-    background: #a1c4fd;
-    top: -15%;
-    left: -10%;
+    width: 80vw;
+    height: 80vw;
+    background: #bdd4f0;
+    top: -25%;
+    left: -20%;
   }
 
   &:nth-child(2) {
-    width: 50vw;
-    height: 50vw;
-    background: #c2e9fb;
-    bottom: -10%;
-    right: -10%;
-    animation-delay: -3s;
+    width: 70vw;
+    height: 70vw;
+    background: #d4e8f7;
+    bottom: -20%;
+    right: -20%;
+    animation-delay: -5s;
   }
 
   &:nth-child(3) {
-    width: 45vw;
-    height: 45vw;
-    background: #e6e9f0;
-    top: 30%;
-    left: 30%;
-    animation-delay: -7s;
+    width: 65vw;
+    height: 65vw;
+    background: #e8eaf0;
+    top: 20%;
+    left: 20%;
+    animation-delay: -10s;
   }
 }
 
