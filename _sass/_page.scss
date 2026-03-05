@@ -12,11 +12,8 @@
   animation-delay: 0.35s;
 
   @include breakpoint($large) {
-    background: rgba(255, 255, 255, 0.28);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border-radius: 30px;
-    padding: 2em 1.5em;
+    display: flex;
+    align-items: stretch;
   }
 
   @include breakpoint($x-large) {
@@ -26,7 +23,8 @@
 
 .page {
   @include breakpoint($large) {
-    @include span(10 of 12 last);
+    flex: 1;
+    min-width: 0;
     @include prefix(0.5 of 12);
     @include suffix(2 of 12);
   }
