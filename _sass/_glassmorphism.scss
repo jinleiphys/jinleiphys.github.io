@@ -41,42 +41,45 @@ $glass-text-muted:  #424245;
   width: 100vw;
   height: 100vh;
   z-index: -1;
-  background: radial-gradient(circle at 50% 50%, #f5f5f7, #e0e5ec);
+  background:
+    radial-gradient(ellipse at 20% 20%, rgba(161, 196, 253, 0.35) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 80%, rgba(194, 233, 251, 0.3) 0%, transparent 60%),
+    radial-gradient(ellipse at 50% 50%, #f0f2f8, #dfe4ed);
   overflow: hidden;
 }
 
 .blob {
   position: absolute;
-  filter: blur(160px);
+  filter: blur(120px);
   border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
-  animation: morph 18s ease-in-out infinite both alternate, float 20s ease-in-out infinite;
-  opacity: 0.4;
-  mix-blend-mode: normal;
+  animation: morph 14s ease-in-out infinite both alternate, float 18s ease-in-out infinite;
+  opacity: 0.6;
+  mix-blend-mode: multiply;
 
   &:nth-child(1) {
-    width: 80vw;
-    height: 80vw;
-    background: #bdd4f0;
-    top: -25%;
-    left: -20%;
+    width: 70vw;
+    height: 70vw;
+    background: #a1c4fd;
+    top: -20%;
+    left: -15%;
   }
 
   &:nth-child(2) {
-    width: 70vw;
-    height: 70vw;
-    background: #d4e8f7;
-    bottom: -20%;
-    right: -20%;
-    animation-delay: -5s;
+    width: 60vw;
+    height: 60vw;
+    background: #c2e9fb;
+    bottom: -15%;
+    right: -15%;
+    animation-delay: -4s;
   }
 
   &:nth-child(3) {
-    width: 65vw;
-    height: 65vw;
-    background: #e8eaf0;
-    top: 20%;
-    left: 20%;
-    animation-delay: -10s;
+    width: 55vw;
+    height: 55vw;
+    background: #d6dff0;
+    top: 25%;
+    left: 25%;
+    animation-delay: -8s;
   }
 }
 
