@@ -10,11 +10,9 @@ redirect_from:
 
 <div class="glass-hero" markdown="1">
 
-Welcome to my personal space on the web!
+Welcome! I am a nuclear physicist working on the quantum few-body problem — figuring out how a handful of particles interact, scatter, and fuse inside atomic nuclei.
 
-My journey began in the historic city of Shenyang, China, where the seeds of my curiosity in the physical world were planted. I took my first academic steps at Northeastern University in China, which laid the groundwork for my passion for physics. My quest for knowledge deepened during my graduate studies at the University of Chinese Academy of Sciences, culminating in a PhD in physics from the prestigious Universidad de Sevilla in 2016.
-
-The pursuit of postdoctoral research took me across the globe, from the serene campus of Ohio University in Athens, Ohio, to the historic halls of the Istituto Nazionale di Fisica Nucleare in Pisa, Italy. My research during these formative years centered on the intricacies of nuclear reactions, delving into the systematic examination of nuclear reaction observables and the complex dance of particles in quantum three-body problems.
+I grew up in Shenyang, China, and studied physics at Northeastern University before moving to the University of Chinese Academy of Sciences for graduate school. In 2016, I received my PhD from Universidad de Sevilla in Spain, where I began developing the theoretical tools that still drive my research today. Postdoctoral work then took me to Ohio University and INFN Pisa, where I focused on nuclear reaction theory, particularly on breakup processes and three-body scattering.
 
 </div>
 
@@ -24,14 +22,10 @@ The pursuit of postdoctoral research took me across the globe, from the serene c
 
 <div class="glass-hero" markdown="1">
 
-Today, I stand before my students at Tongji University in Shanghai, China, as a professor, eager to unravel the mysteries of nuclear physics. My work explores the nuances of nuclear reactions, particularly focusing on the optical potential errors and the phenomena of fusion and incomplete fusion in weakly bound projectile-induced reactions, through the lens of the inclusive breakup model.
+I am now a professor at Tongji University in Shanghai, leading the [Quantum Few-Body Dynamics group](http://www.fewbody.com/research). My core research is on reactions of weakly bound and halo nuclei — breakup, fusion, and transfer — using quantum three-body models and the IAV formalism. In parallel, I develop new computational methods: a reduced-basis emulator that speeds up scattering calculations by orders of magnitude, a direct boundary matching technique for nuclear scattering, and neural-network-based approaches including physics-informed neural networks and variational neural cluster models for nuclear structure.
 
-Teaching is not just a profession for me; it is a two-way street of growth and discovery. Inspired by the traditional Chinese adage, "Teaching and Learning Encourage Each Other," I find the inquisitiveness of my students to be a driving force, pushing me to broaden my horizons and embrace the power of communication.
+I genuinely enjoy teaching. There is a classical Chinese saying, "Teaching and learning promote each other" (教学相长), and I find that to be true — my students' questions regularly push me to think more clearly and more broadly.
 
-Beyond the walls of academia, my life is filled with simple joys. I am a proud parent to four beautiful cats, each with their own unique personality. My leisure time is a tapestry of diverse interests - from the thrill of live-streaming video games to the tranquility of hiking, the creativity of cooking, and the immersive experience of films.
-
-And while my professional life is governed by the laws of physics, my personal mantra, "Happy Wife, Happy Life," reminds me of the balance and harmony essential to a fulfilling life.
-
-Thank you for visiting, and I invite you to join me on this extraordinary journey through the cosmos of physics and beyond.
+Outside of work, I share my home with four cats, each with a personality larger than their body. I like hiking, cooking, watching films, and occasionally live-streaming video games. And as any physicist married to a non-physicist will tell you: Happy Wife, Happy Life.
 
 </div>
