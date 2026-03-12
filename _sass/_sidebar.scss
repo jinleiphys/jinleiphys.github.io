@@ -73,23 +73,32 @@
   display: table-cell;
   vertical-align: top;
   width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
 
   @include breakpoint($large) {
     display: block;
     width: auto;
     height: auto;
+    text-align: center;
   }
 
   img {
     max-width: 175px;
     border-radius: 50%;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid rgba(255, 255, 255, 0.5);
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+      padding: 4px;
+      border: 2px solid rgba(0, 122, 255, 0.2);
+      box-shadow:
+        0 4px 20px rgba(0, 122, 255, 0.12),
+        0 0 0 6px rgba(0, 122, 255, 0.04);
+
+      &:hover {
+        transform: scale(1.03);
+        box-shadow:
+          0 8px 30px rgba(0, 122, 255, 0.18),
+          0 0 0 8px rgba(0, 122, 255, 0.06);
+      }
     }
   }
 }
@@ -118,12 +127,17 @@
   }
 }
 .sidebar .author__name {
-  font-family: $sans-serif;
-  font-size: $type-size-5;
+  font-family: $display-serif;
+  font-size: $type-size-4;
+  font-weight: 700;
+  color: #1a2a4a;
+  letter-spacing: -0.01em;
 }
 
 .author__bio {
   margin: 0;
+  color: #475569;
+  line-height: 1.6;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -179,10 +193,11 @@
     display: block;
     position: relative;
     margin: 0;
-    padding: 0;
+    padding: 0.75rem 0 0;
     border: 0;
     background: transparent;
     box-shadow: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
   }
 
   &:before {
@@ -221,6 +236,10 @@
 
   li {
     white-space: nowrap;
+
+    @include breakpoint($large) {
+      margin-bottom: 2px;
+    }
   }
 
   a {
@@ -232,9 +251,36 @@
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
+    transition: color 0.2s ease, transform 0.2s ease;
+
+    @include breakpoint($large) {
+      padding: 0.35rem 0.6rem;
+      border-radius: 8px;
+      font-size: $type-size-6;
+      margin-bottom: 0;
+
+      &:hover {
+        background: rgba(0, 122, 255, 0.06);
+        color: #007aff;
+        transform: translateX(3px);
+        text-decoration: none;
+      }
+    }
 
     &:hover {
       text-decoration: underline;
+    }
+
+    i {
+      width: 1.2em;
+      text-align: center;
+      margin-right: 0.3em;
+      color: #64748b;
+      transition: color 0.2s ease;
+    }
+
+    &:hover i {
+      color: #007aff;
     }
   }
 }

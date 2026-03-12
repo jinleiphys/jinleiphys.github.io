@@ -294,7 +294,7 @@
         left: 0;
         bottom: 0;
         height: 2px;
-        background: #007aff;
+        background: linear-gradient(90deg, #007aff, #5ac8fa);
         width: 100%;
         border-radius: 1px;
         -webkit-transition: $global-transition;
@@ -304,10 +304,16 @@
                 transform: scaleX(0); /* hide*/
       }
 
-      &:hover:before {
+      &:hover:before,
+      &.active:before {
         -webkit-transform: scaleX(1);
             -ms-transform: scaleX(1);
                 transform: scaleX(1); /* reveal*/
+      }
+
+      &.active {
+        color: #007aff;
+        font-weight: 600;
       }
     }
   }

@@ -1,4 +1,5 @@
 (function(){
+  /* Glass tilt effect */
   var blueCard = 'rgba(220, 232, 252, 0.45)';
   var cards = document.querySelectorAll('.glass-hero, .glass-card-section, .research-card');
   cards.forEach(function(card){
@@ -21,5 +22,28 @@
     card.addEventListener('mouseenter', function(){
       card.style.transition = 'none';
     });
+  });
+
+  /* Scroll reveal: add .reveal to content blocks that don't already have fadeInUp */
+  var revealTargets = document.querySelectorAll(
+    '.page__content h1, .page__content h2, .archive__item'
+  );
+  revealTargets.forEach(function(el){
+    if (!el.classList.contains('reveal')) {
+      el.classList.add('reveal');
+    }
+  });
+
+  var observer = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if (entry.isIntersecting) {
+        entry.target.classList.add('revealed');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.reveal').forEach(function(el){
+    observer.observe(el);
   });
 })();

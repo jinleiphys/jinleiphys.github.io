@@ -20,13 +20,13 @@
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
-  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  border-top: 1px solid rgba(0, 122, 255, 0.08);
 
   @supports not (backdrop-filter: blur(30px)) {
-    background: rgba(255, 255, 255, 0.90);
+    background: rgba(255, 255, 255, 0.92);
   }
 
   footer {
