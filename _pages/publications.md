@@ -21,6 +21,8 @@ Highlighted Publications
 
 Journal Articles
 ======
+* **Jin Lei**, 'Reduced basis emulator for elastic scattering in continuum-discretized coupled-channels calculations', Phys. Rev. C 113, 044610 (2026). <a href="/publications/n24x-d9gm.pdf"> Download here</a>
+
 * **Jin Lei**, 'Direct boundary matching: A bound-state technique for nuclear scattering with Lagrange-Legendre functions', Phys. Rev. C 113, 024614 (2026). <a href="/publications/PhysRevC.113.024614.pdf"> Download here</a>
 
 * Kyle Godbey, Martin Albertsson, Jacklyn M. Gates, Kris Hagel, Jesus Lubian, Andrzej Makowski, Patrick McGlynn, Gregory Potel, Jennifer L. Pore, Jeannie Rangel Borges, Kazuyuki Sekizawa, Filomena Nunes, Kaitlin Cook, Kouichi Hagino, Michal Kowal, **Jin Lei**, Matthew R. Mumpower, Witold Nazarewicz and Sait Umar, 'Paths to Superheavy Nuclei', J. Phys. G: Nucl. Part. Phys. (2025). <a href="/publications/JPG_Godbey2025.pdf"> Download here</a>
