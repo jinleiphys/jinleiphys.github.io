@@ -21,6 +21,10 @@ Highlighted Publications
 
 Journal Articles
 ======
+* Hao Liu, **Jin Lei**, and Zhongzhou Ren, 'Coherent absorption dynamics: The dual role of off-diagonal couplings in weakly bound nuclei', Phys. Rev. C 113, 054601 (2026). <a href="/publications/bgwc-x5wj.pdf"> Download here</a>
+
+* Hao Liu, **Jin Lei**, and Zhongzhou Ren, 'Channel couplings redirect absorbed flux from peripheral loss to fusion in weakly bound nuclear reactions', Phys. Lett. B 877, 140479 (2026). <a href="/publications/j.physletb.2026.140479.pdf"> Download here</a>
+
 * **Jin Lei**, 'Reduced basis emulator for elastic scattering in continuum-discretized coupled-channels calculations', Phys. Rev. C 113, 044610 (2026). <a href="/publications/n24x-d9gm.pdf"> Download here</a>
 
 * **Jin Lei**, 'Direct boundary matching: A bound-state technique for nuclear scattering with Lagrange-Legendre functions', Phys. Rev. C 113, 024614 (2026). <a href="/publications/PhysRevC.113.024614.pdf"> Download here</a>
