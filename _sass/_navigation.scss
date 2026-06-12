@@ -294,7 +294,7 @@
         left: 0;
         bottom: 0;
         height: 2px;
-        background: linear-gradient(90deg, #007aff, #5ac8fa);
+        background: linear-gradient(90deg, #{$pencil-teal}, #{$pencil-cyan});
         width: 100%;
         border-radius: 1px;
         -webkit-transition: $global-transition;
@@ -312,7 +312,7 @@
       }
 
       &.active {
-        color: #007aff;
+        color: $pencil-teal;
         font-weight: 600;
       }
     }
@@ -324,18 +324,12 @@
     right: 0;
     margin-top: 15px;
     padding: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    border-radius: 12px;
-    background: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+    border: 2px solid $pencil-brown;
+    border-radius: 0;
+    background: $paper-base;
+    box-shadow: $box-shadow;
     z-index: 100;
     min-width: 200px;
-
-    @supports not (backdrop-filter: blur(20px)) {
-      background: rgba(255, 255, 255, 0.96);
-    }
 
     a {
       margin: 0;
@@ -345,7 +339,7 @@
 
       &:hover {
         color: $masthead-link-color-hover;
-        background: rgba(59, 130, 246, 0.08);
+        background: rgba(100, 140, 200, 0.1);
       }
     }
 

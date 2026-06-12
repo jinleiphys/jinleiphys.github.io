@@ -52,9 +52,7 @@
 
   h2 {
     padding-bottom: 0.5em;
-    border-bottom: 2px solid transparent;
-    border-image: linear-gradient(90deg, #007aff 0%, rgba(0, 122, 255, 0.1) 80%, transparent 100%) 1;
-    color: #1a2a4a;
+    color: $pencil-blue;
   }
 
   p, li, dl {
@@ -65,7 +63,7 @@
   ul {
     li {
       padding: 0.6em 0;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+      border-bottom: 1px dashed rgba(160, 128, 96, 0.35);
       line-height: 1.7;
 
       &:last-child {
@@ -73,15 +71,16 @@
       }
 
       a {
-        color: #007aff;
+        color: $pencil-blue;
         text-decoration: none;
         font-weight: 500;
         padding: 0.15em 0.4em;
-        border-radius: 4px;
+        border-radius: 0;
         transition: background 0.2s ease, color 0.2s ease;
 
         &:hover {
-          background: rgba(0, 122, 255, 0.08);
+          background: rgba(100, 140, 200, 0.12);
+          color: $pencil-teal;
           text-decoration: none;
         }
       }

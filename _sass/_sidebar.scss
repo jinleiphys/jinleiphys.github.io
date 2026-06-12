@@ -88,16 +88,14 @@
 
     @include breakpoint($large) {
       padding: 4px;
-      border: 2px solid rgba(0, 122, 255, 0.2);
-      box-shadow:
-        0 4px 20px rgba(0, 122, 255, 0.12),
-        0 0 0 6px rgba(0, 122, 255, 0.04);
+      background: $paper-base;
+      border: 2px solid $pencil-brown;
+      box-shadow: $box-shadow;
+      filter: sepia(8%) saturate(92%);
 
       &:hover {
-        transform: scale(1.03);
-        box-shadow:
-          0 8px 30px rgba(0, 122, 255, 0.18),
-          0 0 0 8px rgba(0, 122, 255, 0.06);
+        transform: rotate(-1deg) scale(1.02);
+        box-shadow: $box-shadow-hover;
       }
     }
   }
@@ -177,13 +175,11 @@
   margin-top: 15px;
   padding: 10px;
   list-style-type: none;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  border: 2px solid $pencil-brown;
+  border-radius: 0;
+  background: $paper-base;
   z-index: -1;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  box-shadow: $box-shadow;
   cursor: default;
 
   @include breakpoint($large) {
@@ -194,7 +190,7 @@
     border: 0;
     background: transparent;
     box-shadow: none;
-    border-top: 1px solid rgba(0, 0, 0, 0.06);
+    border-top: 2px dashed $pencil-teal;
   }
 
   &:before {
@@ -257,8 +253,8 @@
       margin-bottom: 0;
 
       &:hover {
-        background: rgba(0, 122, 255, 0.06);
-        color: #007aff;
+        background: rgba(100, 140, 200, 0.1);
+        color: $pencil-blue;
         transform: translateX(3px);
         text-decoration: none;
       }
@@ -272,12 +268,12 @@
       width: 1.2em;
       text-align: center;
       margin-right: 0.3em;
-      color: #64748b;
+      color: $pencil-brown;
       transition: color 0.2s ease;
     }
 
     &:hover i {
-      color: #007aff;
+      color: $pencil-blue;
     }
   }
 }

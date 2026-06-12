@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<div class="glass-hero" markdown="1">
+<div class="paper-card" markdown="1">
 
 Welcome! I am a nuclear physicist working on the quantum few-body problem — figuring out how a handful of particles interact, scatter, and fuse inside atomic nuclei.
 
@@ -16,11 +16,11 @@ I grew up in Shenyang, China, and studied physics at Northeastern University bef
 
 </div>
 
-<div class="glass-card-section">
-<img src="/images/Jin_career_map.png" alt="My Career Map">
+<div class="paper-figure">
+<img src="/images/Jin_career_map.jpg" alt="My Career Map" loading="lazy">
 </div>
 
-<div class="glass-hero" markdown="1">
+<div class="paper-card" markdown="1">
 
 I am now a professor at Tongji University in Shanghai, leading the [Quantum Few-Body Dynamics group](http://www.fewbody.com/research). My core research is on reactions of weakly bound and halo nuclei — breakup, fusion, and transfer — using quantum three-body models and the IAV formalism. In parallel, I develop new computational methods: a reduced-basis emulator that speeds up scattering calculations by orders of magnitude, a direct boundary matching technique for nuclear scattering, and neural-network-based approaches including physics-informed neural networks and variational neural cluster models for nuclear structure.
 

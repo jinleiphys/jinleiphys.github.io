@@ -6,9 +6,10 @@ table {
   margin-bottom: 1em;
   width: 100%;
   font-family: $global-font-family;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
   border-collapse: collapse;
-  border: 1px solid $light-gray;
+  border: 2px solid $pencil-brown;
+  background: $paper-base;
 
   & + table {
     margin-top: 1em;
@@ -16,21 +17,23 @@ table {
 }
 
 thead {
-  background-color: $lighter-gray;
-  border-bottom: 1px solid $light-gray;
+  background-color: $paper-fiber;
+  border-bottom: 2px solid $pencil-brown;
 }
 
 th {
   padding: 0.5em;
+  font-family: $header-font-family;
   font-weight: bold;
   text-align: left;
-  border-right: 1px solid $light-gray;
+  color: $pencil-blue;
+  border-right: 1px dashed rgba(160, 128, 96, 0.4);
 }
 
 td {
   padding: 0.5em;
-  border-bottom: 1px solid $light-gray;
-  border-right: 1px solid $light-gray;
+  border-bottom: 1px dashed rgba(160, 128, 96, 0.4);
+  border-right: 1px dashed rgba(160, 128, 96, 0.4);
 }
 
 tr, td, th {
