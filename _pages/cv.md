@@ -13,6 +13,7 @@ redirect_from:
 
 | Period | Position | Institution |
 |--------|----------|-------------|
+| 2026.5 – 2027.10 | **Visiting Scientist** (concurrent) | Southern Center for Nuclear-Science Theory (SCNT), Institute of Modern Physics, Chinese Academy of Sciences, Huizhou |
 | 2023.2 – Present | **Professor** | Tongji University |
 | 2020.11 – 2023.2 | **Research Fellow** | Tongji University |
 | 2019.11 – 2020.10 | **Post-Doctoral Research Associate** | INFN, Sezione di Pisa (Supervisor: Dr. Angela Bonaccorso) |
@@ -28,12 +29,38 @@ redirect_from:
 | 2010.9 – 2013.7 | **M.Sc.** in Nuclear Physics | University of Chinese Academy of Sciences, China (Supervisor: Prof. Jiansong Wang) |
 | 2006.9 – 2010.7 | **B.Eng.** in Mechanical Engineering | Northeastern University, China |
 
+- **Ph.D. thesis:** *Study of Inclusive Breakup Reactions Induced by Weakly Bound Nuclei.* ([link](https://idus.us.es/xmlui/handle/11441/44344))
+- **M.Sc. thesis:** *Reduction Method for Low-energy Nuclear Reaction Systems.*
+
 ---
 
 ## Skills
 
 - **Languages:** Native speaker of Chinese; strong reading, writing and speaking competencies in English
-- **Coding:** C/C++, Fortran, LaTeX
+- **Coding:** Fortran (incl. CUDA Fortran), C/C++, Python (PyTorch, JAX), Julia, CUDA, LaTeX
+
+---
+
+## Research Funding
+
+| Period | Role | Grant |
+|--------|------|-------|
+| 2026 – 2030 | **Co-Investigator** | National Natural Science Foundation of China (Key Program), Grant No. 12535009, RMB 2,350,000 (PI: Prof. Z.Z. Ren) |
+| 2024 – 2028 | **Principal Investigator** | National Natural Science Foundation of China (General Program), Grant No. 12475132, RMB 520,000 |
+| 2021 – 2023 | **Principal Investigator** | National Natural Science Foundation of China (Youth Science Fund), Grant No. 12105204, RMB 300,000 |
+
+---
+
+## Student Advising
+
+**Ph.D. Students**
+
+- **Hao Liu**, Tongji University. First lead-author work: *Comparison of Ichimura-Austern-Vincent and Glauber models for the deuteron-induced inclusive breakup reaction*, Phys. Rev. C **108**, 014617 (2023).
+- **Junzhe Liu**, Tongji University. First lead-author work: *Testing the validity of the surface approximation for reactions induced by weakly bound nuclei*, Phys. Rev. C **108**, 024606 (2023).
+
+**M.Sc. Students**
+
+- **Yazhou Lu**, Tongji University. First lead-author work: *Systematic single-folding optical potential for <sup>6</sup>Li and <sup>7</sup>Li based on KD02 potentials*, Phys. Rev. C **108**, 024612 (2023).
 
 ---
 
@@ -48,6 +75,16 @@ redirect_from:
 ---
 
 ## Professional Service
+
+**Editorial Service**
+
+- 2026 – Present: Junior (Reviewing) Editor, *Chinese Physics C*
+
+**Refereeing**
+
+- Referee for *Physical Review C*, *Chinese Physics C*, *European Physical Journal A*, *Nuclear Physics A*, and *Journal of Physics G*
+
+**Seminar Organization**
 
 | Year | Role |
 |------|------|
