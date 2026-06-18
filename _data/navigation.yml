@@ -18,6 +18,9 @@ main:
   - title: "Service"
     url: /service/
 
+  - title: "AI Use"
+    url: /ai-use/
+
 #  - title: "Graduate Guidance"
 #    url: /graduate-guidance/
 
