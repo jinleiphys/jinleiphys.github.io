@@ -7,6 +7,8 @@ author_profile: true
 
 Highlighted Publications
 ======
+* Hao Liu, **Jin Lei**, and Zhongzhou Ren, ‘Exact treatment of continuum couplings in nuclear optical potentials via Feshbach theory’, Phys. Lett. B 880, 140716 (2026). <a href="/publications/j.physletb.2026.140716.pdf"> Download here</a>
+
 * **Jin Lei** and Antonio M. Moro, ‘Unraveling the Reaction Mechanisms Leading to Partial Fusion of Weakly Bound Nuclei’, Phys. Rev. Lett. 123, 232501 (2019).<a href="/publications/PhysRevLett.123.232501.pdf"> Download here</a>
 
 * **Jin Lei** and Antonio M. Moro, ‘Puzzle of Complete Fusion Suppression in Weakly Bound Nuclei: A Trojan Horse Effect?’, Phys. Rev. Lett. 122, 042503 (2019). <a href="/publications/PhysRevLett.122.042503.pdf"> Download here</a>
@@ -21,6 +23,8 @@ Highlighted Publications
 
 Journal Articles
 ======
+* **Jin Lei**, 'Bidirectional neural networks for global nucleon-nucleus optical model calculations', Phys. Rev. C 114, 014620 (2026). <a href="/publications/qw54-df4l.pdf"> Download here</a>
+
 * **Jin Lei**, 'Exterior complex scaling enables physics-informed neural networks for nuclear reactions', Phys. Rev. C 113, 064618 (2026). <a href="/publications/sjz4-pq6p.pdf"> Download here</a>
 
 * Hao Liu, **Jin Lei**, and Zhongzhou Ren, 'Coherent absorption dynamics: The dual role of off-diagonal couplings in weakly bound nuclei', Phys. Rev. C 113, 054601 (2026). <a href="/publications/bgwc-x5wj.pdf"> Download here</a>
