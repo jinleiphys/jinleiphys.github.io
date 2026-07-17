@@ -23,6 +23,8 @@ Highlighted Publications
 
 Journal Articles
 ======
+* Hao Liu, **Jin Lei**, and Zhongzhou Ren, 'Exact construction and uniqueness of the coupled-channel Green's function', Phys. Rev. C 114, 014623 (2026). <a href="/publications/6jvb-2kp2.pdf"> Download here</a>
+
 * **Jin Lei**, 'Bidirectional neural networks for global nucleon-nucleus optical model calculations', Phys. Rev. C 114, 014620 (2026). <a href="/publications/qw54-df4l.pdf"> Download here</a>
 
 * **Jin Lei**, 'Exterior complex scaling enables physics-informed neural networks for nuclear reactions', Phys. Rev. C 113, 064618 (2026). <a href="/publications/sjz4-pq6p.pdf"> Download here</a>
