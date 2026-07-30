@@ -23,9 +23,13 @@ Highlighted Publications
 
 Journal Articles
 ======
+* **Jin Lei**, 'Inclusive breakup reactions with nonspectator fragments: Generalization of the Ichimura-Austern-Vincent sum rules', Phys. Rev. C 114, 014632 (2026). <a href="https://doi.org/10.1103/rbph-64rs"> DOI</a>
+
 * Hao Liu, **Jin Lei**, and Zhongzhou Ren, 'Exact construction and uniqueness of the coupled-channel Green's function', Phys. Rev. C 114, 014623 (2026). <a href="/publications/6jvb-2kp2.pdf"> Download here</a>
 
 * **Jin Lei**, 'Bidirectional neural networks for global nucleon-nucleus optical model calculations', Phys. Rev. C 114, 014620 (2026). <a href="/publications/qw54-df4l.pdf"> Download here</a>
+
+* A. Chavan, S. Rathi, K. Mahata, S. K. Pandit, V. V. Parkar, A. Shrivastava, K. Ramachandran, A. M. Moro, H. Liu, **Jin Lei**, S. Dhuri, S. Kaur, Prasanna M. and V. Kumar, 'Mechanism of large production rates of α particles in reactions involving weakly bound projectiles', Phys. Rev. C 113, 064621 (2026). <a href="/publications/6n73-4rb7.pdf"> Download here</a>
 
 * **Jin Lei**, 'Exterior complex scaling enables physics-informed neural networks for nuclear reactions', Phys. Rev. C 113, 064618 (2026). <a href="/publications/sjz4-pq6p.pdf"> Download here</a>
 

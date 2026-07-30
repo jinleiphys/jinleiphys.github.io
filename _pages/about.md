@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="paper-card" markdown="1">
 
-Welcome! I am a nuclear physicist working on the quantum few-body problem — figuring out how a handful of particles interact, scatter, and fuse inside atomic nuclei.
+Welcome! I am a nuclear physicist working on the quantum few-body problem: figuring out how a handful of particles interact, scatter, and fuse inside atomic nuclei.
 
 I grew up in Shenyang, China, and studied physics at Northeastern University before moving to the University of Chinese Academy of Sciences for graduate school. In 2016, I received my PhD from Universidad de Sevilla in Spain, where I began developing the theoretical tools that still drive my research today. Postdoctoral work then took me to Ohio University and INFN Pisa, where I focused on nuclear reaction theory, particularly on breakup processes and three-body scattering.
 
@@ -22,7 +22,7 @@ I grew up in Shenyang, China, and studied physics at Northeastern University bef
 
 <div class="paper-card" markdown="1">
 
-I am now a professor at Tongji University in Shanghai, leading the [Quantum Few-Body Dynamics group](http://www.fewbody.com/research). My core research is on reactions of weakly bound and halo nuclei — breakup, fusion, and transfer — using quantum three-body models and the IAV formalism. In parallel, I develop new computational methods: a reduced-basis emulator that speeds up scattering calculations by orders of magnitude, a direct boundary matching technique for nuclear scattering, and neural-network-based approaches including physics-informed neural networks and variational neural cluster models for nuclear structure.
+I am now a professor at Tongji University in Shanghai, leading the [Quantum Few-Body Dynamics group](http://www.fewbody.com/research). My research runs on two tracks that feed each other. The physics track asks how weakly bound and halo nuclei behave in collisions: the IAV three-body description of inclusive breakup and incomplete fusion, and exact decompositions that trace where the absorbed flux actually goes in coupled-channel calculations. The methods track builds the tools these questions demand: emulators and bound-state techniques that accelerate scattering calculations by orders of magnitude, differentiable solvers that make full Bayesian calibration of reaction models practical, Fisher information geometry to quantify how much scattering data can actually constrain, and neural-network approaches to quantum scattering.
 
 I genuinely enjoy teaching. There is a classical Chinese saying, "Teaching and learning promote each other" (教学相长), and I find that to be true — my students' questions regularly push me to think more clearly and more broadly.
 

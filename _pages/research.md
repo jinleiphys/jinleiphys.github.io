@@ -31,6 +31,7 @@ Our group studies the quantum few-body problem in nuclear reactions: how weakly 
         <li><a href="/publications/PhysRevLett.122.042503.pdf">Puzzle of Complete Fusion Suppression in Weakly Bound Nuclei: A Trojan Horse Effect?</a> PRL 122, 042503 (2019)</li>
         <li><a href="/publications/PhysRevLett.123.232501.pdf">Unraveling the Reaction Mechanisms Leading to Partial Fusion of Weakly Bound Nuclei</a> PRL 123, 232501 (2019)</li>
         <li><a href="/publications/l53j-32cp.pdf">Numerical assessment of convergence in the post-form IAV model</a> PRC 112, 014609 (2025), Editors' Suggestion</li>
+        <li><a href="https://doi.org/10.1103/rbph-64rs">Inclusive breakup reactions with nonspectator fragments: Generalization of the Ichimura-Austern-Vincent sum rules</a> PRC 114, 014632 (2026)</li>
       </ul>
     </details>
   </div>
@@ -85,13 +86,15 @@ Our group studies the quantum few-body problem in nuclear reactions: how weakly 
       <span class="research-card__tag">Flux Conservation</span>
     </div>
     <div class="research-card__desc">
-      Where does the absorbed flux actually go in a coupled-channel calculation? A generalized optical theorem decomposes the absorption cross section channel by channel, exposing the dual role of off-diagonal couplings; the common practice of switching off breakup-channel absorption biases direct and breakup cross sections by up to 57%. Combining incoming-wave boundary conditions with a complex potential gives an exact split of absorption into fusion and peripheral loss, revealing for <sup>6</sup>Li+<sup>209</sup>Bi a crossover at the Coulomb barrier where couplings redirect peripheral loss into fusion.
+      Where does the absorbed flux actually go in a coupled-channel calculation? A generalized optical theorem decomposes the absorption cross section channel by channel, exposing the dual role of off-diagonal couplings; the common practice of switching off breakup-channel absorption biases direct and breakup cross sections by up to 57%. Combining incoming-wave boundary conditions with a complex potential gives an exact split of absorption into fusion and peripheral loss, revealing for <sup>6</sup>Li+<sup>209</sup>Bi a crossover at the Coulomb barrier where couplings redirect peripheral loss into fusion. The line rests on a full-coupling Feshbach construction of the dynamic polarization potential that keeps the exact Q-space Green's function, whose coupled-channel generalization we proved to be unique.
     </div>
     <details class="research-card__papers">
       <summary>Key Publications</summary>
       <ul>
         <li><a href="/publications/bgwc-x5wj.pdf">Coherent absorption dynamics: The dual role of off-diagonal couplings in weakly bound nuclei</a> PRC 113, 054601 (2026)</li>
         <li><a href="/publications/j.physletb.2026.140479.pdf">Channel couplings redirect absorbed flux from peripheral loss to fusion in weakly bound nuclear reactions</a> PLB 877, 140479 (2026)</li>
+        <li><a href="/publications/j.physletb.2026.140716.pdf">Exact treatment of continuum couplings in nuclear optical potentials via Feshbach theory</a> PLB 880, 140716 (2026)</li>
+        <li><a href="/publications/6jvb-2kp2.pdf">Exact construction and uniqueness of the coupled-channel Green's function</a> PRC 114, 014623 (2026)</li>
       </ul>
     </details>
   </div>
@@ -105,13 +108,14 @@ Our group studies the quantum few-body problem in nuclear reactions: how weakly 
       <span class="research-card__tag">Neural Quantum States</span>
     </div>
     <div class="research-card__desc">
-      We bring modern machine learning to nuclear problems where it genuinely changes what is computable. Exterior complex scaling makes physics-informed neural networks viable for quantum scattering: the damped exterior wave keeps the optical potential on the real axis (<strong>PINN-ECS</strong>). Kolmogorov-Arnold networks predict binding energies with an RMSE of 0.26 MeV on AME2020, and symbolic regression recovers mass-formula terms from the trained network. Ongoing work explores variational neural-network wave functions for nuclear cluster structure.
+      We bring modern machine learning to nuclear problems where it genuinely changes what is computable. Exterior complex scaling makes physics-informed neural networks viable for quantum scattering: the damped exterior wave keeps the optical potential on the real axis (<strong>PINN-ECS</strong>). A bidirectional liquid neural network gives a differentiable map from a global optical potential to nucleon-nucleus scattering wave functions, one network spanning 1 to 200 MeV and twelve nuclei at sub-percent accuracy. Kolmogorov-Arnold networks predict binding energies with an RMSE of 0.26 MeV on AME2020, and symbolic regression recovers mass-formula terms from the trained network.
     </div>
     <details class="research-card__papers">
       <summary>Key Publications</summary>
       <ul>
         <li><a href="/publications/PhysRevC.111.024316.pdf">Kolmogorov-Arnold networks in nuclear binding energy prediction</a> PRC 111, 024316 (2025)</li>
-        <li><a href="https://doi.org/10.1103/sjz4-pq6p">Physics-informed neural networks for nuclear scattering with exterior complex scaling</a> PRC, in press (2026)</li>
+        <li><a href="/publications/sjz4-pq6p.pdf">Exterior complex scaling enables physics-informed neural networks for nuclear reactions</a> PRC 113, 064618 (2026)</li>
+        <li><a href="/publications/qw54-df4l.pdf">Bidirectional neural networks for global nucleon-nucleus optical model calculations</a> PRC 114, 014620 (2026)</li>
       </ul>
     </details>
   </div>
