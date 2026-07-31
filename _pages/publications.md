@@ -23,7 +23,7 @@ Highlighted Publications
 
 Journal Articles
 ======
-* **Jin Lei**, 'Inclusive breakup reactions with nonspectator fragments: Generalization of the Ichimura-Austern-Vincent sum rules', Phys. Rev. C 114, 014632 (2026). <a href="https://doi.org/10.1103/rbph-64rs"> DOI</a>
+* **Jin Lei**, 'Inclusive breakup reactions with nonspectator fragments: Generalization of the Ichimura-Austern-Vincent sum rules', Phys. Rev. C 114, 014632 (2026). <a href="/publications/rbph-64rs.pdf"> Download here</a>
 
 * Hao Liu, **Jin Lei**, and Zhongzhou Ren, 'Exact construction and uniqueness of the coupled-channel Green's function', Phys. Rev. C 114, 014623 (2026). <a href="/publications/6jvb-2kp2.pdf"> Download here</a>
 
