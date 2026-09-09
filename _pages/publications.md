@@ -55,7 +55,7 @@ Journal Articles
 
 * Hao Liu, **Jin Lei**, and Zhongzhou Ren, Kolmogorov-Arnold networks in nuclear binding energy prediction, Phys. Rev. C 111, 024316 (2025), <a href="/publications/PhysRevC.111.024316.pdf"> Download here</a>
 
-* **Jin Lei**, 'Research progress on the reaction mechanism of halo nuclei based on quantum few-body theory', Acta Physica Sinica 70, 3270–3277 (2025).
+* **Jin Lei**, 'Research progress on the reaction mechanism of halo nuclei based on quantum few-body theory' (基于量子少体理论的晕核核反应机制研究进展), Chinese Science Bulletin (科学通报) 70, 3270–3277 (2025). (in Chinese)
 
 * Junzhe Liu, **Jin Lei**, Zhongzhou Ren, COLOSS: Complex-scaled Optical and couLOmb Scattering Solver, Computer Physics Communications 311 (2025) 109568, <a href="/publications/cpc_311_109568.pdf"> Download here</a>
 
