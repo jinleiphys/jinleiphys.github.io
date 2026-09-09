@@ -27,6 +27,8 @@ Journal Articles
 
 * **Jin Lei**, 'HPRMAT: A high-performance R-matrix solver with GPU acceleration for coupled-channel problems in nuclear physics', Comput. Phys. Commun. 329, 110379 (2026). <a href="/publications/cpc_329_110379.pdf"> Download here</a>
 
+* **Jin Lei** and Hao Liu, 'Assessing continuum channel importance in continuum-discretized coupled-channels via dynamic polarization potential decomposition', Phys. Rev. C 114, 024605 (2026). <a href="/publications/ypj3-p6kw.pdf"> Download here</a>
+
 * **Jin Lei**, 'Inclusive breakup reactions with nonspectator fragments: Generalization of the Ichimura-Austern-Vincent sum rules', Phys. Rev. C 114, 014632 (2026). <a href="/publications/rbph-64rs.pdf"> Download here</a>
 
 * Hao Liu, **Jin Lei**, and Zhongzhou Ren, 'Exact construction and uniqueness of the coupled-channel Green's function', Phys. Rev. C 114, 014623 (2026). <a href="/publications/6jvb-2kp2.pdf"> Download here</a>
