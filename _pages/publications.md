@@ -23,6 +23,10 @@ Highlighted Publications
 
 Journal Articles
 ======
+* **Jin Lei**, 'Self-consistent spectral framework for inclusive nonelastic breakup: The Trojan-horse method as its sub-Coulomb resonant limit', Phys. Rev. C 114, 034606 (2026). <a href="/publications/zpsb-vhqc.pdf"> Download here</a>
+
+* **Jin Lei**, 'HPRMAT: A high-performance R-matrix solver with GPU acceleration for coupled-channel problems in nuclear physics', Comput. Phys. Commun. 329, 110379 (2026). <a href="/publications/cpc_329_110379.pdf"> Download here</a>
+
 * **Jin Lei**, 'Inclusive breakup reactions with nonspectator fragments: Generalization of the Ichimura-Austern-Vincent sum rules', Phys. Rev. C 114, 014632 (2026). <a href="/publications/rbph-64rs.pdf"> Download here</a>
 
 * Hao Liu, **Jin Lei**, and Zhongzhou Ren, 'Exact construction and uniqueness of the coupled-channel Green's function', Phys. Rev. C 114, 014623 (2026). <a href="/publications/6jvb-2kp2.pdf"> Download here</a>
@@ -41,7 +45,7 @@ Journal Articles
 
 * **Jin Lei**, 'Direct boundary matching: A bound-state technique for nuclear scattering with Lagrange-Legendre functions', Phys. Rev. C 113, 024614 (2026). <a href="/publications/PhysRevC.113.024614.pdf"> Download here</a>
 
-* Kyle Godbey, Martin Albertsson, Jacklyn M. Gates, Kris Hagel, Jesus Lubian, Andrzej Makowski, Patrick McGlynn, Gregory Potel, Jennifer L. Pore, Jeannie Rangel Borges, Kazuyuki Sekizawa, Filomena Nunes, Kaitlin Cook, Kouichi Hagino, Michal Kowal, **Jin Lei**, Matthew R. Mumpower, Witold Nazarewicz and Sait Umar, 'Paths to Superheavy Nuclei', J. Phys. G: Nucl. Part. Phys. (2025). <a href="/publications/JPG_Godbey2025.pdf"> Download here</a>
+* Kyle Godbey, Filomena Nunes, Martin Albertsson, Kaitlin Cook, Jacklyn M. Gates, Kris Hagel, Kouichi Hagino, Michal Kowal, **Jin Lei**, Jesus Lubian, Andrzej Makowski, Patrick McGlynn, Matthew R. Mumpower, Witold Nazarewicz, Gregory Potel, Jennifer L. Pore, Jeannie Rangel Borges, Kazuyuki Sekizawa and Sait Umar, 'Paths to Superheavy Nuclei', J. Phys. G: Nucl. Part. Phys. 52, 120501 (2025). <a href="/publications/JPG_Godbey2025.pdf"> Download here</a>
 
 * G. Yang, K. Wang, H. Liu, W. D. Chen, Y. Y. Yang, F. F. Duan, **Jin Lei**, D. Y. Pang, Z. H. Gao, S. Y. Jin, J. S. Wang, X. Liu, S. W. Xu, J. B. Ma, P. Ma, Z. Bai, Q. Hu and Z. Y. Sun, 'Direct measurement of 8B+p and 7Be+2p cross sections for 9C+208Pb at 303 MeV', Phys. Rev. C 111, 064602 (2025).
 

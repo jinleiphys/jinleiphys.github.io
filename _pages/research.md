@@ -147,7 +147,7 @@ Our group studies the quantum few-body problem in nuclear reactions: how weakly 
         <div class="research-tool"><strong>SMOOTHIE</strong>&nbsp;IAV nonelastic breakup, DWBA &amp; CDCC <a href="https://github.com/jinleiphys/smoothie">[GitHub]</a></div>
         <div class="research-tool"><strong>SLAM.jl</strong>&nbsp;general scattering with direct boundary matching <a href="https://github.com/jinleiphys/SLAM.jl">[GitHub]</a></div>
         <div class="research-tool"><strong>swift.jl</strong>&nbsp;three-body Faddeev solver in Julia <a href="https://github.com/jinleiphys/swift.jl">[GitHub]</a></div>
-        <div class="research-tool"><strong>HPRMAT</strong>&nbsp;GPU-accelerated R-matrix solver <a href="https://github.com/jinleiphys/HPRMAT">[GitHub]</a></div>
+        <div class="research-tool"><strong>HPRMAT</strong>&nbsp;GPU-accelerated R-matrix solver <a href="https://github.com/jinleiphys/HPRMAT">[GitHub]</a> <a href="/publications/cpc_329_110379.pdf">[CPC 329, 110379 (2026)]</a></div>
         <div class="research-tool"><strong>PINN-ECS</strong>&nbsp;neural-network scattering solver in JAX <a href="https://github.com/jinleiphys/PINN-ECS">[GitHub]</a></div>
         <div class="research-tool"><strong>COLOSS</strong>&nbsp;complex-scaled scattering solver <a href="/publications/cpc_311_109568.pdf">[CPC 311, 109568 (2025)]</a></div>
         <div class="research-tool"><strong>inhomoR</strong>&nbsp;Lagrange-mesh R-matrix for inhomogeneous equations <a href="https://github.com/jinleiphys/inhomoR">[GitHub]</a></div>
