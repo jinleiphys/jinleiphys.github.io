@@ -23,6 +23,8 @@ Highlighted Publications
 
 Journal Articles
 ======
+* **Jin Lei**, 'Inclusive breakup of three-body projectiles: A unified four-body framework for pair-detection and single-particle observables', Phys. Rev. C 114, 044618 (2026). <a href="/publications/z8cw-9yvn.pdf"> Download here</a>
+
 * **Jin Lei**, 'Self-consistent spectral framework for inclusive nonelastic breakup: The Trojan-horse method as its sub-Coulomb resonant limit', Phys. Rev. C 114, 034606 (2026). <a href="/publications/zpsb-vhqc.pdf"> Download here</a>
 
 * **Jin Lei**, 'HPRMAT: A high-performance R-matrix solver with GPU acceleration for coupled-channel problems in nuclear physics', Comput. Phys. Commun. 329, 110379 (2026). <a href="/publications/cpc_329_110379.pdf"> Download here</a>
