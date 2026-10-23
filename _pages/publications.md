@@ -23,6 +23,8 @@ Highlighted Publications
 
 Journal Articles
 ======
+* **Jin Lei** and Zhongzhou Ren, 'Nonlocality in prior-form distorted-wave Born approximation', Phys. Rev. C 114, 044620 (2026). <a href="/publications/8lpg-kcff.pdf"> Download here</a>
+
 * **Jin Lei**, 'Inclusive breakup of three-body projectiles: A unified four-body framework for pair-detection and single-particle observables', Phys. Rev. C 114, 044618 (2026). <a href="/publications/z8cw-9yvn.pdf"> Download here</a>
 
 * **Jin Lei**, 'Self-consistent spectral framework for inclusive nonelastic breakup: The Trojan-horse method as its sub-Coulomb resonant limit', Phys. Rev. C 114, 034606 (2026). <a href="/publications/zpsb-vhqc.pdf"> Download here</a>
@@ -63,6 +65,8 @@ Journal Articles
 
 * Junzhe Liu, **Jin Lei**, Zhongzhou Ren, A complex scaling method for efficient and accurate scattering emulation in nuclear reactions, Phys. Lett. B 858 (2024) 139070, <a href="/publications/Phys.Lett.B858.139070.pdf"> Download here</a>
 
+* O. C. B. Santos, R. Lichtenthäler Filho, K. C. C. Pires, U. Umbelino, E. O. N. Zevallos, A. L. de Lara, A. S. Serra, V. Scarduelli, J. Alcántara-Núñez, A. Lépine-Szily, A. M. Moro, S. Appannababu, M. Assunção and **Jin Lei**, 'Elastic scattering and 7Li production in the 8Li+120Sn reaction', Phys. Rev. C 110, 034610 (2024).
+
 * G. Villanueva, A.M. Moro, J. Casal, **Jin Lei**, Neutron-transfer induced breakup of the Borromean nucleus 9Be, Phys. Lett. B 855 (2024) 138766, <a href="/publications/plb855138766.pdf"> Download here</a>
 
 * K. Wang, Y. Y. Yang, **Jin Lei**, A. M. Moro, V. Guimarães, J. G. Li, F. F. Duan, Z. Y. Sun, G. Yang, D. Y. Pang, S. W. Xu, J. B. Ma, P. Ma, Z. Bai, Q. Liu, J. L. Lou, H. J. Ong, B. F. Lv,
@@ -80,6 +84,10 @@ S. Guo, M. Kumar Raju, X. H. Wang, R. H. Li, X. X. Xu, Z. Z. Ren, Y. H. Zhang, X
 
 * Hao Liu, Shinsuke Nakayama, **Jin Lei**, and Zhongzhou Ren, 'Comparison of Ichimura-Austern-Vincent and Glauber models for the deuteron-induced inclusive breakup reaction in light and medium-mass nuclei', Phys. Rev. C 108, 014617 (2023).  <a href="/publications/PhysRevC.108.014617.pdf"> Download here</a>
 
+
+* Yonghao Gao, Zhongzhou Ren and **Jin Lei**, 'Systematic study of global optical model potentials in (d,p) transfer reactions', Chin. Phys. C 47, 044105 (2023).
+
+* O. C. B. Santos, R. Lichtenthäler, A. M. Moro, K. C. C. Pires, U. Umbelino, A. S. Serra, E. O. N. Zevallos, A. L. de Lara, V. Scarduelli, J. Alcántara-Núñez, A. Lépine-Szily, **Jin Lei**, S. Appannababu and M. Assunção, 'One-neutron stripping from 8Li projectiles to 9Be target nuclei', Eur. Phys. J. A 59, 48 (2023).
 
 * K. Wang, Y. Y. Yang, V. Guimarães, D. Y. Pang, F. F. Duan, Z. Y. Sun, **Jin Lei**, G. Yang, S. W. Xu, J. B. Ma, Q. Liu, Z. Bai, H. J. Ong, B. F. Lv, S. Guo, X. H. Wang, R. H. Li, M. Kumar Raju, Z. G. Hu and H. S. Xu, 'Elastic scattering investigation of radioactive 13B and 13O projectiles on a 208Pb target at intermediate energies', Phys. Rev. C 105, 054616 (2022).
 
@@ -138,6 +146,8 @@ S. Guo, M. Kumar Raju, X. H. Wang, R. H. Li, X. X. Xu, Z. Z. Ren, Y. H. Zhang, X
 
 Conference Proceedings
 ======
+* R. Spartà, A. Di Pietro, P. Figuera, O. Tengblad, A. M. Moro, **Jin Lei**, I. Martel, J. P. Fernández García, L. Acosta, M. J. G. Borge, J. Cederkäll, T. Davinson, B. Diana, J. Díaz Ovejas, L. M. Fraile, D. Galaviz, J. Halkjaer Jensen, B. Jonson, M. La Cognata, M. Lattuada, A. Perea, A. M. Sánchez Benítez, N. Soić and S. Viñal Onses, '8B reaction dynamics researched at HIE-ISOLDE', Nuovo Cimento C 47, 34 (2024).
+
 * Antonio M. Moro, **Jin Lei** and Edward C. Simpson, ‘Modelling inclusive breakup: application to incomplete fusion’, Journal of Physics: Conference Series 2340, 012034 (2022).
 
 * A.M. Moro, J. Casal, **Jin Lei** and M. Gómez-Ramos, ‘Reaction theory and advanced CDCC’, Journal of Physics: Conference Series 1643, 012100 (2020).
