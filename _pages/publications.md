@@ -23,6 +23,8 @@ Highlighted Publications
 
 Journal Articles
 ======
+* **Jin Lei**, 'Differentiable emulation for high-dimensional Bayesian calibration of nuclear reaction models', Phys. Rev. C 114, 054614 (2026). <a href="/publications/9szm-dgtr.pdf"> Download here</a>
+
 * **Jin Lei** and Zhongzhou Ren, 'Nonlocality in prior-form distorted-wave Born approximation', Phys. Rev. C 114, 044620 (2026). <a href="/publications/8lpg-kcff.pdf"> Download here</a>
 
 * **Jin Lei**, 'Inclusive breakup of three-body projectiles: A unified four-body framework for pair-detection and single-particle observables', Phys. Rev. C 114, 044618 (2026). <a href="/publications/z8cw-9yvn.pdf"> Download here</a>
